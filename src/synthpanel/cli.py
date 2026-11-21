@@ -86,6 +86,25 @@ def cmd_backtest(args: argparse.Namespace) -> None:
         print(f"\nCalibration skipped: {rep['calibration_error']}")
 
 
+def cmd_cortex_sql(args: argparse.Namespace) -> None:
+    from synthpanel.backends import cortex
+    from synthpanel.study import load_study
+
+    study = load_study(args.study)
+    panel = study.panels[args.panel]
+    builders = {
+        "personas": lambda: cortex.personas_sql(panel, args.stage),
+        "answers": lambda: cortex.answers_sql(study, panel, args.cell, args.stage, args.max_personas),
+        "score": lambda: cortex.score_sql(study, panel, args.stage, embed_model=study.embedder),
+        "readout": lambda: cortex.readout_sql(panel, args.stage, args.segment),
+        "paired": lambda: cortex.paired_sql(panel, args.stage),
+        "switching": lambda: cortex.switching_sql(panel, args.stage, args.cell),
+    }
+    if args.step in ("answers", "switching") and not args.cell:
+        raise SystemExit(f"--cell is required for step {args.step}; cells: {[c.concept_id for c in panel.cells]}")
+    print(builders[args.step]())
+
+
 def main(argv: list[str] | None = None) -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     p = argparse.ArgumentParser(prog="synthpanel", description=__doc__)
@@ -121,6 +140,16 @@ def main(argv: list[str] | None = None) -> None:
     b.add_argument("--group-col", help="Outcome-file column for within-group tests (e.g. category)")
     b.add_argument("--no-log", action="store_true", help="Calibrate on the raw outcome, not its log")
     b.set_defaults(func=cmd_backtest)
+
+    s = sub.add_parser("cortex-sql", help="Print the Snowflake Cortex SQL for one step of a study")
+    s.add_argument("--study", required=True, help="Study YAML (see studies/)")
+    s.add_argument("--stage", required=True, help="Stage folder for this run, e.g. @DB.SCHEMA.STAGE/study/run_YYYYMMDD")
+    s.add_argument("--panel", required=True)
+    s.add_argument("--step", required=True, choices=["personas", "answers", "score", "readout", "paired", "switching"])
+    s.add_argument("--cell", help="Cell id (answers, switching)")
+    s.add_argument("--max-personas", type=int, help="Pilot: only the first N personas (answers)")
+    s.add_argument("--segment", help="Persona attribute to break the readout down by")
+    s.set_defaults(func=cmd_cortex_sql)
 
     args = p.parse_args(argv)
     args.func(args)

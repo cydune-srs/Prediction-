@@ -7,6 +7,15 @@ from synthpanel.cli import main
 EXAMPLE = Path(__file__).parent.parent / "examples" / "concepts_example.yaml"
 
 
+def test_cortex_sql_command(capsys):
+    study = Path(__file__).parent.parent / "studies" / "planet_fitness_black_card.yaml"
+    main(["cortex-sql", "--study", str(study), "--stage", "@DB.S.STG/run", "--panel", "members",
+          "--step", "answers", "--cell", "C1_raise_2799"])
+    out = capsys.readouterr().out
+    assert out.startswith("COPY INTO @DB.S.STG/run/answers/members/C1_raise_2799/")
+    assert "from $24.99 to $27.99" in out
+
+
 def test_dry_run_then_backtest(tmp_path, capsys):
     out = tmp_path / "run"
     main(["run", "--concepts", str(EXAMPLE), "--personas", "30", "--out", str(out), "--dry-run"])

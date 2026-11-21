@@ -1,0 +1,183 @@
+# Planet Fitness Black Card price test: $24.99 -> $27.99 (and $29.99), plus a backtest of the
+# June 2024 Classic $10 -> $15 increase.
+#
+# Facts used in the stimuli (SRS document sources, retrieved 2026-11-21):
+# - Black Card $24.99 and Classic $15 are current prices (Q1 2026 call). Classic went from $10
+#   to $15 for new members on June 28, 2024; existing members kept their price (Q2 2024 call).
+# - PF tested Black Card at $27.99 and $29.99 from June 2024; Q1 2025 call: no significant
+#   difference between the two, $27.99 sunset. National $29.99 rollout paused (Q1 2026 call);
+#   "highly targeted regional Black Card price increases in the second quarter of 2027"
+#   announced on the Q3 2026 call, level undisclosed.
+# - ~68% of members are on Black Card (Q3 2026); nearly 2,900 clubs (Q4 2025 call); top Black
+#   Card benefits are reciprocity (any club) and guest privileges (ICR 2026); online
+#   cancellation rolled out nationwide in 2025.
+#
+# Persona marginals are ASSUMPTIONS informed by sources where noted, not measured PF data:
+# - gender ~55-58% women, core household income $80k or less (former franchisee VP, Third
+#   Bridge, Oct 2026); Gen Z is the largest share of joins (Q2/Q3 2026 calls); ~35% of joins
+#   are rejoins (ICR 2026, Q4 2025 call); members average ~6.7 visits/month (Q1 2025 call).
+# Replace them with measured customer data when available.
+
+name: plnt_black_card_2799
+model: claude-opus-4-6          # most capable Claude model available in Snowflake Cortex
+embedder: voyage-multilingual-2  # Cortex EMBED_TEXT_1024
+temperature: 1.0
+max_tokens: 400
+
+system_prompt: |
+  You are taking part in a consumer research survey as the person described in the user's message. Answer as that person would in real life, given their budget, routine, habits and alternatives. Real consumers range from enthusiastic to uninterested, and many are price-sensitive; answer honestly rather than agreeably.
+
+  Reply in two to four sentences of plain first-person speech that answer the question and say why. Do not give a numeric rating or score, and do not mention that you are an AI or that this is a simulation.
+
+labels:
+  age: Age
+  gender: Gender
+  household_income: Household income
+  region: US region
+  gym_history: Gym history
+  workout_style: Usually works out
+  away_from_home_club: Away from home (travel, work, family) during the week
+  tenure: Planet Fitness member for
+  visits_per_month: Visits per month
+  uses_other_clubs: Uses other Planet Fitness locations
+  brings_guest: Brings a guest
+  uses_spa_perks: Uses massage chairs, HydroMassage or tanning
+
+panels:
+  prospects:
+    n: 300
+    seed: 11
+    control: A0_bc2499
+    question: Would you sign up for a Planet Fitness membership, and if so, which one?
+    choice: {label: PLAN, options: [Black Card, Classic, Not joining]}
+    intent: {label: LIKELIHOOD, prompt: "one short sentence, in your own words, on how likely you are to join Planet Fitness at all"}
+    scale_label: Likelihood of joining Planet Fitness (1-5)
+    marginals:
+      age: {"18-24": 0.28, "25-34": 0.26, "35-44": 0.18, "45-54": 0.13, "55-64": 0.09, "65+": 0.06}
+      gender: {woman: 0.56, man: 0.44}
+      household_income: {"under $35,000": 0.25, "$35,000-$59,999": 0.30, "$60,000-$79,999": 0.20, "$80,000-$119,999": 0.15, "$120,000 or more": 0.10}
+      region: {Northeast: 0.17, Midwest: 0.21, South: 0.38, West: 0.24}
+      gym_history: {"former Planet Fitness member": 0.35, "has never belonged to a gym": 0.30, "belonged to another gym in the past": 0.20, "currently belongs to another gym": 0.15}
+      workout_style: {"alone": 0.65, "with a friend or partner": 0.35}
+      away_from_home_club: {"rarely": 0.55, "sometimes": 0.30, "often": 0.15}
+    anchors:
+      - name: direct
+        statements:
+          - I definitely would not sign up for this gym.
+          - I probably would not sign up for this gym.
+          - I might or might not sign up; I'm not sure.
+          - I would probably sign up for a membership here.
+          - I would definitely sign up for a membership here.
+      - name: likelihood
+        statements:
+          - There is no chance I would join this gym.
+          - It is unlikely that I would join this gym.
+          - I'm undecided about whether to join this gym.
+          - It's likely that I would join this gym.
+          - I'm certain I would join this gym.
+      - name: value
+        statements:
+          - This gym isn't worth my money at all.
+          - This gym probably isn't worth the price for me.
+          - It might be worth it; I'm on the fence.
+          - This seems worth the price, so I'd likely join.
+          - This is great value and I'd join right away.
+      - name: action
+        statements:
+          - I'm going to pass on this and not join.
+          - I'll probably hold off and not join for now.
+          - I may join at some point, but I haven't decided.
+          - I'll most likely go ahead and sign up.
+          - I'm signing up as soon as I can.
+    cells:
+      - id: A0_bc2499
+        name: Current prices (Black Card $24.99, Classic $15)
+        revenue: {Black Card: 24.99, Classic: 15.00, Not joining: 0}
+        stimulus: |
+          You are thinking about joining a gym. Planet Fitness has a club near you and offers two memberships, both with no long-term commitment and cancellation online at any time:
+          - Classic: $15.00 per month. Unlimited access to your home club.
+          - Black Card: $24.99 per month. Everything in Classic, plus access to any of nearly 2,900 Planet Fitness clubs, a guest on every visit, and use of massage chairs, HydroMassage and tanning.
+      - id: A1_bc2799
+        name: Black Card $27.99
+        revenue: {Black Card: 27.99, Classic: 15.00, Not joining: 0}
+        stimulus: |
+          You are thinking about joining a gym. Planet Fitness has a club near you and offers two memberships, both with no long-term commitment and cancellation online at any time:
+          - Classic: $15.00 per month. Unlimited access to your home club.
+          - Black Card: $27.99 per month. Everything in Classic, plus access to any of nearly 2,900 Planet Fitness clubs, a guest on every visit, and use of massage chairs, HydroMassage and tanning.
+      - id: A2_bc2999
+        name: Black Card $29.99
+        revenue: {Black Card: 29.99, Classic: 15.00, Not joining: 0}
+        stimulus: |
+          You are thinking about joining a gym. Planet Fitness has a club near you and offers two memberships, both with no long-term commitment and cancellation online at any time:
+          - Classic: $15.00 per month. Unlimited access to your home club.
+          - Black Card: $29.99 per month. Everything in Classic, plus access to any of nearly 2,900 Planet Fitness clubs, a guest on every visit, and use of massage chairs, HydroMassage and tanning.
+      - id: B0_cl10
+        name: "Backtest: Classic at $10 (pre-June 2024), Black Card $24.99"
+        revenue: {Black Card: 24.99, Classic: 10.00, Not joining: 0}
+        stimulus: |
+          You are thinking about joining a gym. Planet Fitness has a club near you and offers two memberships, both with no long-term commitment and cancellation online at any time:
+          - Classic: $10.00 per month. Unlimited access to your home club.
+          - Black Card: $24.99 per month. Everything in Classic, plus access to any of nearly 2,900 Planet Fitness clubs, a guest on every visit, and use of massage chairs, HydroMassage and tanning.
+
+  members:
+    n: 200
+    seed: 23
+    control: C0_renew_2499
+    question: What will you do about your Planet Fitness membership over the next three months?
+    choice: {label: ACTION, options: [Keep Black Card, Switch to Classic, Cancel]}
+    intent: {label: LIKELIHOOD, prompt: "one short sentence, in your own words, on how likely you are to keep paying for your Black Card"}
+    scale_label: Likelihood of staying on Black Card (1-5)
+    marginals:
+      age: {"18-24": 0.22, "25-34": 0.25, "35-44": 0.19, "45-54": 0.15, "55-64": 0.11, "65+": 0.08}
+      gender: {woman: 0.56, man: 0.44}
+      household_income: {"under $35,000": 0.22, "$35,000-$59,999": 0.30, "$60,000-$79,999": 0.21, "$80,000-$119,999": 0.16, "$120,000 or more": 0.11}
+      region: {Northeast: 0.17, Midwest: 0.21, South: 0.38, West: 0.24}
+      tenure: {"less than 3 months": 0.20, "3 to 12 months": 0.30, "1 to 3 years": 0.30, "more than 3 years": 0.20}
+      visits_per_month: {"0-2 (rarely goes)": 0.25, "3-8": 0.40, "9 or more": 0.35}
+      uses_other_clubs: {never: 0.45, sometimes: 0.35, often: 0.20}
+      brings_guest: {never: 0.55, sometimes: 0.30, often: 0.15}
+      uses_spa_perks: {never: 0.35, sometimes: 0.40, often: 0.25}
+    anchors:
+      - name: direct
+        statements:
+          - I will definitely drop my Black Card membership.
+          - I will probably drop my Black Card membership.
+          - I'm not sure whether I'll keep my Black Card membership.
+          - I will probably keep my Black Card membership.
+          - I will definitely keep my Black Card membership.
+      - name: likelihood
+        statements:
+          - There's no chance I keep paying for the Black Card.
+          - It's unlikely I keep paying for the Black Card.
+          - I'm undecided about keeping the Black Card.
+          - It's likely I keep paying for the Black Card.
+          - I'm certain I'll keep paying for the Black Card.
+      - name: value
+        statements:
+          - The Black Card is not worth what I pay for it, so I'm done with it.
+          - The Black Card is probably not worth it for me anymore.
+          - I'm on the fence about whether the Black Card is worth it.
+          - The Black Card is still worth it for me.
+          - The Black Card is easily worth it and I'm happy to keep paying.
+      - name: action
+        statements:
+          - I'm going to cancel or downgrade right away.
+          - I'll probably cancel or downgrade soon.
+          - I might change my membership; I haven't decided.
+          - I'll most likely leave my membership as it is.
+          - I'm keeping my membership exactly as it is.
+    cells:
+      - id: C0_renew_2499
+        name: Control renewal at $24.99
+        revenue: {Keep Black Card: 24.99, Switch to Classic: 15.00, Cancel: 0}
+        stimulus: |
+          You are a Planet Fitness Black Card member. Your Black Card gives you access to any Planet Fitness club, a guest on every visit, and use of massage chairs, HydroMassage and tanning. A Classic membership at your club costs $15.00 per month and covers only your home club, without those extras. You can change or cancel your membership online at any time.
+
+          You receive an email from Planet Fitness: "Your Black Card membership renews next month at $24.99 per month. Nothing about your membership is changing."
+      - id: C1_raise_2799
+        name: Existing members repriced to $27.99
+        revenue: {Keep Black Card: 27.99, Switch to Classic: 15.00, Cancel: 0}
+        stimulus: |
+          You are a Planet Fitness Black Card member. Your Black Card gives you access to any Planet Fitness club, a guest on every visit, and use of massage chairs, HydroMassage and tanning. A Classic membership at your club costs $15.00 per month and covers only your home club, without those extras. You can change or cancel your membership online at any time.
+
+          You receive an email from Planet Fitness: "Starting next month, your Black Card membership will increase from $24.99 to $27.99 per month."

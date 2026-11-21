@@ -58,9 +58,15 @@ class Persona:
     persona_id: str
     attributes: Mapping[str, str] = field(hash=False)
 
-    def describe(self) -> str:
-        return "\n".join(f"- {_LABELS.get(k, k.replace('_', ' ').capitalize())}: {v}"
+    def describe(self, labels: Mapping[str, str] | None = None) -> str:
+        return "\n".join(f"- {attribute_label(k, labels)}: {v}"
                          for k, v in self.attributes.items() if v not in (None, ""))
+
+
+def attribute_label(name: str, labels: Mapping[str, str] | None = None) -> str:
+    if labels and name in labels:
+        return labels[name]
+    return _LABELS.get(name, name.replace("_", " ").capitalize())
 
 
 class PersonaSampler:

@@ -26,7 +26,7 @@ from anthropic.types.messages.batch_create_params import Request
 
 from synthpanel.concepts import Concept
 from synthpanel.personas import Persona
-from synthpanel.prompts import SYSTEM_PROMPT, user_content
+from synthpanel.prompts import DEFAULT_SPEC, SurveySpec, user_content
 
 log = logging.getLogger(__name__)
 
@@ -62,14 +62,14 @@ def _text_of(message) -> str:
     return " ".join(b.text for b in message.content if b.type == "text").strip()
 
 
-def _request_params(task: Task, model: str, effort: str, max_tokens: int) -> dict:
-    content = user_content(task.concept, task.persona)
+def _request_params(task: Task, model: str, effort: str, max_tokens: int, spec: SurveySpec = DEFAULT_SPEC) -> dict:
+    content = user_content(task.concept, task.persona, spec)
     # Cache the shared prefix (system + concept, including any image) across respondents.
     content[-2] = {**content[-2], "cache_control": {"type": "ephemeral"}}
     return {
         "model": model,
         "max_tokens": max_tokens,
-        "system": SYSTEM_PROMPT,
+        "system": spec.system_prompt,
         "output_config": {"effort": effort},
         "messages": [{"role": "user", "content": content}],
     }
@@ -83,7 +83,9 @@ class ClaudeRespondent:
         max_tokens: int = 4000,
         concurrency: int = 16,
         client: anthropic.AsyncAnthropic | None = None,
+        spec: SurveySpec = DEFAULT_SPEC,
     ):
+        self.spec = spec
         self.model = model
         self.effort = effort
         self.max_tokens = max_tokens  # thinking counts toward this, so leave headroom
@@ -104,7 +106,7 @@ class ClaudeRespondent:
         return list(await asyncio.gather(*(one(t) for t in tasks)))
 
     async def _answer_one(self, client: anthropic.AsyncAnthropic, task: Task) -> Answer:
-        params = _request_params(task, self.model, self.effort, self.max_tokens)
+        params = _request_params(task, self.model, self.effort, self.max_tokens, self.spec)
         try:
             msg = await client.beta.messages.create(**params, betas=[FALLBACK_BETA], fallbacks="default")
         except anthropic.BadRequestError as e:  # not retryable: the request itself is wrong
@@ -132,7 +134,9 @@ class ClaudeBatchRespondent:
         max_tokens: int = 4000,
         poll_seconds: int = 60,
         client: anthropic.Anthropic | None = None,
+        spec: SurveySpec = DEFAULT_SPEC,
     ):
+        self.spec = spec
         self.model = model
         self.effort = effort
         self.max_tokens = max_tokens
@@ -143,7 +147,7 @@ class ClaudeBatchRespondent:
         # custom_id allows only [a-zA-Z0-9_-]{1,64}; map positions instead of raw ids.
         requests = [
             Request(custom_id=f"t{i}", params=MessageCreateParamsNonStreaming(
-                **_request_params(t, self.model, self.effort, self.max_tokens)))
+                **_request_params(t, self.model, self.effort, self.max_tokens, self.spec)))
             for i, t in enumerate(tasks)
         ]
         answers: dict[str, Answer] = {}

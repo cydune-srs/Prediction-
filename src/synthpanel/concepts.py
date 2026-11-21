@@ -21,14 +21,17 @@ class Concept:
 
     concept_id: str
     name: str
-    description: str
+    description: str = ""
     brand: str = ""
     category: str = ""
     price: str = ""
     image_path: str | None = None
+    stimulus: str = ""  # if set, shown verbatim instead of the Product/Brand/... layout
     metadata: dict = field(default_factory=dict, hash=False, compare=False)
 
     def as_text(self) -> str:
+        if self.stimulus:
+            return self.stimulus.strip()
         lines = [f"Product: {self.name}"]
         if self.brand:
             lines.append(f"Brand: {self.brand}")
@@ -48,7 +51,7 @@ class Concept:
         return {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": data}}
 
 
-_FIELDS = {"concept_id", "name", "description", "brand", "category", "price", "image_path"}
+_FIELDS = {"concept_id", "name", "description", "brand", "category", "price", "image_path", "stimulus"}
 
 
 def load_concepts(path: str | Path) -> list[Concept]:

@@ -67,6 +67,33 @@ result.by_concept()            # mean_pi, top2box, p1..p5 per concept
 result.by_segment("household_income")
 ```
 
+## Studies and the Snowflake Cortex backend
+
+A study YAML (see `studies/planet_fitness_black_card.yaml`) defines panels, the offers each panel
+sees (cells), the question, an optional stated-choice line (e.g. `PLAN: Classic`), an optional
+one-sentence intent line that SSR scores, anchors, persona marginals, and revenue per choice. Every
+persona answers every cell in independent calls, so cells are compared within persona.
+
+`backends/cortex.py` runs a study entirely inside Snowflake: Claude via `SNOWFLAKE.CORTEX.TRY_COMPLETE`,
+embeddings via `EMBED_TEXT_1024`, each step persisted to a stage. No Anthropic or Voyage keys, and no
+data leaves the account. Print the SQL for any step and run it in a worksheet or with
+`snowflake.connector`:
+
+```bash
+STAGE=@SRS_ANALYSTS.<YOUR_SCHEMA>.SYNTHPANEL/plnt_black_card_2799/run_YYYYMMDD
+synthpanel cortex-sql --study studies/planet_fitness_black_card.yaml --stage $STAGE --panel prospects --step personas
+synthpanel cortex-sql ... --step answers --cell A1_bc2799        # once per cell (--max-personas N to pilot)
+synthpanel cortex-sql ... --step score
+synthpanel cortex-sql ... --step readout   # also: paired, switching --cell X, readout --segment household_income
+```
+
+Results of the first study are in `studies/results/`.
+
+**Score a focused intent sentence.** For compound questions ("would you join, and which plan?"), SSR
+on the full answer read plan talk as reluctance: a definite Classic joiner scored 2.7/5. Scoring a
+one-sentence `LIKELIHOOD:` line instead restored the paper's setup. Use an `intent` line whenever
+the question asks for more than purchase intent.
+
 ## Design choices
 
 - **Model**: `claude-opus-5-5` by default (`--model` to change). It rejects `temperature`,
@@ -126,7 +153,10 @@ src/synthpanel/
   concepts.py personas.py    prompts.py      what respondents see and who they are
   respondents.py                             Claude real-time, batch, scripted
   survey.py   metrics.py     cli.py
+  study.py    pricing.py     choices.py     study YAML, price-test read-out, labelled-line parsing
+  backends/cortex.py                         run a study inside Snowflake Cortex
   validation/ human.py realized.py sources.py
 examples/concepts_example.yaml               fictional concepts
+studies/                                     study definitions and results
 tests/                                       no network or API keys needed
 ```

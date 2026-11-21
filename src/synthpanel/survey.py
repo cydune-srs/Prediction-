@@ -1,4 +1,4 @@
-"""Run a synthetic purchase-intent survey and aggregate it."""
+"""Run a synthetic survey and aggregate it."""
 
 from __future__ import annotations
 
@@ -11,9 +11,11 @@ from typing import Sequence
 import numpy as np
 import pandas as pd
 
+from synthpanel.choices import parse_answer
 from synthpanel.concepts import Concept
 from synthpanel.metrics import mean_rating, top_box
 from synthpanel.personas import Persona
+from synthpanel.prompts import SurveySpec
 from synthpanel.respondents import Respondent, Task
 from synthpanel.ssr import SSRScorer
 
@@ -22,7 +24,7 @@ log = logging.getLogger(__name__)
 
 @dataclass
 class SurveyResult:
-    responses: pd.DataFrame  # one row per answer, with p1..pK and expected_rating
+    responses: pd.DataFrame  # one row per answer, with p1..pK, expected_rating and (optionally) choice
     n_points: int
 
     @property
@@ -31,19 +33,24 @@ class SurveyResult:
 
     def _summarise(self, group_cols: list[str]) -> pd.DataFrame:
         ok = self.responses[self.responses["status"] == "ok"]
+        has_choice = "choice" in ok.columns and ok["choice"].astype(str).str.len().gt(0).any()
         rows = []
         for keys, grp in ok.groupby(group_cols, sort=True):
             # Panel distribution = mean of individual SSR distributions.
             pmf = grp[self.pmf_columns].to_numpy().mean(axis=0)
             keys = keys if isinstance(keys, tuple) else (keys,)
-            rows.append({
+            row = {
                 **dict(zip(group_cols, keys)),
                 "n": len(grp),
                 "mean_pi": mean_rating(pmf),
                 "top2box": top_box(pmf, 2),
                 **{c: v for c, v in zip(self.pmf_columns, pmf)},
-            })
-        out = pd.DataFrame(rows)
+            }
+            if has_choice:
+                shares = grp["choice"].value_counts(normalize=True)
+                row.update({f"choice:{k}": float(v) for k, v in shares.items()})
+            rows.append(row)
+        out = pd.DataFrame(rows).fillna({c: 0.0 for c in pd.DataFrame(rows).columns if c.startswith("choice:")})
         status = self.responses.groupby(group_cols)["status"].value_counts().unstack(fill_value=0)
         for col in ("refused", "error"):
             if col in status:
@@ -77,31 +84,51 @@ def run_survey(
     respondent: Respondent,
     scorer: SSRScorer,
     draws_per_persona: int = 1,
+    spec: SurveySpec | None = None,
 ) -> SurveyResult:
-    """Every persona answers every concept `draws_per_persona` times; answers are SSR-scored."""
+    """Every persona answers every concept `draws_per_persona` times; answers are SSR-scored.
+
+    Each call is independent, so using the same personas for every concept is a paired
+    (within-subject) design without carry-over: no respondent sees another concept.
+    If `spec.choice` is set, the stated-choice line is parsed into a `choice` column. If
+    `spec.intent` is set, SSR scores only the intent line (falling back to the answer).
+    """
     tasks = [Task(c, p, d) for c in concepts for p in personas for d in range(draws_per_persona)]
     log.info("Running %d tasks (%d concepts x %d personas x %d draws)",
              len(tasks), len(concepts), len(personas), draws_per_persona)
     answers = respondent.answer(tasks)
 
-    ok_idx = [i for i, a in enumerate(answers) if a.status == "ok"]
+    texts, scored, choices = [], [], []
+    for a in answers:
+        if spec and a.status == "ok":
+            text, to_score, choice = parse_answer(a.text, spec)
+        else:
+            text, to_score, choice = a.text, a.text, ""
+        texts.append(text)
+        scored.append(to_score)
+        choices.append(choice)
+
+    ok_idx = [i for i, a in enumerate(answers) if a.status == "ok" and scored[i]]
     pmfs = np.full((len(tasks), scorer.n_points), np.nan)
     if ok_idx:
-        pmfs[ok_idx] = scorer.score([answers[i].text for i in ok_idx])
+        pmfs[ok_idx] = scorer.score([scored[i] for i in ok_idx])
 
     rows = []
-    for task, ans, pmf in zip(tasks, answers, pmfs):
+    for i, (task, ans, pmf) in enumerate(zip(tasks, answers, pmfs)):
+        status = ans.status if (ans.status != "ok" or scored[i]) else "error"
         rows.append({
             "concept_id": task.concept.concept_id,
             "persona_id": task.persona.persona_id,
             "draw": task.draw,
             **dict(task.persona.attributes),
-            "status": ans.status,
+            "status": status,
             "model": ans.model,
             "detail": ans.detail,
-            "response": ans.text,
+            "response": texts[i],
+            "scored_text": scored[i],
+            "choice": choices[i],
             **{f"p{k + 1}": v for k, v in enumerate(pmf)},
-            "expected_rating": float(pmf @ scorer.scale) if ans.status == "ok" else np.nan,
+            "expected_rating": float(pmf @ scorer.scale) if status == "ok" else np.nan,
         })
     failed = len(tasks) - len(ok_idx)
     if failed:
