@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthpanel"
+version = "0.1.0"
+description = "Synthetic consumer panels for purchase-intent prediction via Semantic Similarity Rating (SSR)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=2.0",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+voyage = ["voyageai>=0.3"]
+local = ["sentence-transformers>=3.0"]
+snowflake = ["snowflake-connector-python>=3.10"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+synthpanel = "synthpanel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

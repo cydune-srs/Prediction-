@@ -1,0 +1,38 @@
+# Illustrative, fictional concepts. concept_id is the join key to human survey rows and
+# realized-purchase outcomes, so for a backtest use the same IDs as your outcomes file
+# (e.g. the brand names in the Chewy brand-sales query).
+- concept_id: fresh-dog-food-sub
+  name: Fresh-cooked dog food subscription
+  brand: Kibble & Co.
+  category: Pet food
+  price: "$79 per month for a 30 lb dog"
+  description: >
+    Human-grade, gently cooked meals portioned for your dog's weight and activity level,
+    delivered frozen every two weeks. Pause or cancel anytime.
+
+- concept_id: value-dry-dog-food
+  name: Value dry dog food, 40 lb bag
+  brand: Kibble & Co.
+  category: Pet food
+  price: "$38.99"
+  description: >
+    Complete and balanced chicken-and-rice dry food for adult dogs. Large bag sized for
+    multi-dog households.
+
+- concept_id: cat-water-fountain
+  name: Quiet cat water fountain
+  brand: Purrfect Home
+  category: Pet supplies
+  price: "$34.99"
+  description: >
+    Circulating 2-litre fountain with a replaceable carbon filter that keeps water fresh and
+    encourages cats to drink more. Runs almost silently.
+
+- concept_id: pet-insurance-basic
+  name: Accident-and-illness pet insurance
+  brand: TailSafe
+  category: Pet services
+  price: "$29 per month for a 3-year-old dog"
+  description: >
+    Reimburses 80% of vet bills for accidents and illnesses after a $250 annual deductible.
+    No cover for routine care.
