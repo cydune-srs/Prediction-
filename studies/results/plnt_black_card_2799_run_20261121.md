@@ -70,6 +70,39 @@ would drop to Classic because they don't use the perks. Real members are far mor
 | Classic $10 → $15: join volume | No measurable change (not joining 5.3% vs 5.7%) | Management expected "a slight Q3 membership decline"; YipitData: Aug-24 total members net negative, Q3 net adds roughly flat; former franchisee VP: joins typically dip 5–8% for a couple of months after a price change, then level off | **Panel misses the join dip** |
 | $27.99 vs $29.99 | Black Card share of joiners 57.4% vs 55.1% | PF test: "no significant difference" between the two (Q1 2025 call) | Consistent |
 
+### Backtest detail: the June 2024 Classic $10 → $15 change
+
+What the panel would have forecast if run before the change (cell B0 = Classic $10 vs A0 = Classic $15,
+Black Card $24.99 in both; same 300 personas):
+
+| | Classic $10 | Classic $15 | Change |
+|---|---|---|---|
+| Join (any plan) | 284 of 300 | 283 of 300 | −0.4% (flat) |
+| Classic joiners | 130 | 116 | −10.8% (11 upgrade to Black Card, 4 don't join) |
+| Black Card joiners | 154 | 167 | +8.4% |
+| Black Card share of joiners | 54.2% | 59.0% | +4.8 pts |
+| Monthly dues per prospect | $17.16 | $19.71 | +14.9% |
+
+Actual quarterly membership comes from Visible Alpha (SRS `va_company_data`, PLANET FITNESS INC,
+KPI "Total members", quarterly). The licensed figures are not reproduced in this repository.
+
+- Joins: Q3 2024 net adds turned negative versus a positive Q3 2023, while attrition was in line
+  year on year (Q4 2024 call). That implies about 10% fewer joins in the first quarter at $15, with
+  a wide band (≈5–15%) because membership is reported to the nearest 0.1M. Q3 2025 was also
+  negative, with online cancellation in place by then, so the attribution is approximate. Joins
+  recovered: 2025 net member growth was +10% on 2024 (Q4 2025 call).
+- Mix: Black Card penetration of all members was flat year on year before the change (62.4% in Q2
+  2024), then +1.0 pt (63.1%, Q3 2024), ~+2 pts (~64%, Q4 2024) and ~+3 pts (65%, Q1 2025). Only new
+  joiners pay new prices and roughly a fifth to a third of members turned over in those periods, so
+  the joiner mix probably moved about 8–10 pts. This is an inference, not a reported figure.
+- Revenue: the company expected a low- to mid-single-digit AUV lift after about a year (Q3 2024
+  call). The panel's +14.9% on new joiners, applied to the roughly one third of members who turn over
+  in a year, is about +5%.
+
+Verdict: the panel got the direction of every effect right. It missed the join dip (flat vs. ~10%
+fewer) and understated the mix shift by about half. Those two errors push revenue in opposite
+directions, so its revenue read was roughly right.
+
 ## Read
 
 - For new joiners, $27.99 mostly works as a price increase on the ~59% who pick Black Card. The panel
