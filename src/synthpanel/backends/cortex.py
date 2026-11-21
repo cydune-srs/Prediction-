@@ -57,7 +57,7 @@ def prompt_parts(panel: Panel) -> list[str | Col]:
     """
     spec = panel.spec
     parts: list[str | Col] = [spec.concept_intro, Col("c.stimulus", "__stimulus__"), NL + NL + PERSONA_INTRO]
-    attrs = list(panel.marginals)
+    attrs = panel.attribute_order
     for i, name in enumerate(attrs):
         parts.append(f"- {attribute_label(name, spec.labels)}: ")
         parts.append(Col(f"p.v:{name}::string", name))
@@ -86,22 +86,44 @@ def _weighted_case(u: str, dist: dict[str, float]) -> str:
     return f"CASE {' '.join(whens)} ELSE {lit(str(items[-1][0]))} END"
 
 
+def _stratum_case(idx: str, block: int, levels: list[str]) -> str:
+    whens = " ".join(f"WHEN {i} THEN {lit(v)}" for i, v in enumerate(levels))
+    return f"CASE MOD(FLOOR({idx} / {block}), {len(levels)}) {whens} END"
+
+
 def personas_sql(panel: Panel, stage: str) -> str:
+    """Sampled attributes use RANDOM(seed); stratified ones rotate by persona index,
+    exactly as `Panel.stratum_levels` does in Python."""
     attrs = list(panel.marginals)
-    uniforms = ", ".join(
-        f"UNIFORM(0::float, 1::float, RANDOM({panel.seed * 1000 + k + 1})) AS u{k}" for k in range(len(attrs)))
-    fields = ", ".join(f"{lit(name)}, {_weighted_case(f'u{k}', panel.marginals[name])}" for k, name in enumerate(attrs))
+    uniforms = "".join(
+        f", UNIFORM(0::float, 1::float, RANDOM({panel.seed * 1000 + k + 1})) AS u{k}" for k in range(len(attrs)))
+    fields = [f"{lit(name)}, {_weighted_case(f'u{k}', panel.marginals[name])}" for k, name in enumerate(attrs)]
+    block = 1
+    for name, levels in panel.strata.items():
+        fields.append(f"{lit(name)}, {_stratum_case('idx', block, levels)}")
+        block *= len(levels)
     return f"""COPY INTO {stage}/personas/{panel.name}/ FROM (
-  SELECT OBJECT_CONSTRUCT('persona_id', {lit(panel.name + '-')} || LPAD(idx::string, 4, '0'), {fields})
-  FROM (SELECT ROW_NUMBER() OVER (ORDER BY SEQ4()) - 1 AS idx, {uniforms}
+  SELECT OBJECT_CONSTRUCT('persona_id', {lit(panel.name + '-')} || LPAD(idx::string, 4, '0'), {", ".join(fields)})
+  FROM (SELECT ROW_NUMBER() OVER (ORDER BY SEQ4()) - 1 AS idx{uniforms}
         FROM TABLE(GENERATOR(ROWCOUNT => {panel.n})))
 ) FILE_FORMAT = (TYPE = JSON COMPRESSION = GZIP) OVERWRITE = TRUE SINGLE = TRUE MAX_FILE_SIZE = 268435456"""
 
 
-def answers_sql(study: Study, panel: Panel, cell_id: str, stage: str, max_personas: int | None = None) -> str:
+def answers_sql(study: Study, panel: Panel, cell_id: str, stage: str, max_personas: int | None = None,
+                persona_range: tuple[int, int] | None = None) -> str:
+    """One cell's answers. `persona_range=(start, end)` runs personas start..end-1 into their own
+    part folder, so a large panel can be split across statements; scoring reads all parts."""
     cell = panel.cell(cell_id)
-    limit = f"WHERE p.v:persona_id::string < {lit(f'{panel.name}-{max_personas:04d}')}" if max_personas else ""
-    return f"""COPY INTO {stage}/answers/{panel.name}/{cell_id}/ FROM (
+    pid = "p.v:persona_id::string"
+    folder = f"{stage}/answers/{panel.name}/{cell_id}/"
+    limit = ""
+    if persona_range:
+        start, end = persona_range
+        limit = f"WHERE {pid} >= {lit(f'{panel.name}-{start:04d}')} AND {pid} < {lit(f'{panel.name}-{end:04d}')}"
+        folder += f"part_{start:04d}/"
+    elif max_personas:
+        limit = f"WHERE {pid} < {lit(f'{panel.name}-{max_personas:04d}')}"
+    return f"""COPY INTO {folder} FROM (
   WITH p AS (SELECT $1 AS v FROM {stage}/personas/{panel.name}/),
   c AS (SELECT {lit(cell_id)} AS cell, {lit(cell.as_text())} AS stimulus),
   q AS (SELECT c.cell, p.v:persona_id::string AS persona_id, p.v AS persona, {_concat(prompt_parts(panel))} AS prompt
@@ -220,17 +242,37 @@ SELECT cell{seg_grp}, COUNT(*) AS n, ROUND(AVG(expected), 3) AS mean_intent, ROU
 FROM g GROUP BY cell{seg_grp} ORDER BY cell{seg_grp}"""
 
 
-def paired_sql(panel: Panel, stage: str) -> str:
+def _weight_expr(panel: Panel) -> str:
+    """Per-persona weight that re-weights a balanced (stratified) design to `strata_weights`:
+    product over weighted attributes of (target share x number of levels)."""
+    terms = []
+    for attr, w in panel.strata_weights.items():
+        k = len(panel.strata[attr])
+        whens = " ".join(f"WHEN {lit(level)} THEN {share * k:.10f}" for level, share in w.items())
+        terms.append(f"CASE persona:{attr}::string {whens} END")
+    return " * ".join(terms) if terms else "1"
+
+
+def paired_sql(panel: Panel, stage: str, segment: str | None = None, weighted: bool = False) -> str:
+    """Within-persona change vs control per cell (and per `segment` level if given).
+
+    95% half-widths are from the unweighted paired differences. With `weighted`, the means use
+    `strata_weights` to reflect an assumed population mix; that changes level, not precision much.
+    """
+    seg_sel = f", r.persona:{segment}::string AS seg" if segment else ", 'all' AS seg"
+    w = _weight_expr(panel) if weighted else "1"
     return f"""WITH {_scored_cte(panel, stage)},
-  ctl AS (SELECT persona_id, revenue AS rev0, expected AS exp0, top2 AS top0 FROM r WHERE cell = {lit(panel.control)}),
-  d AS (SELECT r.cell, r.revenue - ctl.rev0 AS d_rev, r.expected - ctl.exp0 AS d_int, r.top2 - ctl.top0 AS d_top2, ctl.rev0
-        FROM r JOIN ctl USING (persona_id) WHERE r.cell <> {lit(panel.control)})
-SELECT cell, COUNT(*) AS n_pairs,
-       ROUND(AVG(d_rev), 3) AS d_revenue, ROUND(1.96 * STDDEV_SAMP(d_rev) / SQRT(COUNT(*)), 3) AS d_revenue_ci_half,
-       ROUND(AVG(d_rev) / NULLIF(AVG(rev0), 0), 4) AS d_revenue_pct,
-       ROUND(AVG(d_int), 3) AS d_intent, ROUND(1.96 * STDDEV_SAMP(d_int) / SQRT(COUNT(*)), 3) AS d_intent_ci_half,
-       ROUND(AVG(d_top2), 3) AS d_top2box, ROUND(1.96 * STDDEV_SAMP(d_top2) / SQRT(COUNT(*)), 3) AS d_top2box_ci_half
-FROM d GROUP BY cell ORDER BY cell"""
+  ctl AS (SELECT persona_id, revenue AS rev0, expected AS exp0, top2 AS top0, choice AS ch0 FROM r WHERE cell = {lit(panel.control)}),
+  d AS (SELECT r.cell{seg_sel}, {w.replace("persona:", "r.persona:")} AS w, r.revenue, ctl.rev0, r.revenue - ctl.rev0 AS d_rev,
+               r.expected - ctl.exp0 AS d_int, r.top2 - ctl.top0 AS d_top2, r.choice, ctl.ch0
+        FROM r JOIN ctl USING (persona_id))
+SELECT cell, seg, COUNT(*) AS n,
+       ROUND(SUM(w * rev0) / SUM(w), 3) AS control_revenue, ROUND(SUM(w * revenue) / SUM(w), 3) AS revenue,
+       ROUND(SUM(w * d_rev) / SUM(w), 3) AS d_revenue, ROUND(1.96 * STDDEV_SAMP(d_rev) / SQRT(COUNT(*)), 3) AS d_revenue_ci_half,
+       ROUND(SUM(w * d_rev) / NULLIF(SUM(w * rev0), 0), 4) AS d_revenue_pct,
+       ROUND(SUM(w * d_int) / SUM(w), 3) AS d_intent, ROUND(1.96 * STDDEV_SAMP(d_int) / SQRT(COUNT(*)), 3) AS d_intent_ci_half,
+       ROUND(SUM(w * IFF(choice = ch0, 0, 1)) / SUM(w), 3) AS share_changed_choice
+FROM d GROUP BY cell, seg ORDER BY seg, cell"""
 
 
 def switching_sql(panel: Panel, stage: str, cell: str) -> str:

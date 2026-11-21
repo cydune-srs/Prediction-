@@ -51,6 +51,36 @@ def test_instructions_list_both_lines():
     assert tail.index("LIKELIHOOD:") < tail.index("PLAN: <one of: Black Card | Classic | Not joining>")
 
 
+REGIONAL = Path(__file__).parent.parent / "studies" / "planet_fitness_black_card_regional.yaml"
+
+
+def test_stratified_panel_is_balanced_and_matches_sql():
+    study = load_study(REGIONAL)
+    panel = study.panels["prospects"]
+    personas = panel.personas()
+    assert len(personas) == 1080
+    from collections import Counter
+    combos = Counter(tuple(p.attributes[a] for a in panel.strata) for p in personas)
+    assert len(combos) == 27 and set(combos.values()) == {40}
+    assert list(personas[0].attributes) == panel.attribute_order
+    # SQL rotation mirrors Python: idx 0 -> first levels, idx 1 -> second market type, idx 3 -> second gyms level
+    assert panel.stratum_levels(1)["market_type"] == "a suburb"
+    assert panel.stratum_levels(3)["budget_gyms_nearby"] == "one"
+    assert panel.stratum_levels(9)["household_income"] == "$50,000-$99,999"
+    sql = cortex.personas_sql(panel, "@S/run")
+    assert "CASE MOD(FLOOR(idx / 3), 3) WHEN 0 THEN $$none$$" in sql
+    assert "CASE MOD(FLOOR(idx / 9), 3)" in sql
+    # Stimulus template fills prices; prompt parity holds with stratified attributes.
+    assert "$28.99 per month" in panel.cell("P2899").as_text()
+    values = {**personas[5].attributes, "__stimulus__": panel.cell("P2699").as_text()}
+    assert cortex.render_parts(cortex.prompt_parts(panel), values) == user_text(panel.cell("P2699"), personas[5], panel.spec)
+    # Weights: product of share x levels; a balanced design re-weights to the target mix.
+    w = cortex._weight_expr(panel)
+    assert "WHEN $$a suburb$$ THEN 1.6500000000" in w
+    sql = cortex.answers_sql(study, panel, "P2799", "@S/run", persona_range=(540, 1080))
+    assert "/P2799/part_0540/" in sql and "prospects-1080" in sql
+
+
 def test_study_loads_and_validates():
     study = load_study(PF)
     assert set(study.panels) == {"prospects", "members"}
@@ -81,7 +111,8 @@ def test_cortex_sql_builds():
     sql = cortex.score_sql(study, panel, stage)
     assert sql.count("EMBED_TEXT_1024") == 2 and "PLAN" in sql
     assert "WHEN cell = $$A2_bc2999$$ AND choice = $$Black Card$$ THEN 29.99" in cortex.readout_sql(panel, stage)
-    assert "cell <> $$A0_bc2499$$" in cortex.paired_sql(panel, stage)
+    paired = cortex.paired_sql(panel, stage)
+    assert "WHERE cell = $$A0_bc2499$$" in paired and "AS w" in paired and ", 'all' AS seg" in paired
     with pytest.raises(ValueError):
         cortex.lit("no $$ allowed")
 

@@ -94,10 +94,11 @@ def cmd_cortex_sql(args: argparse.Namespace) -> None:
     panel = study.panels[args.panel]
     builders = {
         "personas": lambda: cortex.personas_sql(panel, args.stage),
-        "answers": lambda: cortex.answers_sql(study, panel, args.cell, args.stage, args.max_personas),
+        "answers": lambda: cortex.answers_sql(study, panel, args.cell, args.stage, args.max_personas,
+                                              tuple(args.persona_range) if args.persona_range else None),
         "score": lambda: cortex.score_sql(study, panel, args.stage, embed_model=study.embedder),
         "readout": lambda: cortex.readout_sql(panel, args.stage, args.segment),
-        "paired": lambda: cortex.paired_sql(panel, args.stage),
+        "paired": lambda: cortex.paired_sql(panel, args.stage, args.segment, args.weighted),
         "switching": lambda: cortex.switching_sql(panel, args.stage, args.cell),
     }
     if args.step in ("answers", "switching") and not args.cell:
@@ -148,7 +149,10 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--step", required=True, choices=["personas", "answers", "score", "readout", "paired", "switching"])
     s.add_argument("--cell", help="Cell id (answers, switching)")
     s.add_argument("--max-personas", type=int, help="Pilot: only the first N personas (answers)")
-    s.add_argument("--segment", help="Persona attribute to break the readout down by")
+    s.add_argument("--persona-range", type=int, nargs=2, metavar=("START", "END"),
+                   help="Answers for personas START..END-1 only, into their own part folder")
+    s.add_argument("--segment", help="Persona attribute to break the readout/paired results down by")
+    s.add_argument("--weighted", action="store_true", help="Paired: weight strata to the panel's strata_weights")
     s.set_defaults(func=cmd_cortex_sql)
 
     args = p.parse_args(argv)
