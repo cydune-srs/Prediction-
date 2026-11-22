@@ -57,7 +57,7 @@ def prompt_parts(panel: Panel) -> list[str | Col]:
     """
     spec = panel.spec
     parts: list[str | Col] = [spec.concept_intro, Col("c.stimulus", "__stimulus__"), NL + NL + PERSONA_INTRO]
-    attrs = panel.attribute_order
+    attrs = [a for a in panel.attribute_order if not a.startswith("_")]
     for i, name in enumerate(attrs):
         parts.append(f"- {attribute_label(name, spec.labels)}: ")
         parts.append(Col(f"p.v:{name}::string", name))
@@ -91,9 +91,32 @@ def _stratum_case(idx: str, block: int, levels: list[str]) -> str:
     return f"CASE MOD(FLOOR({idx} / {block}), {len(levels)}) {whens} END"
 
 
+def _file_personas_sql(panel: Panel, stage: str) -> str:
+    """Load pre-built personas compactly: each attribute value becomes a short code, rows are
+    '|'-joined codes split by SPLIT_TO_TABLE, and a CASE per attribute decodes them. Keeps a
+    ~1,000-persona panel to a statement of tens of KB."""
+    personas = panel.personas()
+    attrs = list(personas[0].attributes)
+    dicts = {a: {v: i for i, v in enumerate(dict.fromkeys(p.attributes[a] for p in personas))} for a in attrs}
+    rows = ";".join("|".join(str(dicts[a][p.attributes[a]]) for a in attrs) for p in personas)
+    ids = [p.persona_id for p in personas]
+    if ids != [f"{panel.name}-{i:04d}" for i in range(len(ids))]:
+        raise ValueError(f"persona_id must run {panel.name}-0000, {panel.name}-0001, ... in file order")
+    fields = []
+    for k, a in enumerate(attrs, start=1):
+        whens = " ".join(f"WHEN '{i}' THEN {lit(v)}" for v, i in dicts[a].items())
+        fields.append(f"{lit(a)}, CASE SPLIT_PART(t.value, '|', {k}) {whens} END")
+    return f"""COPY INTO {stage}/personas/{panel.name}/ FROM (
+  SELECT OBJECT_CONSTRUCT('persona_id', {lit(panel.name + '-')} || LPAD((t.index - 1)::string, 4, '0'), {", ".join(fields)})
+  FROM TABLE(SPLIT_TO_TABLE({lit(rows)}, ';')) t
+) FILE_FORMAT = (TYPE = JSON COMPRESSION = GZIP) OVERWRITE = TRUE SINGLE = TRUE MAX_FILE_SIZE = 268435456"""
+
+
 def personas_sql(panel: Panel, stage: str) -> str:
     """Sampled attributes use RANDOM(seed); stratified ones rotate by persona index,
-    exactly as `Panel.stratum_levels` does in Python."""
+    exactly as `Panel.stratum_levels` does in Python. File-based panels load their CSV."""
+    if panel.persona_file:
+        return _file_personas_sql(panel, stage)
     attrs = list(panel.marginals)
     uniforms = "".join(
         f", UNIFORM(0::float, 1::float, RANDOM({panel.seed * 1000 + k + 1})) AS u{k}" for k in range(len(attrs)))
@@ -245,7 +268,7 @@ FROM g GROUP BY cell{seg_grp} ORDER BY cell{seg_grp}"""
 def _weight_expr(panel: Panel) -> str:
     """Per-persona weight that re-weights a balanced (stratified) design to `strata_weights`:
     product over weighted attributes of (target share x number of levels)."""
-    terms = []
+    terms = ["COALESCE(TRY_TO_DOUBLE(persona:_weight::string), 1)"] if panel.persona_file else []
     for attr, w in panel.strata_weights.items():
         k = len(panel.strata[attr])
         whens = " ".join(f"WHEN {lit(level)} THEN {share * k:.10f}" for level, share in w.items())

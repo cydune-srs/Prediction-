@@ -59,8 +59,10 @@ class Persona:
     attributes: Mapping[str, str] = field(hash=False)
 
     def describe(self, labels: Mapping[str, str] | None = None) -> str:
+        """Prompt lines for the persona. Attributes whose name starts with '_' (weights, IDs,
+        provenance) are kept on the persona but never shown to the respondent."""
         return "\n".join(f"- {attribute_label(k, labels)}: {v}"
-                         for k, v in self.attributes.items() if v not in (None, ""))
+                         for k, v in self.attributes.items() if v not in (None, "") and not k.startswith("_"))
 
 
 def attribute_label(name: str, labels: Mapping[str, str] | None = None) -> str:

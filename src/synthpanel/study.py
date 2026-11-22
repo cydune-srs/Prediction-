@@ -39,9 +39,18 @@ class Panel:
     strata: dict[str, list[str]] = field(default_factory=dict)
     strata_weights: dict[str, dict[str, float]] = field(default_factory=dict)
     order: list[str] = field(default_factory=list)
+    # Pre-built personas (CSV with persona_id + attribute columns), e.g. from real store
+    # trade areas. Columns starting with '_' (weights, IDs) are kept but not shown to respondents.
+    persona_file: str | None = None
+
+    def _file_personas(self) -> list[Persona]:
+        from synthpanel.personas import load_personas
+        return load_personas(self.persona_file)
 
     @property
     def attribute_order(self) -> list[str]:
+        if self.persona_file:
+            return list(self._file_personas()[0].attributes)
         names = list(self.marginals) + [s for s in self.strata if s not in self.marginals]
         if self.order:
             missing = set(names) - set(self.order)
@@ -59,6 +68,8 @@ class Panel:
         return out
 
     def personas(self) -> list[Persona]:
+        if self.persona_file:
+            return self._file_personas()
         sampled = PersonaSampler(self.marginals, seed=self.seed).sample(self.n, prefix=f"{self.name}-")
         if not self.strata:
             return sampled
@@ -129,11 +140,14 @@ def load_study(path: str | Path) -> Study:
         for attr, w in weights.items():
             if attr not in strata or set(map(str, w)) != set(strata[attr]):
                 raise ValueError(f"Panel {name}: strata_weights[{attr!r}] must cover exactly the levels of strata[{attr!r}]")
-        panel = Panel(name=name, n=int(p["n"]), seed=int(p.get("seed", 0)), spec=spec,
+        panel = Panel(name=name, n=int(p.get("n", 0)), seed=int(p.get("seed", 0)), spec=spec,
                       anchors=_anchors(p["anchors"]), marginals=p.get("marginals") or {}, cells=cells,
                       control=control, scale_label=p.get("scale_label", ""), strata=strata,
                       strata_weights={a: {str(k): float(v) for k, v in w.items()} for a, w in weights.items()},
-                      order=list(p.get("order") or []))
+                      order=list(p.get("order") or []),
+                      persona_file=str((Path(path).parent / p["persona_file"]).resolve()) if p.get("persona_file") else None)
+        if panel.persona_file:
+            panel.n = len(panel.personas())
         panel.attribute_order  # validates `order`
         panels[name] = panel
     return Study(name=raw["name"], model=raw.get("model", "claude-opus-5-5"),

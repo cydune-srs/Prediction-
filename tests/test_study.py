@@ -81,6 +81,32 @@ def test_stratified_panel_is_balanced_and_matches_sql():
     assert "/P2799/part_0540/" in sql and "prospects-1080" in sql
 
 
+def test_persona_file_panel_hides_underscore_fields(tmp_path):
+    import yaml
+    (tmp_path / "p.csv").write_text(
+        "persona_id,age,lives_near,_weight,_club\n"
+        "prospects-0000,25-34,\"Katy, TX\",1.5,c1\n"
+        "prospects-0001,65+,\"Draper, UT\",0.5,c2\n")
+    raw = yaml.safe_load(REGIONAL.read_text())
+    pan = raw["panels"]["prospects"]
+    for k in ("strata", "strata_weights", "marginals", "order"):
+        pan.pop(k, None)
+    pan["persona_file"] = "p.csv"
+    (tmp_path / "s.yaml").write_text(yaml.safe_dump(raw))
+    study = load_study(tmp_path / "s.yaml")
+    panel = study.panels["prospects"]
+    assert panel.n == 2
+    p = panel.personas()[0]
+    text = user_text(panel.cell("P2799"), p, panel.spec)
+    assert "Katy, TX" in text and "_weight" not in text and "c1" not in text
+    values = {**p.attributes, "__stimulus__": panel.cell("P2799").as_text()}
+    assert cortex.render_parts(cortex.prompt_parts(panel), values) == text
+    sql = cortex.personas_sql(panel, "@S/run")
+    assert "SPLIT_TO_TABLE($$0|0|0|0;1|1|1|1$$, ';')" in sql
+    assert "WHEN '0' THEN $$Katy, TX$$" in sql
+    assert "persona:_weight::string), 1)" in cortex.paired_sql(panel, "@S/run", weighted=True)
+
+
 def test_study_loads_and_validates():
     study = load_study(PF)
     assert set(study.panels) == {"prospects", "members"}
