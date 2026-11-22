@@ -93,7 +93,8 @@ def cmd_cortex_sql(args: argparse.Namespace) -> None:
     study = load_study(args.study)
     panel = study.panels[args.panel]
     builders = {
-        "personas": lambda: cortex.personas_sql(panel, args.stage),
+        "personas": lambda: cortex.personas_sql(panel, args.stage, tuple(args.persona_range) if args.persona_range else None),
+        "checksum": lambda: cortex.persona_checksum_sql(panel, args.stage) + "\n-- expected (n, md5): " + str(cortex.persona_checksum(panel)),
         "answers": lambda: cortex.answers_sql(study, panel, args.cell, args.stage, args.max_personas,
                                               tuple(args.persona_range) if args.persona_range else None),
         "score": lambda: cortex.score_sql(study, panel, args.stage, embed_model=study.embedder),
@@ -146,7 +147,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--study", required=True, help="Study YAML (see studies/)")
     s.add_argument("--stage", required=True, help="Stage folder for this run, e.g. @DB.SCHEMA.STAGE/study/run_YYYYMMDD")
     s.add_argument("--panel", required=True)
-    s.add_argument("--step", required=True, choices=["personas", "answers", "score", "readout", "paired", "switching"])
+    s.add_argument("--step", required=True, choices=["personas", "checksum", "answers", "score", "readout", "paired", "switching"])
     s.add_argument("--cell", help="Cell id (answers, switching)")
     s.add_argument("--max-personas", type=int, help="Pilot: only the first N personas (answers)")
     s.add_argument("--persona-range", type=int, nargs=2, metavar=("START", "END"),

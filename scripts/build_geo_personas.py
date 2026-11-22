@@ -53,7 +53,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--stores", required=True)
     ap.add_argument("--competitor", action="append", default=[], help="Name=path.csv")
-    ap.add_argument("--census-dir", required=True)
+    ap.add_argument("--census-dir", required=True, help="Census raw folder, or a pickled table from geo.load_zcta_table")
     ap.add_argument("--radius", type=float, default=5.0)
     ap.add_argument("--n", type=int, default=1080)
     ap.add_argument("--seed", type=int, default=41)
@@ -63,14 +63,14 @@ def main() -> None:
     a = ap.parse_args()
 
     rng = np.random.default_rng(a.seed)
-    zcta = load_zcta_table(a.census_dir)
+    zcta = pd.read_pickle(a.census_dir) if a.census_dir.endswith(".pkl") else load_zcta_table(a.census_dir)
     stores = locate(pd.read_csv(a.stores, dtype=str), zcta)
     comps = {}
     for spec in a.competitor:
         name, path = spec.split("=", 1)
         df = pd.read_csv(path, dtype=str)
         if "status" in df:
-            df = df[df["status"].fillna("open") == "open"]
+            df = df[~df["status"].fillna("").str.lower().isin(["closed"])]
         comps[name] = locate(df, zcta)
     unmatched = stores["lat"].isna().sum()
     markets = trade_areas(stores, zcta, a.radius, comps)
@@ -102,17 +102,16 @@ def main() -> None:
                 "workout_style": pick(rng, WORKOUT),
                 "away_from_home_club": pick(rng, AWAY),
                 "_weight": round(weight, 6),
-                "_stratum": label,
                 "_region": m["region"],
                 "_state": m["state"],
-                "_store_zip": m["zip"],
                 "_n_competitors": int(m["n_competitors"]),
+                "_stratum": label,
             })
     order = rng.permutation(len(rows))
     out = pd.DataFrame([rows[i] for i in order])
     out.insert(0, "persona_id", [f"{a.panel}-{i:04d}" for i in range(len(out))])
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
-    out.to_csv(a.out, index=False)
+    out.drop(columns=["_stratum"]).to_csv(a.out, index=False)
 
     print(f"stores {len(stores)} (no ZCTA match: {unmatched}); markets {len(markets)}")
     print("competitor nearby:", f"{comp_mask.mean():.1%}", "| by brand:",
@@ -120,6 +119,7 @@ def main() -> None:
     print("area type:", markets["area_type"].value_counts(normalize=True).round(3).to_dict())
     print("personas:", len(out), out["_stratum"].value_counts().to_dict(),
           "weights:", out.groupby("_stratum")["_weight"].first().round(3).to_dict())
+    # Store ZIPs and the full trade-area table stay in --markets-out, not in the persona file.
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1081 @@
+persona_id,age,gender,household_income,lives_near,market_type,budget_gyms_nearby,gym_history,workout_style,away_from_home_club,_weight,_region,_state,_n_competitors
+prospects-0000,25-34,woman,"$60,000-$99,999","Diamond Bar, CA",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,West,CA,1
+prospects-0001,45-54,man,"$150,000 or more","Lantana, FL",a big city,EoS Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,South,FL,1
+prospects-0002,35-44,woman,"$150,000 or more","Dorchester, MA",a big city,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Northeast,MA,1
+prospects-0003,25-34,woman,"$35,000-$59,999","Burnsville, MN",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,MN,0
+prospects-0004,45-54,woman,"$100,000-$149,999","Fullerton, CA",a big city,"Crunch Fitness (1), EoS Fitness (3)",has never belonged to a gym,alone,rarely,0.565989,West,CA,4
+prospects-0005,65+,woman,"$60,000-$99,999","Brick, NJ",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,NJ,1
+prospects-0006,35-44,woman,"$150,000 or more","Murray, UT",a big city,"EoS Fitness (3), VASA Fitness (3)",has never belonged to a gym,alone,sometimes,0.565989,West,UT,6
+prospects-0007,25-34,man,"under $35,000","Haltom City, TX",a big city,EoS Fitness (1),has never belonged to a gym,with a friend or partner,often,0.565989,South,TX,1
+prospects-0008,25-34,man,"$60,000-$99,999","Baltimore, MD",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,MD,0
+prospects-0009,18-24,man,"under $35,000","St. Louis, MO",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,MO,0
+prospects-0010,25-34,man,"$100,000-$149,999","Wheaton, IL",a suburb,VASA Fitness (1),belonged to another gym in the past,with a friend or partner,often,0.565989,Midwest,IL,1
+prospects-0011,25-34,woman,"$60,000-$99,999","Tucson, AZ",a big city,VASA Fitness (1),former Planet Fitness member,alone,rarely,0.565989,West,AZ,1
+prospects-0012,55-64,man,"$60,000-$99,999","Holiday, FL",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,South,FL,1
+prospects-0013,55-64,woman,"$60,000-$99,999","Hackensack, NJ",a big city,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,Northeast,NJ,1
+prospects-0014,65+,man,"$150,000 or more","Lynn, MA",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,MA,1
+prospects-0015,18-24,man,"under $35,000","Malden, MA",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,Northeast,MA,1
+prospects-0016,45-54,woman,"$60,000-$99,999","Stockbridge, GA",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,South,GA,0
+prospects-0017,18-24,man,"$100,000-$149,999","Roswell, GA",a suburb,"Crunch Fitness (2), EoS Fitness (2)",has never belonged to a gym,with a friend or partner,rarely,0.565989,South,GA,4
+prospects-0018,25-34,man,"$35,000-$59,999","Virginia Beach, VA",a big city,none,has never belonged to a gym,alone,rarely,1.434011,South,VA,0
+prospects-0019,35-44,woman,"$150,000 or more","Dallas, TX",a big city,EoS Fitness (1),currently belongs to another gym,alone,often,0.565989,South,TX,1
+prospects-0020,18-24,woman,"$35,000-$59,999","Salina, KS",a suburb,none,belonged to another gym in the past,alone,often,1.434011,Midwest,KS,0
+prospects-0021,35-44,woman,"under $35,000","Modesto, CA",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,West,CA,0
+prospects-0022,45-54,woman,"under $35,000","Midland, TX",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,South,TX,0
+prospects-0023,45-54,woman,"$100,000-$149,999","Hinesville, GA",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,South,GA,0
+prospects-0024,18-24,man,"$100,000-$149,999","Temple, TX",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,South,TX,0
+prospects-0025,18-24,woman,"$60,000-$99,999","Lockport, IL",a suburb,VASA Fitness (1),former Planet Fitness member,alone,often,0.565989,Midwest,IL,1
+prospects-0026,25-34,man,"$150,000 or more","Brockton, MA",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,MA,1
+prospects-0027,55-64,man,"$60,000-$99,999","Philadelphia, PA",a big city,none,belonged to another gym in the past,alone,rarely,1.434011,Northeast,PA,0
+prospects-0028,65+,woman,"$60,000-$99,999","Buena Park, CA",a big city,"Crunch Fitness (3), EoS Fitness (5)",has never belonged to a gym,alone,rarely,0.565989,West,CA,8
+prospects-0029,25-34,man,"$60,000-$99,999","Millington, TN",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,South,TN,0
+prospects-0030,35-44,man,"$60,000-$99,999","Alexandria, VA",a big city,none,currently belongs to another gym,alone,rarely,1.434011,South,VA,0
+prospects-0031,18-24,woman,"$35,000-$59,999","Miramar, FL",a big city,Crunch Fitness (2),former Planet Fitness member,with a friend or partner,often,0.565989,South,FL,2
+prospects-0032,65+,man,"$60,000-$99,999","Centereach, NY",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,1
+prospects-0033,35-44,woman,"$150,000 or more","Tustin, CA",a big city,"Crunch Fitness (1), EoS Fitness (1)",former Planet Fitness member,alone,rarely,0.565989,West,CA,2
+prospects-0034,18-24,woman,"under $35,000","North Randall, OH",a big city,none,has never belonged to a gym,alone,often,1.434011,Midwest,OH,0
+prospects-0035,25-34,man,"$150,000 or more","Dallas, TX",a big city,EoS Fitness (1),former Planet Fitness member,alone,often,0.565989,South,TX,1
+prospects-0036,25-34,man,"under $35,000","Middletown, NY",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NY,1
+prospects-0037,35-44,woman,"$150,000 or more","Milford, CT",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Northeast,CT,0
+prospects-0038,25-34,woman,"$60,000-$99,999","Las Vegas, NV",a big city,EoS Fitness (4),belonged to another gym in the past,alone,rarely,0.565989,West,NV,4
+prospects-0039,18-24,man,"$35,000-$59,999","Raymond, NH",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,NH,0
+prospects-0040,25-34,man,"$60,000-$99,999","Peoria, AZ",a suburb,EoS Fitness (4),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,AZ,4
+prospects-0041,55-64,woman,"$60,000-$99,999","Hattiesburg, MS",a small town or rural area,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,South,MS,0
+prospects-0042,45-54,woman,"$100,000-$149,999","Chicago, IL",a big city,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Midwest,IL,0
+prospects-0043,25-34,man,"$60,000-$99,999","Kutztown, PA",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0044,25-34,woman,"$60,000-$99,999","Brooklyn Park, MN",a big city,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,MN,0
+prospects-0045,45-54,man,"$100,000-$149,999","Portsmouth, VA",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,VA,0
+prospects-0046,55-64,woman,"$60,000-$99,999","Phoenixville, PA",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Northeast,PA,0
+prospects-0047,55-64,man,"under $35,000","Littleton, CO",a suburb,VASA Fitness (2),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CO,2
+prospects-0048,35-44,man,"under $35,000","Daphne, AL",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,AL,0
+prospects-0049,25-34,woman,"under $35,000","Mount Clemens, MI",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,often,0.565989,Midwest,MI,1
+prospects-0050,25-34,man,"$60,000-$99,999","Columbus, OH",a big city,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,OH,1
+prospects-0051,25-34,woman,"under $35,000","Shepherdsville, KY",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,KY,0
+prospects-0052,35-44,woman,"$60,000-$99,999","Casa Grande, AZ",a suburb,EoS Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,West,AZ,1
+prospects-0053,25-34,woman,"$60,000-$99,999","Las Vegas, NV",a big city,EoS Fitness (2),former Planet Fitness member,alone,rarely,0.565989,West,NV,2
+prospects-0054,25-34,woman,"$100,000-$149,999","Reno, NV",a suburb,none,former Planet Fitness member,alone,often,1.434011,West,NV,0
+prospects-0055,45-54,man,"$150,000 or more","Boerne, TX",a small town or rural area,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,South,TX,0
+prospects-0056,25-34,woman,"$150,000 or more","Hayward, CA",a big city,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,often,0.565989,West,CA,1
+prospects-0057,25-34,man,"$150,000 or more","Sacramento, CA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,West,CA,0
+prospects-0058,35-44,man,"$150,000 or more","South Jordan, UT",a suburb,"EoS Fitness (1), VASA Fitness (2)",former Planet Fitness member,with a friend or partner,rarely,0.565989,West,UT,3
+prospects-0059,18-24,woman,"under $35,000","Clinton Township, MI",a suburb,Crunch Fitness (2),has never belonged to a gym,alone,rarely,0.565989,Midwest,MI,2
+prospects-0060,18-24,man,"$150,000 or more","Jacksonville, FL",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,FL,0
+prospects-0061,45-54,man,"under $35,000","Biloxi, MS",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,MS,1
+prospects-0062,18-24,man,"$150,000 or more","Lincoln, NE",a suburb,VASA Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Midwest,NE,1
+prospects-0063,25-34,man,"$100,000-$149,999","Lebanon, PA",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Northeast,PA,0
+prospects-0064,25-34,woman,"under $35,000","Chicago, IL",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,IL,0
+prospects-0065,18-24,woman,"under $35,000","Hammonton, NJ",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,NJ,0
+prospects-0066,55-64,man,"$35,000-$59,999","Round Rock, TX",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,TX,1
+prospects-0067,45-54,woman,"$60,000-$99,999","Dewitt, NY",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,NY,1
+prospects-0068,55-64,man,"under $35,000","Albuquerque, NM",a big city,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,NM,1
+prospects-0069,18-24,woman,"under $35,000","Jacksonville, FL",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,FL,1
+prospects-0070,18-24,woman,"$100,000-$149,999","Joplin, MO",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,MO,0
+prospects-0071,55-64,woman,"$60,000-$99,999","Woodinville, WA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,West,WA,0
+prospects-0072,25-34,man,"$60,000-$99,999","Lapeer, MI",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,MI,0
+prospects-0073,65+,woman,"$35,000-$59,999","East Hanover, NJ",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NJ,1
+prospects-0074,35-44,man,"$100,000-$149,999","Louisville, KY",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,South,KY,1
+prospects-0075,45-54,woman,"$150,000 or more","Baytown, TX",a suburb,EoS Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,TX,1
+prospects-0076,35-44,woman,"$35,000-$59,999","Augusta, GA",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,GA,0
+prospects-0077,55-64,man,"$150,000 or more","North Babylon, NY",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Northeast,NY,1
+prospects-0078,25-34,woman,"$60,000-$99,999","Vestavia Hills, AL",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,South,AL,1
+prospects-0079,45-54,woman,"$60,000-$99,999","Spartanburg, SC",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,SC,0
+prospects-0080,65+,woman,"$35,000-$59,999","Waterville, ME",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,ME,0
+prospects-0081,65+,woman,"$150,000 or more","Watertown, MA",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,MA,0
+prospects-0082,25-34,woman,"$150,000 or more","Little Ferry, NJ",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,NJ,1
+prospects-0083,25-34,woman,"$35,000-$59,999","San Bernardino, CA",a suburb,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,West,CA,1
+prospects-0084,25-34,man,"$60,000-$99,999","Rowland Heights, CA",a big city,none,former Planet Fitness member,alone,sometimes,1.434011,West,CA,0
+prospects-0085,45-54,man,"$100,000-$149,999","West Seneca, NY",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,Northeast,NY,1
+prospects-0086,25-34,man,"$150,000 or more","St. Paul, MN",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,MN,0
+prospects-0087,18-24,man,"$150,000 or more","Merrimack, NH",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,NH,0
+prospects-0088,45-54,woman,"under $35,000","Winston-Salem, NC",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,NC,0
+prospects-0089,25-34,man,"$100,000-$149,999","Bloomingdale, IL",a big city,VASA Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,Midwest,IL,1
+prospects-0090,35-44,woman,"$150,000 or more","Morris Plains, NJ",a suburb,Crunch Fitness (2),currently belongs to another gym,alone,rarely,0.565989,Northeast,NJ,2
+prospects-0091,55-64,woman,"$150,000 or more","Glenview, IL",a big city,VASA Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Midwest,IL,1
+prospects-0092,55-64,woman,"under $35,000","Mableton, GA",a suburb,EoS Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,GA,1
+prospects-0093,18-24,man,"$35,000-$59,999","Springfield, MO",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,MO,0
+prospects-0094,25-34,woman,"$100,000-$149,999","Sugarcreek Township, OH",a suburb,VASA Fitness (1),has never belonged to a gym,alone,often,0.565989,Midwest,OH,1
+prospects-0095,25-34,man,"$60,000-$99,999","Columbus, MS",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,South,MS,0
+prospects-0096,18-24,man,"$150,000 or more","Marshall, TX",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,South,TX,0
+prospects-0097,45-54,woman,"$100,000-$149,999","Humble, TX",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,South,TX,0
+prospects-0098,18-24,woman,"$60,000-$99,999","Memphis, TN",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,TN,0
+prospects-0099,35-44,man,"$35,000-$59,999","Latrobe, PA",a small town or rural area,none,former Planet Fitness member,alone,often,1.434011,Northeast,PA,0
+prospects-0100,18-24,woman,"$150,000 or more","Centerville, OH",a suburb,VASA Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,OH,1
+prospects-0101,25-34,man,"$150,000 or more","Lacey, WA",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,WA,1
+prospects-0102,25-34,man,"$60,000-$99,999","Encino, CA",a big city,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,West,CA,1
+prospects-0103,25-34,man,"$100,000-$149,999","Richmond, VA",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,VA,1
+prospects-0104,35-44,man,"$60,000-$99,999","Downey, CA",a big city,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,West,CA,1
+prospects-0105,35-44,woman,"$150,000 or more","Laguna Niguel, CA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,West,CA,0
+prospects-0106,25-34,man,"$60,000-$99,999","Roswell, GA",a suburb,"Crunch Fitness (2), EoS Fitness (2)",belonged to another gym in the past,with a friend or partner,often,0.565989,South,GA,4
+prospects-0107,25-34,man,"$60,000-$99,999","Colorado Springs, CO",a suburb,"Crunch Fitness (1), VASA Fitness (2)",has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CO,3
+prospects-0108,18-24,woman,"under $35,000","Tampa, FL",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,FL,0
+prospects-0109,65+,woman,"$35,000-$59,999","Chicago, IL",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,IL,0
+prospects-0110,55-64,man,"$150,000 or more","Nashville, TN",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,South,TN,0
+prospects-0111,18-24,woman,"$35,000-$59,999","Newington, CT",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Northeast,CT,1
+prospects-0112,25-34,man,"$100,000-$149,999","Baldwinsville, NY",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,NY,0
+prospects-0113,45-54,man,"$60,000-$99,999","Sanford, NC",a small town or rural area,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,South,NC,0
+prospects-0114,45-54,woman,"$150,000 or more","Miami, FL",a suburb,EoS Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,FL,1
+prospects-0115,45-54,man,"$60,000-$99,999","Miami, FL",a big city,none,belonged to another gym in the past,alone,rarely,1.434011,South,FL,0
+prospects-0116,25-34,woman,"$60,000-$99,999","Hilliard, OH",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,sometimes,0.565989,Midwest,OH,1
+prospects-0117,45-54,man,"under $35,000","Johnstown, PA",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,PA,0
+prospects-0118,65+,man,"$35,000-$59,999","Grants Pass, OR",a small town or rural area,none,former Planet Fitness member,alone,often,1.434011,West,OR,0
+prospects-0119,18-24,woman,"$150,000 or more","Ypsilanti, MI",a suburb,"Crunch Fitness (1), VASA Fitness (1)",belonged to another gym in the past,alone,sometimes,0.565989,Midwest,MI,2
+prospects-0120,25-34,woman,"$100,000-$149,999","Lake Zurich, IL",a suburb,none,has never belonged to a gym,alone,often,1.434011,Midwest,IL,0
+prospects-0121,18-24,man,"$60,000-$99,999","Tonawanda, NY",a big city,Crunch Fitness (2),former Planet Fitness member,with a friend or partner,sometimes,0.565989,Northeast,NY,2
+prospects-0122,35-44,man,"$35,000-$59,999","Las Vegas, NV",a suburb,EoS Fitness (2),has never belonged to a gym,with a friend or partner,rarely,0.565989,West,NV,2
+prospects-0123,55-64,woman,"$150,000 or more","St. Charles, IL",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Midwest,IL,0
+prospects-0124,55-64,woman,"under $35,000","Meriden, CT",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Northeast,CT,0
+prospects-0125,18-24,man,"$150,000 or more","Mantua, NJ",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,Northeast,NJ,1
+prospects-0126,65+,woman,"$60,000-$99,999","Colorado Springs, CO",a suburb,"Crunch Fitness (1), VASA Fitness (1)",belonged to another gym in the past,with a friend or partner,often,0.565989,West,CO,2
+prospects-0127,65+,woman,"$100,000-$149,999","Palm Harbor, FL",a suburb,"Crunch Fitness (1), EoS Fitness (2)",has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,3
+prospects-0128,55-64,man,"$150,000 or more","Ballwin, MO",a suburb,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,Midwest,MO,0
+prospects-0129,25-34,woman,"$150,000 or more","Buena Park, CA",a big city,"Crunch Fitness (3), EoS Fitness (5)",has never belonged to a gym,alone,sometimes,0.565989,West,CA,8
+prospects-0130,18-24,woman,"under $35,000","Waukesha, WI",a suburb,none,former Planet Fitness member,alone,often,1.434011,Midwest,WI,0
+prospects-0131,65+,man,"$60,000-$99,999","Georgetown, KY",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,South,KY,0
+prospects-0132,65+,man,"$100,000-$149,999","Ocala, FL",a suburb,none,former Planet Fitness member,alone,often,1.434011,South,FL,0
+prospects-0133,25-34,woman,"$35,000-$59,999","Fort Myers, FL",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,FL,1
+prospects-0134,18-24,woman,"under $35,000","Chapel Hill, NC",a small town or rural area,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,South,NC,0
+prospects-0135,18-24,woman,"$150,000 or more","Amesbury, MA",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,MA,0
+prospects-0136,35-44,woman,"$150,000 or more","Gilbert, AZ",a suburb,"Crunch Fitness (1), EoS Fitness (3)",has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,AZ,4
+prospects-0137,18-24,woman,"under $35,000","Columbus, OH",a big city,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,OH,1
+prospects-0138,25-34,woman,"under $35,000","Shelbyville, TN",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,South,TN,0
+prospects-0139,25-34,woman,"$100,000-$149,999","Worcester, MA",a big city,Crunch Fitness (2),former Planet Fitness member,alone,rarely,0.565989,Northeast,MA,2
+prospects-0140,18-24,woman,"$150,000 or more","El Monte, CA",a big city,EoS Fitness (2),currently belongs to another gym,with a friend or partner,rarely,0.565989,West,CA,2
+prospects-0141,65+,man,"$35,000-$59,999","Dearborn, MI",a big city,"Crunch Fitness (1), VASA Fitness (1)",has never belonged to a gym,alone,sometimes,0.565989,Midwest,MI,2
+prospects-0142,45-54,man,"under $35,000","Fredericksburg, VA",a suburb,none,belonged to another gym in the past,alone,sometimes,1.434011,South,VA,0
+prospects-0143,35-44,man,"$150,000 or more","Barnegat, NJ",a suburb,none,belonged to another gym in the past,with a friend or partner,often,1.434011,Northeast,NJ,0
+prospects-0144,18-24,man,"$60,000-$99,999","Wadsworth, OH",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,OH,0
+prospects-0145,55-64,man,"$100,000-$149,999","Ephrata, PA",a small town or rural area,none,currently belongs to another gym,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0146,35-44,woman,"$60,000-$99,999","Coconut Creek, FL",a big city,EoS Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,FL,1
+prospects-0147,65+,woman,"$100,000-$149,999","Torrance, CA",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,West,CA,0
+prospects-0148,55-64,woman,"$35,000-$59,999","Garland, TX",a big city,none,currently belongs to another gym,alone,rarely,1.434011,South,TX,0
+prospects-0149,55-64,man,"$35,000-$59,999","Kansas City, MO",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,MO,0
+prospects-0150,18-24,man,"$150,000 or more","Baton Rouge, LA",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,LA,1
+prospects-0151,25-34,woman,"under $35,000","Aiken, SC",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,South,SC,0
+prospects-0152,25-34,woman,"under $35,000","Valdosta, GA",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,GA,0
+prospects-0153,45-54,man,"under $35,000","Effingham, IL",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,IL,0
+prospects-0154,45-54,man,"under $35,000","Kingston, NY",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Northeast,NY,0
+prospects-0155,65+,man,"$100,000-$149,999","Coconut Creek, FL",a big city,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,2
+prospects-0156,18-24,man,"$60,000-$99,999","Tempe, AZ",a big city,EoS Fitness (4),has never belonged to a gym,alone,rarely,0.565989,West,AZ,4
+prospects-0157,18-24,man,"under $35,000","Corpus Christi, TX",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,South,TX,1
+prospects-0158,25-34,man,"$150,000 or more","Sacramento, CA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,West,CA,1
+prospects-0159,25-34,man,"under $35,000","New York, NY",a big city,Crunch Fitness (18),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NY,18
+prospects-0160,18-24,man,"$60,000-$99,999","Mission, KS",a big city,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,Midwest,KS,0
+prospects-0161,35-44,man,"$35,000-$59,999","Coachella, CA",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,West,CA,0
+prospects-0162,35-44,woman,"$60,000-$99,999","Largo, FL",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,South,FL,1
+prospects-0163,55-64,man,"under $35,000","Cincinnati, OH",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,Midwest,OH,1
+prospects-0164,18-24,woman,"under $35,000","Webster, TX",a suburb,"Crunch Fitness (1), EoS Fitness (2)",belonged to another gym in the past,with a friend or partner,rarely,0.565989,South,TX,3
+prospects-0165,45-54,woman,"$60,000-$99,999","St. Cloud, FL",a suburb,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,FL,1
+prospects-0166,45-54,woman,"$150,000 or more","Edison, NJ",a big city,none,belonged to another gym in the past,alone,often,1.434011,Northeast,NJ,0
+prospects-0167,25-34,woman,"$35,000-$59,999","Durham, NC",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,NC,0
+prospects-0168,45-54,man,"$100,000-$149,999","Belvidere, IL",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,IL,0
+prospects-0169,25-34,man,"under $35,000","Fremont, NE",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,NE,0
+prospects-0170,18-24,man,"$150,000 or more","Crown Point, IN",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,IN,0
+prospects-0171,18-24,woman,"under $35,000","New York, NY",a big city,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,Northeast,NY,1
+prospects-0172,35-44,man,"$60,000-$99,999","Shrewsbury, MO",a big city,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,MO,0
+prospects-0173,45-54,man,"$60,000-$99,999","North Charleston, SC",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,SC,1
+prospects-0174,25-34,man,"$100,000-$149,999","San Diego, CA",a big city,Crunch Fitness (2),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,CA,2
+prospects-0175,18-24,man,"$100,000-$149,999","Abilene, TX",a small town or rural area,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,TX,1
+prospects-0176,25-34,man,"$60,000-$99,999","Belton, MO",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Midwest,MO,0
+prospects-0177,65+,woman,"$35,000-$59,999","Northridge, CA",a big city,"Crunch Fitness (2), EoS Fitness (1)",belonged to another gym in the past,with a friend or partner,sometimes,0.565989,West,CA,3
+prospects-0178,25-34,woman,"$150,000 or more","Clearwater, FL",a big city,none,has never belonged to a gym,alone,rarely,1.434011,South,FL,0
+prospects-0179,45-54,man,"$35,000-$59,999","Harrisburg, PA",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Northeast,PA,1
+prospects-0180,18-24,woman,"$150,000 or more","Fairfax, VA",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,South,VA,0
+prospects-0181,25-34,man,"under $35,000","Wilkes-Barre, PA",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Northeast,PA,1
+prospects-0182,55-64,woman,"$150,000 or more","Carle Place, NY",a big city,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,Northeast,NY,1
+prospects-0183,35-44,woman,"$150,000 or more","West Chester Township, OH",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Midwest,OH,0
+prospects-0184,35-44,woman,"$35,000-$59,999","Temecula, CA",a suburb,EoS Fitness (2),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CA,2
+prospects-0185,18-24,man,"$60,000-$99,999","Mckeesport, PA",a suburb,none,has never belonged to a gym,alone,often,1.434011,Northeast,PA,0
+prospects-0186,55-64,man,"$60,000-$99,999","Hammond, IN",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,IN,0
+prospects-0187,18-24,woman,"$150,000 or more","Honolulu, HI",a big city,none,has never belonged to a gym,alone,rarely,1.434011,West,HI,0
+prospects-0188,35-44,man,"$60,000-$99,999","Newport News, VA",a suburb,none,has never belonged to a gym,alone,often,1.434011,South,VA,0
+prospects-0189,45-54,woman,"$150,000 or more","Great Falls, MT",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,West,MT,0
+prospects-0190,35-44,man,"$100,000-$149,999","Hyde Park, MA",a big city,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,Northeast,MA,1
+prospects-0191,45-54,woman,"$35,000-$59,999","Coral Springs, FL",a suburb,EoS Fitness (2),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,2
+prospects-0192,25-34,man,"$100,000-$149,999","Newport, KY",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,KY,1
+prospects-0193,35-44,man,"$100,000-$149,999","Charlotte, NC",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,NC,1
+prospects-0194,18-24,man,"$60,000-$99,999","Monaca, PA",a suburb,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,Northeast,PA,0
+prospects-0195,35-44,woman,"$100,000-$149,999","Olathe, KS",a suburb,none,former Planet Fitness member,alone,often,1.434011,Midwest,KS,0
+prospects-0196,35-44,woman,"$60,000-$99,999","Arlington Heights, IL",a big city,"Crunch Fitness (2), VASA Fitness (1)",currently belongs to another gym,alone,sometimes,0.565989,Midwest,IL,3
+prospects-0197,65+,man,"$60,000-$99,999","Carmel, IN",a suburb,none,belonged to another gym in the past,alone,sometimes,1.434011,Midwest,IN,0
+prospects-0198,35-44,woman,"under $35,000","Muncie, IN",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,Midwest,IN,0
+prospects-0199,45-54,man,"$60,000-$99,999","Phenix City, AL",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,South,AL,0
+prospects-0200,18-24,man,"under $35,000","Belchertown, MA",a small town or rural area,none,currently belongs to another gym,alone,sometimes,1.434011,Northeast,MA,0
+prospects-0201,25-34,man,"$60,000-$99,999","Dallas, TX",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,TX,0
+prospects-0202,25-34,woman,"$100,000-$149,999","Lakeland, FL",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,South,FL,0
+prospects-0203,55-64,man,"$60,000-$99,999","Chula Vista, CA",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,CA,1
+prospects-0204,45-54,man,"$100,000-$149,999","Norman, OK",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,OK,1
+prospects-0205,65+,woman,"$35,000-$59,999","Las Vegas, NV",a big city,EoS Fitness (4),currently belongs to another gym,alone,sometimes,0.565989,West,NV,4
+prospects-0206,45-54,woman,"$150,000 or more","New York, NY",a big city,Crunch Fitness (17),has never belonged to a gym,alone,sometimes,0.565989,Northeast,NY,17
+prospects-0207,25-34,woman,"under $35,000","Mesa, AZ",a big city,EoS Fitness (4),belonged to another gym in the past,alone,rarely,0.565989,West,AZ,4
+prospects-0208,65+,man,"under $35,000","Elyria, OH",a suburb,none,has never belonged to a gym,alone,often,1.434011,Midwest,OH,0
+prospects-0209,18-24,man,"$35,000-$59,999","Chino, CA",a big city,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,alone,sometimes,0.565989,West,CA,2
+prospects-0210,18-24,woman,"$150,000 or more","Jupiter, FL",a suburb,EoS Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,FL,1
+prospects-0211,35-44,man,"$35,000-$59,999","Fresno, CA",a big city,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,CA,1
+prospects-0212,65+,man,"$150,000 or more","Levittown, NY",a big city,Crunch Fitness (2),has never belonged to a gym,alone,sometimes,0.565989,Northeast,NY,2
+prospects-0213,35-44,man,"$100,000-$149,999","Cedar Falls, IA",a small town or rural area,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Midwest,IA,0
+prospects-0214,18-24,woman,"$150,000 or more","Peru, IL",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,IL,0
+prospects-0215,25-34,man,"under $35,000","Boise, ID",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,West,ID,1
+prospects-0216,25-34,man,"$60,000-$99,999","Addison, IL",a big city,VASA Fitness (2),has never belonged to a gym,alone,rarely,0.565989,Midwest,IL,2
+prospects-0217,25-34,man,"$60,000-$99,999","Denton, TX",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,TX,0
+prospects-0218,25-34,woman,"$60,000-$99,999","Memphis, TN",a suburb,none,former Planet Fitness member,alone,often,1.434011,South,TN,0
+prospects-0219,25-34,man,"$150,000 or more","White Plains, NY",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Northeast,NY,1
+prospects-0220,65+,woman,"$35,000-$59,999","Oneida, NY",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Northeast,NY,0
+prospects-0221,35-44,man,"$150,000 or more","Oregon, OH",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,OH,0
+prospects-0222,18-24,man,"under $35,000","Bronx, NY",a big city,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,often,0.565989,Northeast,NY,1
+prospects-0223,55-64,woman,"$35,000-$59,999","Westminster, CO",a big city,VASA Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,West,CO,1
+prospects-0224,25-34,woman,"$150,000 or more","Los Angeles, CA",a big city,EoS Fitness (2),has never belonged to a gym,alone,sometimes,0.565989,West,CA,2
+prospects-0225,18-24,man,"$150,000 or more","Las Vegas, NV",a suburb,EoS Fitness (3),currently belongs to another gym,with a friend or partner,rarely,0.565989,West,NV,3
+prospects-0226,25-34,man,"$100,000-$149,999","Levittown, PA",a suburb,Crunch Fitness (2),belonged to another gym in the past,alone,rarely,0.565989,Northeast,PA,2
+prospects-0227,25-34,man,"$150,000 or more","Hobbs, NM",a small town or rural area,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,West,NM,0
+prospects-0228,45-54,woman,"$100,000-$149,999","Warner Robins, GA",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,South,GA,1
+prospects-0229,25-34,man,"$60,000-$99,999","Salt Lake City, UT",a big city,"EoS Fitness (3), VASA Fitness (3)",belonged to another gym in the past,alone,rarely,0.565989,West,UT,6
+prospects-0230,45-54,man,"$100,000-$149,999","Westerville, OH",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Midwest,OH,0
+prospects-0231,18-24,woman,"$150,000 or more","Ocean City, MD",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,MD,0
+prospects-0232,18-24,man,"$35,000-$59,999","Indianapolis, IN",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,IN,0
+prospects-0233,18-24,man,"$60,000-$99,999","Marlborough, MA",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,Northeast,MA,1
+prospects-0234,35-44,woman,"$100,000-$149,999","East Hartford, CT",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,CT,1
+prospects-0235,25-34,man,"$60,000-$99,999","Arlington, TX",a big city,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,with a friend or partner,rarely,0.565989,South,TX,2
+prospects-0236,65+,man,"$150,000 or more","San Antonio, TX",a suburb,EoS Fitness (1),currently belongs to another gym,with a friend or partner,sometimes,0.565989,South,TX,1
+prospects-0237,18-24,woman,"$35,000-$59,999","Auburn, ME",a suburb,none,currently belongs to another gym,with a friend or partner,sometimes,1.434011,Northeast,ME,0
+prospects-0238,45-54,woman,"$100,000-$149,999","Hoboken, NJ",a big city,Crunch Fitness (16),former Planet Fitness member,alone,rarely,0.565989,Northeast,NJ,16
+prospects-0239,18-24,woman,"$35,000-$59,999","Commack, NY",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NY,1
+prospects-0240,35-44,woman,"under $35,000","Richmond, KY",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,KY,0
+prospects-0241,25-34,man,"$60,000-$99,999","Phoenix, AZ",a big city,EoS Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,West,AZ,1
+prospects-0242,55-64,man,"$60,000-$99,999","Royersford, PA",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,PA,0
+prospects-0243,18-24,woman,"$100,000-$149,999","Castle Rock, CO",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,West,CO,0
+prospects-0244,45-54,man,"$150,000 or more","Covington, GA",a small town or rural area,none,belonged to another gym in the past,alone,often,1.434011,South,GA,0
+prospects-0245,25-34,man,"$150,000 or more","Buckeye, AZ",a suburb,EoS Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,West,AZ,1
+prospects-0246,25-34,man,"$60,000-$99,999","Columbia, SC",a suburb,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,South,SC,0
+prospects-0247,25-34,woman,"under $35,000","Santa Maria, CA",a small town or rural area,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,West,CA,1
+prospects-0248,45-54,man,"under $35,000","Yonkers, NY",a big city,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,Northeast,NY,1
+prospects-0249,55-64,woman,"$100,000-$149,999","Martinez, GA",a suburb,none,belonged to another gym in the past,alone,sometimes,1.434011,South,GA,0
+prospects-0250,25-34,man,"$35,000-$59,999","Lake Orion, MI",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Midwest,MI,0
+prospects-0251,45-54,man,"$150,000 or more","Hampton, VA",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,VA,0
+prospects-0252,35-44,man,"$100,000-$149,999","Brooklyn, NY",a big city,Crunch Fitness (6),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,6
+prospects-0253,55-64,woman,"$100,000-$149,999","Sarasota, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",former Planet Fitness member,alone,sometimes,0.565989,South,FL,2
+prospects-0254,55-64,woman,"under $35,000","Chicago, IL",a big city,none,former Planet Fitness member,alone,often,1.434011,Midwest,IL,0
+prospects-0255,45-54,man,"$60,000-$99,999","East Orange, NJ",a big city,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,NJ,0
+prospects-0256,45-54,man,"$100,000-$149,999","Jamaica, NY",a big city,Crunch Fitness (2),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NY,2
+prospects-0257,25-34,man,"$100,000-$149,999","Hiram, GA",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,GA,1
+prospects-0258,35-44,man,"$60,000-$99,999","Victoria, TX",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,TX,0
+prospects-0259,18-24,woman,"$60,000-$99,999","Rome, GA",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,GA,0
+prospects-0260,35-44,woman,"$60,000-$99,999","Baltimore, MD",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,MD,1
+prospects-0261,18-24,woman,"$35,000-$59,999","Crossville, TN",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,South,TN,0
+prospects-0262,25-34,man,"under $35,000","Brooksville, FL",a small town or rural area,EoS Fitness (1),currently belongs to another gym,alone,rarely,0.565989,South,FL,1
+prospects-0263,65+,man,"$150,000 or more","Chicago, IL",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,IL,0
+prospects-0264,45-54,woman,"$150,000 or more","Milton, GA",a suburb,EoS Fitness (1),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,South,GA,1
+prospects-0265,35-44,woman,"$100,000-$149,999","St. Peters, MO",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,MO,0
+prospects-0266,55-64,man,"$60,000-$99,999","Akron, OH",a suburb,none,former Planet Fitness member,alone,often,1.434011,Midwest,OH,0
+prospects-0267,45-54,woman,"$150,000 or more","Apopka, FL",a suburb,none,currently belongs to another gym,alone,sometimes,1.434011,South,FL,0
+prospects-0268,55-64,woman,"$150,000 or more","Sandy Springs, GA",a big city,"Crunch Fitness (1), EoS Fitness (1)",former Planet Fitness member,with a friend or partner,often,0.565989,South,GA,2
+prospects-0269,45-54,woman,"$150,000 or more","Bronx, NY",a big city,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,Northeast,NY,1
+prospects-0270,18-24,woman,"$35,000-$59,999","Phoenix, AZ",a big city,"EoS Fitness (2), VASA Fitness (1)",former Planet Fitness member,alone,often,0.565989,West,AZ,3
+prospects-0271,25-34,man,"$60,000-$99,999","Las Vegas, NV",a big city,EoS Fitness (4),former Planet Fitness member,alone,rarely,0.565989,West,NV,4
+prospects-0272,35-44,woman,"$100,000-$149,999","Carolina, PR",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,PR,1
+prospects-0273,25-34,man,"under $35,000","Wilmington, OH",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,OH,0
+prospects-0274,25-34,woman,"$60,000-$99,999","Jacksonville, FL",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,South,FL,0
+prospects-0275,35-44,woman,"$60,000-$99,999","Brattleboro, VT",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,VT,0
+prospects-0276,18-24,woman,"$150,000 or more","Plattsburgh, NY",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,NY,0
+prospects-0277,25-34,man,"$35,000-$59,999","Shreveport, LA",a suburb,none,former Planet Fitness member,with a friend or partner,often,1.434011,South,LA,0
+prospects-0278,35-44,woman,"$35,000-$59,999","Warwick, RI",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,RI,0
+prospects-0279,35-44,man,"$100,000-$149,999","Scottsdale, AZ",a suburb,EoS Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,AZ,1
+prospects-0280,25-34,man,"under $35,000","Albuquerque, NM",a big city,none,has never belonged to a gym,alone,rarely,1.434011,West,NM,0
+prospects-0281,18-24,man,"under $35,000","El Paso, TX",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,TX,0
+prospects-0282,25-34,woman,"$150,000 or more","Broomfield, CO",a suburb,VASA Fitness (2),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CO,2
+prospects-0283,35-44,woman,"$150,000 or more","Houston, TX",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,often,0.565989,South,TX,1
+prospects-0284,55-64,man,"$35,000-$59,999","Leander, TX",a suburb,none,currently belongs to another gym,alone,sometimes,1.434011,South,TX,0
+prospects-0285,18-24,woman,"$35,000-$59,999","Mobile, AL",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,South,AL,0
+prospects-0286,18-24,man,"$150,000 or more","Fairfield, CT",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Northeast,CT,0
+prospects-0287,18-24,man,"$150,000 or more","Colorado Springs, CO",a suburb,"Crunch Fitness (1), VASA Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CO,2
+prospects-0288,18-24,man,"$35,000-$59,999","Hialeah, FL",a big city,none,has never belonged to a gym,alone,rarely,1.434011,South,FL,0
+prospects-0289,25-34,man,"under $35,000","Brooklyn, NY",a big city,Crunch Fitness (7),former Planet Fitness member,alone,sometimes,0.565989,Northeast,NY,7
+prospects-0290,25-34,woman,"$35,000-$59,999","Medford, OR",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,West,OR,0
+prospects-0291,45-54,man,"$60,000-$99,999","Campbellsville, KY",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,KY,0
+prospects-0292,35-44,woman,"$60,000-$99,999","Newark, DE",a suburb,none,belonged to another gym in the past,alone,often,1.434011,South,DE,0
+prospects-0293,18-24,woman,"$150,000 or more","Birmingham, AL",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,AL,0
+prospects-0294,25-34,man,"$150,000 or more","Chicopee, MA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,MA,0
+prospects-0295,55-64,woman,"$35,000-$59,999","West Valley City, UT",a big city,"EoS Fitness (1), VASA Fitness (3)",belonged to another gym in the past,alone,rarely,0.565989,West,UT,4
+prospects-0296,18-24,man,"under $35,000","Champaign, IL",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,Midwest,IL,1
+prospects-0297,25-34,woman,"$35,000-$59,999","Phoenix, AZ",a big city,"EoS Fitness (5), VASA Fitness (1)",belonged to another gym in the past,alone,rarely,0.565989,West,AZ,6
+prospects-0298,18-24,man,"under $35,000","Syracuse, NY",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,often,0.565989,Northeast,NY,1
+prospects-0299,18-24,man,"under $35,000","Kahului, HI",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,West,HI,0
+prospects-0300,65+,man,"under $35,000","San Dimas, CA",a suburb,Crunch Fitness (2),currently belongs to another gym,alone,sometimes,0.565989,West,CA,2
+prospects-0301,35-44,woman,"under $35,000","Orange Park, FL",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,FL,1
+prospects-0302,35-44,man,"$35,000-$59,999","Rochester Hills, MI",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Midwest,MI,0
+prospects-0303,55-64,man,"$150,000 or more","Avondale, AZ",a suburb,"Crunch Fitness (1), EoS Fitness (1)",former Planet Fitness member,alone,sometimes,0.565989,West,AZ,2
+prospects-0304,18-24,man,"under $35,000","Baltimore, MD",a big city,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,MD,1
+prospects-0305,65+,woman,"under $35,000","Ewing, NJ",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,sometimes,0.565989,Northeast,NJ,1
+prospects-0306,35-44,woman,"$60,000-$99,999","Hendersonville, TN",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,often,0.565989,South,TN,1
+prospects-0307,55-64,man,"under $35,000","New Castle, PA",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Northeast,PA,0
+prospects-0308,18-24,woman,"$150,000 or more","Bellflower, CA",a big city,"Crunch Fitness (3), EoS Fitness (2)",belonged to another gym in the past,with a friend or partner,sometimes,0.565989,West,CA,5
+prospects-0309,55-64,woman,"$35,000-$59,999","Springfield, PA",a big city,none,belonged to another gym in the past,alone,rarely,1.434011,Northeast,PA,0
+prospects-0310,55-64,man,"$100,000-$149,999","Seattle, WA",a big city,none,has never belonged to a gym,alone,sometimes,1.434011,West,WA,0
+prospects-0311,25-34,woman,"$100,000-$149,999","Delran, NJ",a big city,Crunch Fitness (3),has never belonged to a gym,alone,sometimes,0.565989,Northeast,NJ,3
+prospects-0312,18-24,man,"$60,000-$99,999","Tampa, FL",a big city,Crunch Fitness (3),former Planet Fitness member,alone,rarely,0.565989,South,FL,3
+prospects-0313,35-44,man,"under $35,000","Houston, TX",a big city,EoS Fitness (2),former Planet Fitness member,alone,often,0.565989,South,TX,2
+prospects-0314,35-44,woman,"$150,000 or more","Hauppauge, NY",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,Northeast,NY,1
+prospects-0315,45-54,man,"$60,000-$99,999","Orlando, FL",a big city,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,FL,1
+prospects-0316,25-34,woman,"$35,000-$59,999","La Vergne, TN",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,TN,0
+prospects-0317,35-44,man,"$150,000 or more","Omaha, NE",a suburb,"Crunch Fitness (1), VASA Fitness (1)",currently belongs to another gym,with a friend or partner,rarely,0.565989,Midwest,NE,2
+prospects-0318,35-44,woman,"$150,000 or more","Elk River, MN",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,Midwest,MN,0
+prospects-0319,18-24,woman,"$35,000-$59,999","Riverside, CA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,West,CA,0
+prospects-0320,18-24,man,"under $35,000","Rincon, GA",a small town or rural area,none,belonged to another gym in the past,alone,often,1.434011,South,GA,0
+prospects-0321,18-24,woman,"$35,000-$59,999","Petaluma, CA",a small town or rural area,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,West,CA,0
+prospects-0322,45-54,woman,"$60,000-$99,999","North Kingstown, RI",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,Northeast,RI,0
+prospects-0323,25-34,man,"$150,000 or more","Chandler, AZ",a suburb,"EoS Fitness (4), VASA Fitness (1)",currently belongs to another gym,alone,sometimes,0.565989,West,AZ,5
+prospects-0324,25-34,man,"$100,000-$149,999","Crestwood, IL",a suburb,VASA Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,Midwest,IL,1
+prospects-0325,25-34,woman,"$35,000-$59,999","Wichita Falls, TX",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0326,25-34,woman,"under $35,000","La Quinta, CA",a suburb,EoS Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0327,65+,woman,"$100,000-$149,999","Des Plaines, IL",a big city,"Crunch Fitness (1), VASA Fitness (1)",currently belongs to another gym,alone,rarely,0.565989,Midwest,IL,2
+prospects-0328,45-54,man,"$150,000 or more","Houston, TX",a big city,EoS Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0329,65+,man,"under $35,000","Portland, OR",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,West,OR,0
+prospects-0330,55-64,woman,"$100,000-$149,999","Gardner, MA",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Northeast,MA,0
+prospects-0331,25-34,woman,"$35,000-$59,999","Casper, WY",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,West,WY,0
+prospects-0332,18-24,woman,"$35,000-$59,999","Hermitage, PA",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,PA,0
+prospects-0333,25-34,man,"$35,000-$59,999","Joliet, IL",a suburb,VASA Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,IL,1
+prospects-0334,25-34,man,"$35,000-$59,999","Glen Allen, VA",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,VA,1
+prospects-0335,35-44,man,"$150,000 or more","Haverhill, MA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,MA,0
+prospects-0336,35-44,man,"$150,000 or more","Camarillo, CA",a suburb,EoS Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0337,35-44,man,"$150,000 or more","Waterford, MI",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,Midwest,MI,1
+prospects-0338,35-44,woman,"under $35,000","West Babylon, NY",a suburb,Crunch Fitness (2),has never belonged to a gym,with a friend or partner,rarely,0.565989,Northeast,NY,2
+prospects-0339,25-34,man,"$35,000-$59,999","Bronx, NY",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,NY,1
+prospects-0340,55-64,man,"$35,000-$59,999","Cayce, SC",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,South,SC,0
+prospects-0341,18-24,woman,"$100,000-$149,999","Rochester, NH",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,NH,0
+prospects-0342,25-34,woman,"$60,000-$99,999","Detroit, MI",a big city,"Crunch Fitness (1), VASA Fitness (1)",belonged to another gym in the past,alone,rarely,0.565989,Midwest,MI,2
+prospects-0343,55-64,woman,"$100,000-$149,999","Glenville, NY",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,NY,0
+prospects-0344,65+,man,"$150,000 or more","Scarsdale, NY",a big city,none,belonged to another gym in the past,alone,rarely,1.434011,Northeast,NY,0
+prospects-0345,18-24,man,"$60,000-$99,999","New York, NY",a big city,Crunch Fitness (14),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,14
+prospects-0346,35-44,man,"$35,000-$59,999","Westminster, CO",a suburb,VASA Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CO,1
+prospects-0347,45-54,man,"$100,000-$149,999","Amarillo, TX",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0348,25-34,woman,"under $35,000","Weslaco, TX",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,South,TX,0
+prospects-0349,25-34,man,"$150,000 or more","Eden, NC",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,NC,0
+prospects-0350,18-24,woman,"$60,000-$99,999","Bronx, NY",a big city,Crunch Fitness (3),belonged to another gym in the past,with a friend or partner,often,0.565989,Northeast,NY,3
+prospects-0351,25-34,man,"$60,000-$99,999","San Antonio, TX",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,TX,0
+prospects-0352,45-54,man,"$60,000-$99,999","New York, NY",a big city,Crunch Fitness (19),belonged to another gym in the past,alone,rarely,0.565989,Northeast,NY,19
+prospects-0353,18-24,woman,"under $35,000","Lakewood, CO",a big city,VASA Fitness (2),has never belonged to a gym,alone,rarely,0.565989,West,CO,2
+prospects-0354,25-34,man,"$150,000 or more","Cedar Hill, TX",a suburb,EoS Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0355,25-34,man,"$35,000-$59,999","Manassas, VA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,VA,0
+prospects-0356,45-54,woman,"$35,000-$59,999","Graham, NC",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,NC,0
+prospects-0357,18-24,man,"under $35,000","Mobile, AL",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,AL,1
+prospects-0358,45-54,woman,"under $35,000","Lakewood, CO",a big city,VASA Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,West,CO,1
+prospects-0359,18-24,man,"$60,000-$99,999","Caguas, PR",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,South,PR,1
+prospects-0360,45-54,woman,"under $35,000","Williamsport, PA",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Northeast,PA,0
+prospects-0361,18-24,woman,"$100,000-$149,999","Shawnee, OK",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,South,OK,0
+prospects-0362,45-54,woman,"under $35,000","Hamburg, NY",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,Northeast,NY,1
+prospects-0363,18-24,woman,"$60,000-$99,999","Canton, GA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,GA,0
+prospects-0364,25-34,man,"$100,000-$149,999","Crystal Lake, IL",a suburb,VASA Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Midwest,IL,1
+prospects-0365,45-54,man,"$150,000 or more","Niagara Falls, NY",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,1
+prospects-0366,25-34,woman,"$35,000-$59,999","Bayonne, NJ",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,often,0.565989,Northeast,NJ,1
+prospects-0367,45-54,woman,"under $35,000","Forest Hills, NY",a big city,Crunch Fitness (2),belonged to another gym in the past,alone,often,0.565989,Northeast,NY,2
+prospects-0368,65+,woman,"$35,000-$59,999","Walnut Creek, CA",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0369,25-34,man,"$60,000-$99,999","North Hollywood, CA",a big city,"Crunch Fitness (2), EoS Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CA,3
+prospects-0370,18-24,man,"under $35,000","Columbia, MO",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,MO,1
+prospects-0371,35-44,man,"under $35,000","Redford, MI",a big city,VASA Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Midwest,MI,1
+prospects-0372,45-54,man,"$60,000-$99,999","Stephenville, TX",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,TX,0
+prospects-0373,18-24,man,"$60,000-$99,999","Bronx, NY",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,NY,1
+prospects-0374,35-44,man,"$35,000-$59,999","Spring, TX",a big city,EoS Fitness (3),former Planet Fitness member,alone,rarely,0.565989,South,TX,3
+prospects-0375,18-24,woman,"$60,000-$99,999","Fresno, CA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,West,CA,1
+prospects-0376,25-34,woman,"$35,000-$59,999","Philadelphia, PA",a big city,Crunch Fitness (2),former Planet Fitness member,alone,often,0.565989,Northeast,PA,2
+prospects-0377,25-34,man,"$150,000 or more","Columbia, MO",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,MO,1
+prospects-0378,55-64,woman,"$100,000-$149,999","Henderson, NV",a suburb,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,West,NV,1
+prospects-0379,35-44,man,"under $35,000","North Attleboro, MA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,MA,0
+prospects-0380,18-24,man,"$60,000-$99,999","Granada Hills, CA",a big city,"Crunch Fitness (1), EoS Fitness (1)",currently belongs to another gym,alone,rarely,0.565989,West,CA,2
+prospects-0381,25-34,woman,"$100,000-$149,999","New Castle, DE",a suburb,none,currently belongs to another gym,with a friend or partner,sometimes,1.434011,South,DE,0
+prospects-0382,65+,man,"$150,000 or more","Sandy, UT",a suburb,"EoS Fitness (2), VASA Fitness (3)",currently belongs to another gym,with a friend or partner,rarely,0.565989,West,UT,5
+prospects-0383,35-44,man,"$150,000 or more","Colorado Springs, CO",a big city,"Crunch Fitness (1), VASA Fitness (2)",currently belongs to another gym,alone,sometimes,0.565989,West,CO,3
+prospects-0384,45-54,man,"$150,000 or more","Westfield, IN",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Midwest,IN,0
+prospects-0385,25-34,man,"$35,000-$59,999","Fountain Valley, CA",a big city,Crunch Fitness (1),currently belongs to another gym,alone,often,0.565989,West,CA,1
+prospects-0386,18-24,woman,"$60,000-$99,999","Foley, AL",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,South,AL,0
+prospects-0387,45-54,man,"$150,000 or more","Rockford, IL",a suburb,VASA Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Midwest,IL,1
+prospects-0388,45-54,man,"$35,000-$59,999","Phoenix, AZ",a big city,"Crunch Fitness (1), EoS Fitness (5), VASA Fitness (2)",former Planet Fitness member,alone,rarely,0.565989,West,AZ,8
+prospects-0389,18-24,woman,"$35,000-$59,999","Orlando, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,alone,sometimes,0.565989,South,FL,2
+prospects-0390,18-24,woman,"$100,000-$149,999","Strongsville, OH",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,OH,0
+prospects-0391,25-34,man,"under $35,000","San Antonio, TX",a big city,EoS Fitness (2),belonged to another gym in the past,with a friend or partner,rarely,0.565989,South,TX,2
+prospects-0392,25-34,woman,"$100,000-$149,999","Lafayette, LA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,LA,0
+prospects-0393,18-24,woman,"$150,000 or more","Pomona, CA",a big city,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,alone,sometimes,0.565989,West,CA,2
+prospects-0394,65+,man,"$100,000-$149,999","Robbinsville, NJ",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,NJ,1
+prospects-0395,25-34,man,"$150,000 or more","Southfield, MI",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,MI,0
+prospects-0396,25-34,woman,"$150,000 or more","Houston, TX",a big city,EoS Fitness (2),belonged to another gym in the past,alone,rarely,0.565989,South,TX,2
+prospects-0397,65+,woman,"$60,000-$99,999","Independence, MO",a suburb,none,currently belongs to another gym,alone,often,1.434011,Midwest,MO,0
+prospects-0398,18-24,woman,"$150,000 or more","Crafton, PA",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Northeast,PA,0
+prospects-0399,35-44,man,"$35,000-$59,999","Miami Gardens, FL",a big city,none,belonged to another gym in the past,with a friend or partner,often,1.434011,South,FL,0
+prospects-0400,65+,man,"$150,000 or more","Kennesaw, GA",a suburb,Crunch Fitness (2),former Planet Fitness member,alone,rarely,0.565989,South,GA,2
+prospects-0401,18-24,man,"$35,000-$59,999","Tullahoma, TN",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,TN,0
+prospects-0402,45-54,woman,"$150,000 or more","Cumming, GA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,GA,0
+prospects-0403,65+,man,"under $35,000","Rocky River, OH",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,OH,0
+prospects-0404,18-24,man,"$150,000 or more","Rocklin, CA",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,CA,1
+prospects-0405,25-34,man,"$35,000-$59,999","Athens, GA",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,South,GA,1
+prospects-0406,65+,woman,"$35,000-$59,999","Houston, TX",a big city,none,has never belonged to a gym,alone,rarely,1.434011,South,TX,0
+prospects-0407,18-24,man,"under $35,000","Norcross, GA",a big city,none,currently belongs to another gym,alone,sometimes,1.434011,South,GA,0
+prospects-0408,18-24,woman,"$150,000 or more","Waukegan, IL",a suburb,VASA Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,IL,1
+prospects-0409,25-34,man,"$60,000-$99,999","Londonderry, NH",a small town or rural area,none,former Planet Fitness member,with a friend or partner,often,1.434011,Northeast,NH,0
+prospects-0410,18-24,woman,"under $35,000","Brook Park, OH",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,OH,0
+prospects-0411,45-54,woman,"$60,000-$99,999","Burton, MI",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,MI,0
+prospects-0412,25-34,woman,"under $35,000","Junction City, KS",a small town or rural area,none,belonged to another gym in the past,alone,often,1.434011,Midwest,KS,0
+prospects-0413,45-54,man,"under $35,000","Clinton, IA",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,IA,0
+prospects-0414,35-44,man,"$100,000-$149,999","Kissimmee, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,2
+prospects-0415,25-34,man,"$100,000-$149,999","Baton Rouge, LA",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,LA,1
+prospects-0416,45-54,woman,"under $35,000","Dyersburg, TN",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,TN,0
+prospects-0417,45-54,woman,"$100,000-$149,999","Greenville, NC",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,NC,0
+prospects-0418,18-24,woman,"$150,000 or more","Porterville, CA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,West,CA,0
+prospects-0419,18-24,woman,"$150,000 or more","Lake Jackson, TX",a small town or rural area,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,South,TX,0
+prospects-0420,18-24,woman,"$100,000-$149,999","Moorestown, NJ",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Northeast,NJ,1
+prospects-0421,45-54,woman,"$100,000-$149,999","Columbia, MD",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,South,MD,0
+prospects-0422,18-24,man,"$35,000-$59,999","Kankakee, IL",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,Midwest,IL,0
+prospects-0423,35-44,woman,"$35,000-$59,999","Nashville, TN",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,South,TN,0
+prospects-0424,25-34,woman,"$150,000 or more","Pembroke Pines, FL",a big city,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,FL,1
+prospects-0425,35-44,woman,"$35,000-$59,999","Murfreesboro, TN",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,TN,1
+prospects-0426,35-44,man,"$35,000-$59,999","New Philadelphia, OH",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Midwest,OH,0
+prospects-0427,18-24,man,"under $35,000","Hummelstown, PA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,PA,0
+prospects-0428,45-54,woman,"$100,000-$149,999","New York, NY",a big city,Crunch Fitness (16),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,16
+prospects-0429,25-34,woman,"under $35,000","Philadelphia, PA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,PA,1
+prospects-0430,35-44,man,"$150,000 or more","Little Rock, AR",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,South,AR,0
+prospects-0431,55-64,man,"under $35,000","Ruston, LA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,LA,0
+prospects-0432,25-34,man,"under $35,000","Muscle Shoals, AL",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,AL,0
+prospects-0433,65+,woman,"$100,000-$149,999","Gretna, LA",a big city,none,former Planet Fitness member,alone,rarely,1.434011,South,LA,0
+prospects-0434,18-24,man,"$60,000-$99,999","Wayne, MI",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,MI,1
+prospects-0435,35-44,man,"$60,000-$99,999","Lake Forest Park, WA",a big city,none,has never belonged to a gym,alone,sometimes,1.434011,West,WA,0
+prospects-0436,35-44,man,"under $35,000","Bartlett, TN",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,sometimes,0.565989,South,TN,1
+prospects-0437,25-34,man,"$150,000 or more","Roswell, GA",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,GA,1
+prospects-0438,25-34,woman,"$60,000-$99,999","Tomball, TX",a suburb,EoS Fitness (2),has never belonged to a gym,with a friend or partner,sometimes,0.565989,South,TX,2
+prospects-0439,35-44,man,"$60,000-$99,999","Yorkville, IL",a small town or rural area,none,has never belonged to a gym,alone,often,1.434011,Midwest,IL,0
+prospects-0440,35-44,woman,"under $35,000","Lake Worth, FL",a big city,EoS Fitness (1),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,South,FL,1
+prospects-0441,65+,man,"$60,000-$99,999","Spindale, NC",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,NC,0
+prospects-0442,45-54,man,"$60,000-$99,999","Jacksonville, FL",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,South,FL,0
+prospects-0443,45-54,man,"$150,000 or more","Painesville Township, OH",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Midwest,OH,0
+prospects-0444,18-24,man,"$100,000-$149,999","Palmdale, CA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,West,CA,0
+prospects-0445,18-24,man,"under $35,000","Iowa City, IA",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Midwest,IA,0
+prospects-0446,65+,woman,"$150,000 or more","Shelby Township, MI",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,MI,0
+prospects-0447,18-24,woman,"$60,000-$99,999","Bellevue, NE",a suburb,VASA Fitness (1),former Planet Fitness member,alone,often,0.565989,Midwest,NE,1
+prospects-0448,25-34,woman,"$35,000-$59,999","Santa Clarita, CA",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,CA,1
+prospects-0449,25-34,man,"under $35,000","Altamonte Springs, FL",a suburb,EoS Fitness (4),belonged to another gym in the past,with a friend or partner,rarely,0.565989,South,FL,4
+prospects-0450,25-34,woman,"under $35,000","Milwaukee, WI",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,WI,0
+prospects-0451,35-44,woman,"$150,000 or more","Centreville, VA",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,VA,0
+prospects-0452,25-34,woman,"under $35,000","Modesto, CA",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,West,CA,0
+prospects-0453,18-24,woman,"$150,000 or more","Katy, TX",a suburb,"Crunch Fitness (1), EoS Fitness (3)",former Planet Fitness member,alone,rarely,0.565989,South,TX,4
+prospects-0454,35-44,woman,"under $35,000","Philadelphia, PA",a big city,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Northeast,PA,0
+prospects-0455,55-64,man,"under $35,000","Citrus Heights, CA",a big city,Crunch Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,West,CA,1
+prospects-0456,45-54,man,"under $35,000","Dover, DE",a small town or rural area,none,currently belongs to another gym,with a friend or partner,often,1.434011,South,DE,0
+prospects-0457,55-64,man,"$60,000-$99,999","Zanesville, OH",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,OH,0
+prospects-0458,45-54,man,"$35,000-$59,999","Lancaster, PA",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Northeast,PA,1
+prospects-0459,35-44,man,"$100,000-$149,999","Knoxville, TN",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,TN,0
+prospects-0460,35-44,woman,"under $35,000","Cincinnati, OH",a suburb,none,has never belonged to a gym,with a friend or partner,often,1.434011,Midwest,OH,0
+prospects-0461,55-64,woman,"$35,000-$59,999","Terre Haute, IN",a suburb,none,belonged to another gym in the past,alone,sometimes,1.434011,Midwest,IN,0
+prospects-0462,55-64,woman,"$35,000-$59,999","Henderson, NC",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,NC,0
+prospects-0463,35-44,woman,"$150,000 or more","Fresno, CA",a big city,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,CA,1
+prospects-0464,45-54,man,"$60,000-$99,999","Lincoln, NE",a suburb,VASA Fitness (1),belonged to another gym in the past,alone,often,0.565989,Midwest,NE,1
+prospects-0465,25-34,woman,"$150,000 or more","Oxnard, CA",a suburb,EoS Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0466,25-34,man,"$35,000-$59,999","Roanoke, VA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,South,VA,0
+prospects-0467,18-24,man,"$35,000-$59,999","Stanton, CA",a big city,"Crunch Fitness (1), EoS Fitness (2)",has never belonged to a gym,alone,rarely,0.565989,West,CA,3
+prospects-0468,25-34,man,"$60,000-$99,999","Shillington, PA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,PA,0
+prospects-0469,35-44,man,"$35,000-$59,999","Montgomery, AL",a small town or rural area,none,former Planet Fitness member,alone,often,1.434011,South,AL,0
+prospects-0470,25-34,man,"$60,000-$99,999","Bronx, NY",a big city,Crunch Fitness (3),has never belonged to a gym,alone,rarely,0.565989,Northeast,NY,3
+prospects-0471,35-44,woman,"$150,000 or more","Cleveland, OH",a big city,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,OH,0
+prospects-0472,18-24,woman,"$150,000 or more","Norfolk, VA",a big city,none,former Planet Fitness member,alone,sometimes,1.434011,South,VA,0
+prospects-0473,25-34,woman,"$60,000-$99,999","Worcester, MA",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,Northeast,MA,1
+prospects-0474,65+,man,"$35,000-$59,999","Louisville, KY",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,often,0.565989,South,KY,1
+prospects-0475,35-44,woman,"$35,000-$59,999","Goshen, IN",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,IN,0
+prospects-0476,25-34,man,"under $35,000","Dundalk, MD",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,MD,1
+prospects-0477,35-44,woman,"$100,000-$149,999","Phoenix, AZ",a big city,"EoS Fitness (4), VASA Fitness (1)",has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,AZ,5
+prospects-0478,55-64,man,"$35,000-$59,999","Clifton, NJ",a big city,Crunch Fitness (2),former Planet Fitness member,alone,sometimes,0.565989,Northeast,NJ,2
+prospects-0479,45-54,woman,"$100,000-$149,999","Peoria, AZ",a big city,EoS Fitness (4),belonged to another gym in the past,alone,sometimes,0.565989,West,AZ,4
+prospects-0480,35-44,man,"$35,000-$59,999","Las Vegas, NV",a big city,EoS Fitness (4),has never belonged to a gym,alone,sometimes,0.565989,West,NV,4
+prospects-0481,55-64,man,"$60,000-$99,999","North Adams, MA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,Northeast,MA,0
+prospects-0482,25-34,woman,"under $35,000","Salem, MA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,MA,0
+prospects-0483,25-34,woman,"$100,000-$149,999","Auburn Hills, MI",a suburb,none,has never belonged to a gym,with a friend or partner,often,1.434011,Midwest,MI,0
+prospects-0484,35-44,woman,"under $35,000","Beaumont, TX",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,South,TX,0
+prospects-0485,45-54,man,"under $35,000","South Milwaukee, WI",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,WI,0
+prospects-0486,35-44,man,"$150,000 or more","Longmont, CO",a suburb,VASA Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,West,CO,1
+prospects-0487,45-54,man,"$150,000 or more","Olympia, WA",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,West,WA,0
+prospects-0488,45-54,man,"$35,000-$59,999","New Orleans, LA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,LA,0
+prospects-0489,25-34,woman,"under $35,000","Tallahassee, FL",a suburb,none,belonged to another gym in the past,with a friend or partner,often,1.434011,South,FL,0
+prospects-0490,55-64,woman,"under $35,000","Augusta, GA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,GA,0
+prospects-0491,18-24,man,"under $35,000","Hesperia, CA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,West,CA,0
+prospects-0492,35-44,man,"under $35,000","Oklahoma City, OK",a suburb,VASA Fitness (2),has never belonged to a gym,alone,often,0.565989,South,OK,2
+prospects-0493,18-24,woman,"under $35,000","Daytona Beach, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,alone,sometimes,0.565989,South,FL,2
+prospects-0494,45-54,man,"$60,000-$99,999","Bayonet Point, FL",a small town or rural area,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,FL,1
+prospects-0495,35-44,woman,"$150,000 or more","Revere, MA",a big city,Crunch Fitness (2),currently belongs to another gym,with a friend or partner,often,0.565989,Northeast,MA,2
+prospects-0496,35-44,man,"$35,000-$59,999","Henrietta, NY",a suburb,none,belonged to another gym in the past,alone,sometimes,1.434011,Northeast,NY,0
+prospects-0497,25-34,woman,"$35,000-$59,999","Louisville, KY",a suburb,none,currently belongs to another gym,alone,often,1.434011,South,KY,0
+prospects-0498,25-34,man,"$60,000-$99,999","Greer, SC",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,South,SC,0
+prospects-0499,55-64,man,"$60,000-$99,999","Columbus, GA",a suburb,none,belonged to another gym in the past,alone,sometimes,1.434011,South,GA,0
+prospects-0500,25-34,man,"$35,000-$59,999","Toms River, NJ",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,sometimes,0.565989,Northeast,NJ,1
+prospects-0501,18-24,woman,"$150,000 or more","Mentor, OH",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,OH,0
+prospects-0502,25-34,man,"$100,000-$149,999","Saugus, MA",a big city,Crunch Fitness (2),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,MA,2
+prospects-0503,25-34,woman,"$35,000-$59,999","Merrick, NY",a big city,Crunch Fitness (2),has never belonged to a gym,alone,sometimes,0.565989,Northeast,NY,2
+prospects-0504,35-44,man,"$100,000-$149,999","Patchogue, NY",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,Northeast,NY,0
+prospects-0505,25-34,woman,"under $35,000","Tacoma, WA",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,West,WA,1
+prospects-0506,25-34,woman,"$150,000 or more","Montgomery, IL",a suburb,"Crunch Fitness (1), VASA Fitness (1)",has never belonged to a gym,with a friend or partner,often,0.565989,Midwest,IL,2
+prospects-0507,18-24,woman,"under $35,000","Bronx, NY",a big city,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Northeast,NY,1
+prospects-0508,25-34,man,"under $35,000","Philadelphia, PA",a big city,Crunch Fitness (2),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,PA,2
+prospects-0509,45-54,woman,"$150,000 or more","Columbus, OH",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,OH,0
+prospects-0510,25-34,man,"under $35,000","Cambridge, MA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,MA,1
+prospects-0511,55-64,woman,"$150,000 or more","Englewood, OH",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Midwest,OH,0
+prospects-0512,35-44,man,"$150,000 or more","Wilson, NC",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,South,NC,0
+prospects-0513,18-24,man,"$35,000-$59,999","Aston, PA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,PA,0
+prospects-0514,18-24,man,"$35,000-$59,999","Mill Creek, WA",a big city,none,has never belonged to a gym,alone,rarely,1.434011,West,WA,0
+prospects-0515,55-64,woman,"$60,000-$99,999","Conyers, GA",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,South,GA,0
+prospects-0516,18-24,man,"under $35,000","Charlotte, NC",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,South,NC,0
+prospects-0517,45-54,woman,"$60,000-$99,999","Anchorage, AK",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,West,AK,0
+prospects-0518,45-54,man,"$150,000 or more","Penfield, NY",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,Northeast,NY,0
+prospects-0519,18-24,woman,"under $35,000","Norristown, PA",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,PA,1
+prospects-0520,35-44,man,"under $35,000","Thomasville, GA",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,GA,0
+prospects-0521,35-44,woman,"$60,000-$99,999","Aurora, CO",a suburb,VASA Fitness (2),former Planet Fitness member,with a friend or partner,sometimes,0.565989,West,CO,2
+prospects-0522,55-64,man,"$150,000 or more","Wichita, KS",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,KS,0
+prospects-0523,45-54,man,"$150,000 or more","Aurora, CO",a big city,VASA Fitness (2),belonged to another gym in the past,alone,rarely,0.565989,West,CO,2
+prospects-0524,25-34,man,"under $35,000","Austintown, OH",a suburb,none,currently belongs to another gym,alone,sometimes,1.434011,Midwest,OH,0
+prospects-0525,18-24,woman,"under $35,000","Las Piedras, PR",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,PR,0
+prospects-0526,18-24,woman,"$35,000-$59,999","Elkhart, IN",a suburb,none,currently belongs to another gym,with a friend or partner,sometimes,1.434011,Midwest,IN,0
+prospects-0527,55-64,woman,"$150,000 or more","Wethersfield, CT",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,CT,1
+prospects-0528,45-54,woman,"$150,000 or more","Novi, MI",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,Midwest,MI,1
+prospects-0529,35-44,man,"under $35,000","Cinnaminson, NJ",a big city,Crunch Fitness (2),has never belonged to a gym,with a friend or partner,rarely,0.565989,Northeast,NJ,2
+prospects-0530,35-44,woman,"under $35,000","Colonial Heights, VA",a suburb,none,has never belonged to a gym,with a friend or partner,often,1.434011,South,VA,0
+prospects-0531,45-54,man,"$150,000 or more","Atlanta, GA",a big city,"Crunch Fitness (2), EoS Fitness (1)",has never belonged to a gym,alone,rarely,0.565989,South,GA,3
+prospects-0532,25-34,woman,"$35,000-$59,999","Ogden, UT",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,West,UT,0
+prospects-0533,55-64,man,"$100,000-$149,999","Gilbert, AZ",a big city,EoS Fitness (6),has never belonged to a gym,alone,rarely,0.565989,West,AZ,6
+prospects-0534,55-64,man,"$60,000-$99,999","Albuquerque, NM",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,West,NM,0
+prospects-0535,25-34,woman,"$100,000-$149,999","Albuquerque, NM",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,West,NM,0
+prospects-0536,35-44,woman,"$150,000 or more","Blaine, MN",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,MN,1
+prospects-0537,55-64,woman,"$100,000-$149,999","Pasadena, TX",a suburb,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,TX,1
+prospects-0538,55-64,man,"$60,000-$99,999","Taylor, MI",a suburb,Crunch Fitness (2),has never belonged to a gym,alone,often,0.565989,Midwest,MI,2
+prospects-0539,18-24,man,"$100,000-$149,999","Towson, MD",a big city,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,South,MD,1
+prospects-0540,25-34,woman,"$35,000-$59,999","Spring Hill, FL",a suburb,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,FL,1
+prospects-0541,18-24,man,"$150,000 or more","Decatur, GA",a big city,none,currently belongs to another gym,alone,rarely,1.434011,South,GA,0
+prospects-0542,25-34,woman,"under $35,000","Falmouth, ME",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,ME,0
+prospects-0543,55-64,woman,"$35,000-$59,999","Cedartown, GA",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,South,GA,0
+prospects-0544,35-44,woman,"$100,000-$149,999","Calexico, CA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,West,CA,0
+prospects-0545,25-34,man,"$150,000 or more","Laplace, LA",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,South,LA,0
+prospects-0546,45-54,woman,"under $35,000","Marianna, FL",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,South,FL,0
+prospects-0547,18-24,woman,"under $35,000","Killeen, TX",a small town or rural area,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,TX,1
+prospects-0548,35-44,man,"$150,000 or more","Woonsocket, RI",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Northeast,RI,0
+prospects-0549,35-44,man,"$150,000 or more","Jefferson City, MO",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,MO,0
+prospects-0550,45-54,woman,"under $35,000","Danville, VA",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,South,VA,0
+prospects-0551,18-24,woman,"$35,000-$59,999","Grand Prairie, TX",a big city,EoS Fitness (1),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,South,TX,1
+prospects-0552,55-64,man,"$100,000-$149,999","Blaine, MN",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,often,0.565989,Midwest,MN,1
+prospects-0553,35-44,man,"$100,000-$149,999","El Paso, TX",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,TX,0
+prospects-0554,18-24,man,"$60,000-$99,999","Marietta, OH",a small town or rural area,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Midwest,OH,0
+prospects-0555,65+,woman,"under $35,000","Brighton, MI",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,MI,0
+prospects-0556,65+,man,"$100,000-$149,999","Glendale, AZ",a big city,"EoS Fitness (4), VASA Fitness (1)",belonged to another gym in the past,alone,sometimes,0.565989,West,AZ,5
+prospects-0557,35-44,woman,"$150,000 or more","South Plainfield, NJ",a big city,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NJ,1
+prospects-0558,35-44,man,"$35,000-$59,999","Falls Church, VA",a big city,none,has never belonged to a gym,alone,sometimes,1.434011,South,VA,0
+prospects-0559,45-54,man,"$100,000-$149,999","Albany, GA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,GA,0
+prospects-0560,25-34,woman,"$35,000-$59,999","Madison, WI",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,WI,0
+prospects-0561,25-34,man,"$100,000-$149,999","Antioch, CA",a suburb,none,former Planet Fitness member,alone,often,1.434011,West,CA,0
+prospects-0562,25-34,woman,"under $35,000","Etters, PA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,PA,0
+prospects-0563,35-44,man,"$60,000-$99,999","Lansing, IL",a big city,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Midwest,IL,0
+prospects-0564,25-34,man,"$100,000-$149,999","Taylor, MI",a suburb,Crunch Fitness (2),former Planet Fitness member,alone,rarely,0.565989,Midwest,MI,2
+prospects-0565,35-44,woman,"$150,000 or more","Somerset, MA",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Northeast,MA,1
+prospects-0566,18-24,man,"$150,000 or more","Oceanside, CA",a big city,"Crunch Fitness (2), EoS Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CA,3
+prospects-0567,18-24,woman,"$60,000-$99,999","Aurora, CO",a big city,VASA Fitness (2),belonged to another gym in the past,alone,sometimes,0.565989,West,CO,2
+prospects-0568,18-24,woman,"$100,000-$149,999","Sewell, NJ",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,often,0.565989,Northeast,NJ,1
+prospects-0569,18-24,man,"$150,000 or more","Torrington, CT",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,CT,0
+prospects-0570,35-44,woman,"$100,000-$149,999","San Antonio, TX",a big city,EoS Fitness (3),has never belonged to a gym,alone,rarely,0.565989,South,TX,3
+prospects-0571,18-24,man,"$35,000-$59,999","Hurricane, WV",a small town or rural area,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,South,WV,0
+prospects-0572,25-34,man,"under $35,000","Deer Park, TX",a suburb,EoS Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0573,45-54,man,"$100,000-$149,999","Hawaiian Gardens, CA",a big city,"Crunch Fitness (2), EoS Fitness (2)",has never belonged to a gym,alone,sometimes,0.565989,West,CA,4
+prospects-0574,18-24,man,"$35,000-$59,999","El Paso, TX",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,South,TX,0
+prospects-0575,18-24,woman,"under $35,000","Port Jefferson Stn, NY",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,NY,0
+prospects-0576,35-44,woman,"$35,000-$59,999","San Antonio, TX",a big city,EoS Fitness (2),currently belongs to another gym,alone,rarely,0.565989,South,TX,2
+prospects-0577,18-24,man,"$35,000-$59,999","Brooklyn, NY",a big city,Crunch Fitness (5),has never belonged to a gym,alone,often,0.565989,Northeast,NY,5
+prospects-0578,45-54,woman,"$60,000-$99,999","Houston, TX",a big city,EoS Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,TX,1
+prospects-0579,18-24,woman,"$150,000 or more","Alexandria, KY",a small town or rural area,none,currently belongs to another gym,with a friend or partner,often,1.434011,South,KY,0
+prospects-0580,18-24,man,"under $35,000","Cincinnati, OH",a suburb,none,currently belongs to another gym,with a friend or partner,sometimes,1.434011,Midwest,OH,0
+prospects-0581,35-44,woman,"under $35,000","Conshohocken, PA",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,often,0.565989,Northeast,PA,1
+prospects-0582,25-34,man,"$100,000-$149,999","Mesquite, TX",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,TX,0
+prospects-0583,45-54,man,"$100,000-$149,999","Bloomington, IN",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,IN,0
+prospects-0584,45-54,man,"$150,000 or more","Orange, CT",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,CT,0
+prospects-0585,65+,man,"$100,000-$149,999","Norwich, CT",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Northeast,CT,0
+prospects-0586,55-64,man,"$150,000 or more","Plainfield, IL",a suburb,"Crunch Fitness (1), VASA Fitness (1)",belonged to another gym in the past,alone,rarely,0.565989,Midwest,IL,2
+prospects-0587,45-54,woman,"$60,000-$99,999","Charlotte, NC",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,NC,0
+prospects-0588,45-54,woman,"$60,000-$99,999","Pennsville, NJ",a small town or rural area,none,has never belonged to a gym,alone,often,1.434011,Northeast,NJ,0
+prospects-0589,25-34,man,"$150,000 or more","Hanford, CA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,West,CA,0
+prospects-0590,25-34,man,"under $35,000","Vero Beach, FL",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,FL,0
+prospects-0591,45-54,man,"$100,000-$149,999","Louisville, KY",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,South,KY,1
+prospects-0592,65+,woman,"$150,000 or more","Tempe, AZ",a big city,EoS Fitness (4),former Planet Fitness member,with a friend or partner,sometimes,0.565989,West,AZ,4
+prospects-0593,35-44,man,"$150,000 or more","Deerfield, IL",a suburb,VASA Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,IL,1
+prospects-0594,45-54,man,"$100,000-$149,999","Rothschild, WI",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,WI,0
+prospects-0595,45-54,woman,"$150,000 or more","Burlington, NJ",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Northeast,NJ,0
+prospects-0596,25-34,woman,"$150,000 or more","Los Angeles, CA",a big city,EoS Fitness (2),currently belongs to another gym,with a friend or partner,sometimes,0.565989,West,CA,2
+prospects-0597,55-64,man,"$150,000 or more","Waterbury, CT",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Northeast,CT,1
+prospects-0598,55-64,woman,"$150,000 or more","Middletown, RI",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,Northeast,RI,0
+prospects-0599,45-54,man,"$60,000-$99,999","Clarksville, TN",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,TN,1
+prospects-0600,35-44,man,"$60,000-$99,999","Denham Springs, LA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,LA,0
+prospects-0601,35-44,man,"under $35,000","Tulsa, OK",a suburb,VASA Fitness (2),belonged to another gym in the past,with a friend or partner,rarely,0.565989,South,OK,2
+prospects-0602,45-54,man,"$35,000-$59,999","Houston, TX",a big city,EoS Fitness (2),currently belongs to another gym,alone,rarely,0.565989,South,TX,2
+prospects-0603,65+,woman,"under $35,000","Prescott, AZ",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,West,AZ,0
+prospects-0604,45-54,man,"under $35,000","Great Neck, NY",a big city,none,has never belonged to a gym,alone,sometimes,1.434011,Northeast,NY,0
+prospects-0605,65+,woman,"$35,000-$59,999","Monroe, NC",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,NC,0
+prospects-0606,25-34,woman,"$60,000-$99,999","South Amboy, NJ",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Northeast,NJ,1
+prospects-0607,18-24,man,"$100,000-$149,999","Winter Springs, FL",a suburb,Crunch Fitness (2),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,2
+prospects-0608,55-64,woman,"$100,000-$149,999","Manteca, CA",a suburb,none,former Planet Fitness member,alone,often,1.434011,West,CA,0
+prospects-0609,45-54,woman,"under $35,000","Santa Ana, CA",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,CA,1
+prospects-0610,25-34,woman,"$60,000-$99,999","Vancouver, WA",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,West,WA,1
+prospects-0611,45-54,woman,"$150,000 or more","Houston, TX",a suburb,EoS Fitness (3),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,TX,3
+prospects-0612,25-34,woman,"$35,000-$59,999","Souderton, PA",a suburb,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,Northeast,PA,0
+prospects-0613,25-34,man,"$150,000 or more","Brooklawn, NJ",a big city,Crunch Fitness (1),former Planet Fitness member,alone,often,0.565989,Northeast,NJ,1
+prospects-0614,18-24,woman,"under $35,000","Hobart, IN",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,IN,0
+prospects-0615,25-34,woman,"under $35,000","Atlanta, GA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,South,GA,1
+prospects-0616,45-54,man,"under $35,000","Indianapolis, IN",a suburb,VASA Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,IN,1
+prospects-0617,25-34,woman,"under $35,000","Fort Lauderdale, FL",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,FL,0
+prospects-0618,25-34,man,"$35,000-$59,999","Chelsea, MA",a big city,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,MA,1
+prospects-0619,35-44,woman,"under $35,000","Clearwater, FL",a suburb,EoS Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,South,FL,1
+prospects-0620,18-24,woman,"$35,000-$59,999","Greensboro, NC",a suburb,none,currently belongs to another gym,alone,often,1.434011,South,NC,0
+prospects-0621,45-54,woman,"under $35,000","Reynoldsburg, OH",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,Midwest,OH,1
+prospects-0622,25-34,woman,"$60,000-$99,999","Hampton Township, PA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0623,25-34,man,"under $35,000","Sherman, TX",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,TX,0
+prospects-0624,45-54,man,"$150,000 or more","Taylorsville, UT",a big city,"EoS Fitness (2), VASA Fitness (3)",former Planet Fitness member,alone,rarely,0.565989,West,UT,5
+prospects-0625,35-44,woman,"$60,000-$99,999","New York, NY",a big city,Crunch Fitness (17),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,17
+prospects-0626,25-34,woman,"$100,000-$149,999","Las Vegas, NV",a big city,EoS Fitness (2),former Planet Fitness member,alone,rarely,0.565989,West,NV,2
+prospects-0627,25-34,man,"$60,000-$99,999","Anchorage, AK",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,West,AK,0
+prospects-0628,55-64,woman,"$150,000 or more","Branford, CT",a suburb,none,currently belongs to another gym,with a friend or partner,often,1.434011,Northeast,CT,0
+prospects-0629,35-44,man,"$100,000-$149,999","Parker, CO",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,West,CO,0
+prospects-0630,65+,man,"$150,000 or more","Palm Beach Gardens, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,2
+prospects-0631,25-34,woman,"$60,000-$99,999","Birmingham, AL",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,AL,0
+prospects-0632,65+,woman,"$150,000 or more","Raleigh, NC",a suburb,Crunch Fitness (2),former Planet Fitness member,with a friend or partner,sometimes,0.565989,South,NC,2
+prospects-0633,55-64,man,"under $35,000","Santa Fe Springs, CA",a big city,"Crunch Fitness (2), EoS Fitness (2)",currently belongs to another gym,with a friend or partner,rarely,0.565989,West,CA,4
+prospects-0634,55-64,man,"$35,000-$59,999","Lafayette, LA",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,South,LA,0
+prospects-0635,35-44,man,"$150,000 or more","Tampa, FL",a big city,"Crunch Fitness (1), EoS Fitness (2)",belonged to another gym in the past,alone,sometimes,0.565989,South,FL,3
+prospects-0636,18-24,man,"$60,000-$99,999","Naples, FL",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,FL,0
+prospects-0637,55-64,man,"$150,000 or more","Maple Grove, MN",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,sometimes,0.565989,Midwest,MN,1
+prospects-0638,35-44,man,"$60,000-$99,999","Green Bay, WI",a suburb,VASA Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,Midwest,WI,1
+prospects-0639,25-34,woman,"$60,000-$99,999","Brooklyn, NY",a big city,Crunch Fitness (17),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,17
+prospects-0640,25-34,man,"under $35,000","Kelso, WA",a small town or rural area,none,former Planet Fitness member,alone,often,1.434011,West,WA,0
+prospects-0641,18-24,woman,"$150,000 or more","Austin, TX",a suburb,none,belonged to another gym in the past,with a friend or partner,often,1.434011,South,TX,0
+prospects-0642,35-44,woman,"$150,000 or more","Hillsboro, OR",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,West,OR,1
+prospects-0643,25-34,woman,"under $35,000","Long Beach, CA",a big city,"Crunch Fitness (2), EoS Fitness (1)",currently belongs to another gym,alone,rarely,0.565989,West,CA,3
+prospects-0644,55-64,woman,"$150,000 or more","Los Angeles, CA",a big city,EoS Fitness (3),has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,CA,3
+prospects-0645,35-44,woman,"$35,000-$59,999","Wichita, KS",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Midwest,KS,0
+prospects-0646,55-64,woman,"under $35,000","Clovis, CA",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0647,45-54,man,"$150,000 or more","Costa Mesa, CA",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,CA,1
+prospects-0648,35-44,woman,"$60,000-$99,999","Troy, MI",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,MI,0
+prospects-0649,45-54,woman,"$35,000-$59,999","Garden City, MI",a big city,"Crunch Fitness (1), VASA Fitness (1)",former Planet Fitness member,alone,rarely,0.565989,Midwest,MI,2
+prospects-0650,25-34,woman,"under $35,000","Toledo, OH",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Midwest,OH,1
+prospects-0651,35-44,man,"$150,000 or more","Garner, NC",a suburb,none,has never belonged to a gym,alone,often,1.434011,South,NC,0
+prospects-0652,45-54,man,"$60,000-$99,999","Highland, IN",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,IN,0
+prospects-0653,25-34,woman,"under $35,000","Poplar Bluff, MO",a small town or rural area,none,currently belongs to another gym,with a friend or partner,often,1.434011,Midwest,MO,0
+prospects-0654,25-34,man,"$100,000-$149,999","Southgate, MI",a suburb,Crunch Fitness (2),has never belonged to a gym,alone,often,0.565989,Midwest,MI,2
+prospects-0655,45-54,man,"under $35,000","Hartselle, AL",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,AL,0
+prospects-0656,35-44,man,"$60,000-$99,999","Marshalltown, IA",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,IA,0
+prospects-0657,45-54,man,"$60,000-$99,999","Santa Fe, NM",a small town or rural area,none,currently belongs to another gym,with a friend or partner,sometimes,1.434011,West,NM,0
+prospects-0658,35-44,man,"under $35,000","Euless, TX",a suburb,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,TX,1
+prospects-0659,45-54,woman,"$150,000 or more","West Boylston, MA",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Northeast,MA,1
+prospects-0660,18-24,man,"$60,000-$99,999","Joliet, IL",a suburb,VASA Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,IL,1
+prospects-0661,25-34,man,"under $35,000","Lynwood, CA",a big city,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,West,CA,1
+prospects-0662,18-24,man,"$100,000-$149,999","Oklahoma City, OK",a suburb,VASA Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,OK,1
+prospects-0663,25-34,man,"$100,000-$149,999","Miami, FL",a big city,Crunch Fitness (1),former Planet Fitness member,alone,often,0.565989,South,FL,1
+prospects-0664,18-24,woman,"$60,000-$99,999","Pearl, MS",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,MS,0
+prospects-0665,45-54,man,"under $35,000","Danville, IL",a small town or rural area,none,currently belongs to another gym,alone,sometimes,1.434011,Midwest,IL,0
+prospects-0666,25-34,man,"$35,000-$59,999","Prattville, AL",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,AL,0
+prospects-0667,25-34,man,"$150,000 or more","Wentzville, MO",a suburb,none,former Planet Fitness member,alone,often,1.434011,Midwest,MO,0
+prospects-0668,25-34,man,"$60,000-$99,999","Tuscaloosa, AL",a small town or rural area,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,AL,1
+prospects-0669,35-44,woman,"$150,000 or more","Lima, OH",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,Midwest,OH,0
+prospects-0670,35-44,man,"$150,000 or more","Smyrna, TN",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,South,TN,1
+prospects-0671,45-54,man,"under $35,000","Mesa, AZ",a big city,"Crunch Fitness (1), EoS Fitness (6)",former Planet Fitness member,alone,rarely,0.565989,West,AZ,7
+prospects-0672,55-64,man,"$150,000 or more","Mashpee, MA",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,MA,0
+prospects-0673,18-24,man,"$35,000-$59,999","Warren, MI",a big city,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Midwest,MI,1
+prospects-0674,45-54,man,"$150,000 or more","Wyncote, PA",a big city,none,belonged to another gym in the past,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0675,55-64,woman,"$100,000-$149,999","Selden, NY",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,NY,1
+prospects-0676,65+,woman,"under $35,000","York, PA",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,Northeast,PA,1
+prospects-0677,18-24,woman,"$100,000-$149,999","Wesley Chapel, FL",a suburb,"Crunch Fitness (1), EoS Fitness (2)",former Planet Fitness member,with a friend or partner,rarely,0.565989,South,FL,3
+prospects-0678,18-24,man,"$150,000 or more","Clovis, NM",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,West,NM,0
+prospects-0679,45-54,woman,"under $35,000","Desoto, TX",a suburb,EoS Fitness (3),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,TX,3
+prospects-0680,18-24,man,"$100,000-$149,999","Norwood, MA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,MA,0
+prospects-0681,35-44,woman,"$60,000-$99,999","Morrow, GA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,South,GA,0
+prospects-0682,18-24,man,"$150,000 or more","Edmond, OK",a suburb,none,former Planet Fitness member,with a friend or partner,often,1.434011,South,OK,0
+prospects-0683,45-54,woman,"$60,000-$99,999","Cape Coral, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,alone,often,0.565989,South,FL,2
+prospects-0684,35-44,man,"under $35,000","Pharr, TX",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0685,25-34,woman,"$35,000-$59,999","Carolina, PR",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,PR,1
+prospects-0686,25-34,man,"$150,000 or more","Concord, NC",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,South,NC,0
+prospects-0687,35-44,man,"$60,000-$99,999","Gaffney, SC",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,SC,0
+prospects-0688,55-64,man,"$150,000 or more","Long Beach, CA",a big city,"Crunch Fitness (2), EoS Fitness (1)",former Planet Fitness member,alone,rarely,0.565989,West,CA,3
+prospects-0689,25-34,man,"$60,000-$99,999","Phoenix, AZ",a big city,"EoS Fitness (5), VASA Fitness (1)",former Planet Fitness member,with a friend or partner,rarely,0.565989,West,AZ,6
+prospects-0690,25-34,man,"$150,000 or more","Denver, CO",a big city,VASA Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,West,CO,1
+prospects-0691,35-44,woman,"$35,000-$59,999","Anaheim, CA",a big city,"Crunch Fitness (1), EoS Fitness (2)",former Planet Fitness member,alone,rarely,0.565989,West,CA,3
+prospects-0692,65+,man,"$60,000-$99,999","Lafayette, IN",a small town or rural area,VASA Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,Midwest,IN,1
+prospects-0693,25-34,woman,"$60,000-$99,999","Farmington Hills, MI",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,often,0.565989,Midwest,MI,1
+prospects-0694,65+,man,"under $35,000","Fairmont, WV",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,WV,0
+prospects-0695,35-44,woman,"$60,000-$99,999","Cape Girardeau, MO",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,MO,0
+prospects-0696,18-24,woman,"$150,000 or more","Appleton, WI",a suburb,"Crunch Fitness (1), VASA Fitness (1)",has never belonged to a gym,alone,rarely,0.565989,Midwest,WI,2
+prospects-0697,55-64,woman,"under $35,000","Tampa, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,2
+prospects-0698,45-54,woman,"$150,000 or more","Tulare, CA",a suburb,none,belonged to another gym in the past,with a friend or partner,often,1.434011,West,CA,0
+prospects-0699,65+,man,"$100,000-$149,999","Oklahoma City, OK",a big city,none,former Planet Fitness member,alone,sometimes,1.434011,South,OK,0
+prospects-0700,55-64,man,"$60,000-$99,999","Racine, WI",a suburb,VASA Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Midwest,WI,1
+prospects-0701,65+,man,"$60,000-$99,999","Brooklyn, NY",a big city,Crunch Fitness (4),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,4
+prospects-0702,45-54,woman,"under $35,000","Troy, MI",a big city,none,former Planet Fitness member,with a friend or partner,often,1.434011,Midwest,MI,0
+prospects-0703,65+,woman,"$150,000 or more","Sioux Falls, SD",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,Midwest,SD,0
+prospects-0704,45-54,woman,"$100,000-$149,999","Summerville, SC",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,South,SC,0
+prospects-0705,18-24,man,"$150,000 or more","Beaverton, OR",a suburb,Crunch Fitness (2),has never belonged to a gym,alone,rarely,0.565989,West,OR,2
+prospects-0706,25-34,woman,"under $35,000","Stony Brook, NY",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,often,0.565989,Northeast,NY,1
+prospects-0707,25-34,man,"$150,000 or more","Miami, FL",a big city,EoS Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,FL,1
+prospects-0708,35-44,man,"$150,000 or more","Holland, OH",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,OH,0
+prospects-0709,35-44,woman,"under $35,000","Perris, CA",a suburb,EoS Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0710,18-24,woman,"$60,000-$99,999","Bronx, NY",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Northeast,NY,1
+prospects-0711,35-44,man,"$60,000-$99,999","Naperville, IL",a suburb,none,has never belonged to a gym,with a friend or partner,often,1.434011,Midwest,IL,0
+prospects-0712,35-44,man,"$35,000-$59,999","Staten Island, NY",a big city,Crunch Fitness (2),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NY,2
+prospects-0713,18-24,man,"$150,000 or more","Goleta, CA",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,West,CA,0
+prospects-0714,35-44,man,"under $35,000","Glendale, AZ",a big city,"EoS Fitness (6), VASA Fitness (2)",belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,AZ,8
+prospects-0715,65+,man,"$60,000-$99,999","Enola, PA",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,PA,1
+prospects-0716,25-34,man,"$150,000 or more","Ankeny, IA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,IA,0
+prospects-0717,45-54,woman,"$60,000-$99,999","Shelby, NC",a small town or rural area,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,South,NC,0
+prospects-0718,35-44,woman,"under $35,000","Davenport, IA",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,IA,0
+prospects-0719,45-54,man,"$100,000-$149,999","Chandler, AZ",a big city,"EoS Fitness (7), VASA Fitness (1)",belonged to another gym in the past,alone,often,0.565989,West,AZ,8
+prospects-0720,25-34,woman,"$60,000-$99,999","Los Angeles, CA",a big city,"Crunch Fitness (1), EoS Fitness (4)",has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CA,5
+prospects-0721,25-34,woman,"$150,000 or more","Washington, MO",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,MO,0
+prospects-0722,35-44,man,"$100,000-$149,999","Palm Coast, FL",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,FL,0
+prospects-0723,18-24,woman,"$35,000-$59,999","Cutler Bay, FL",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,South,FL,1
+prospects-0724,18-24,man,"$150,000 or more","Opelousas, LA",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,South,LA,0
+prospects-0725,25-34,woman,"$100,000-$149,999","La Vista, NE",a suburb,"Crunch Fitness (1), VASA Fitness (1)",former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,NE,2
+prospects-0726,45-54,man,"$100,000-$149,999","Leesburg, FL",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,South,FL,0
+prospects-0727,25-34,woman,"$35,000-$59,999","Yakima, WA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,West,WA,0
+prospects-0728,25-34,man,"under $35,000","Cerritos, CA",a big city,"Crunch Fitness (4), EoS Fitness (3)",currently belongs to another gym,with a friend or partner,rarely,0.565989,West,CA,7
+prospects-0729,35-44,man,"under $35,000","Madison, TN",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,South,TN,0
+prospects-0730,25-34,man,"$150,000 or more","Murfreesboro, TN",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,TN,0
+prospects-0731,45-54,woman,"$60,000-$99,999","New Braunfels, TX",a suburb,EoS Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0732,45-54,man,"$35,000-$59,999","Alliance, OH",a small town or rural area,none,currently belongs to another gym,alone,sometimes,1.434011,Midwest,OH,0
+prospects-0733,25-34,woman,"$100,000-$149,999","Corona, CA",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0734,25-34,woman,"$150,000 or more","Wenatchee, WA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,West,WA,0
+prospects-0735,55-64,man,"$150,000 or more","Miami, FL",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,FL,1
+prospects-0736,25-34,woman,"$35,000-$59,999","San Antonio, TX",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,TX,1
+prospects-0737,35-44,woman,"$150,000 or more","Palatine, IL",a suburb,Crunch Fitness (2),former Planet Fitness member,alone,sometimes,0.565989,Midwest,IL,2
+prospects-0738,25-34,woman,"under $35,000","West Bloomfield, MI",a suburb,none,currently belongs to another gym,alone,sometimes,1.434011,Midwest,MI,0
+prospects-0739,65+,woman,"under $35,000","New York, NY",a big city,Crunch Fitness (3),has never belonged to a gym,alone,rarely,0.565989,Northeast,NY,3
+prospects-0740,18-24,woman,"$100,000-$149,999","Mcminnville, OR",a small town or rural area,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,West,OR,0
+prospects-0741,25-34,man,"under $35,000","Athens, OH",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,OH,0
+prospects-0742,55-64,man,"$150,000 or more","North Bergen, NJ",a big city,Crunch Fitness (13),currently belongs to another gym,alone,rarely,0.565989,Northeast,NJ,13
+prospects-0743,18-24,man,"$60,000-$99,999","Keene, NH",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,NH,0
+prospects-0744,35-44,woman,"$35,000-$59,999","Dublin, GA",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,GA,0
+prospects-0745,55-64,woman,"$150,000 or more","Novi, MI",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Midwest,MI,1
+prospects-0746,35-44,man,"$150,000 or more","Lauderhill, FL",a big city,Crunch Fitness (2),has never belonged to a gym,alone,rarely,0.565989,South,FL,2
+prospects-0747,18-24,woman,"$100,000-$149,999","San Jose, CA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,often,0.565989,West,CA,1
+prospects-0748,65+,man,"$35,000-$59,999","Memphis, TN",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,TN,0
+prospects-0749,18-24,woman,"$60,000-$99,999","San Diego, CA",a big city,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,West,CA,1
+prospects-0750,35-44,woman,"under $35,000","New Haven, CT",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,CT,0
+prospects-0751,65+,woman,"$35,000-$59,999","Roanoke, VA",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,South,VA,1
+prospects-0752,25-34,woman,"under $35,000","Elk Grove Village, IL",a suburb,"Crunch Fitness (2), VASA Fitness (1)",former Planet Fitness member,alone,rarely,0.565989,Midwest,IL,3
+prospects-0753,18-24,woman,"$60,000-$99,999","South Portland, ME",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,ME,0
+prospects-0754,45-54,man,"$100,000-$149,999","Thornton, CO",a suburb,VASA Fitness (2),former Planet Fitness member,with a friend or partner,sometimes,0.565989,West,CO,2
+prospects-0755,25-34,woman,"under $35,000","Tucson, AZ",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,West,AZ,0
+prospects-0756,25-34,man,"$150,000 or more","Weymouth, MA",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,Northeast,MA,1
+prospects-0757,18-24,man,"$35,000-$59,999","East Brunswick, NJ",a suburb,Crunch Fitness (2),currently belongs to another gym,with a friend or partner,sometimes,0.565989,Northeast,NJ,2
+prospects-0758,35-44,man,"$60,000-$99,999","Longmont, CO",a suburb,VASA Fitness (1),former Planet Fitness member,alone,rarely,0.565989,West,CO,1
+prospects-0759,25-34,woman,"$60,000-$99,999","Fort Washington, MD",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,South,MD,0
+prospects-0760,18-24,woman,"under $35,000","Phoenix, AZ",a big city,EoS Fitness (4),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,AZ,4
+prospects-0761,18-24,woman,"$100,000-$149,999","Lubbock, TX",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,TX,1
+prospects-0762,35-44,man,"under $35,000","Butler, PA",a small town or rural area,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Northeast,PA,0
+prospects-0763,65+,woman,"$60,000-$99,999","Loveland, CO",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,West,CO,0
+prospects-0764,35-44,man,"$100,000-$149,999","Natrona Heights, PA",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Northeast,PA,0
+prospects-0765,35-44,woman,"$150,000 or more","San Diego, CA",a big city,Crunch Fitness (2),currently belongs to another gym,alone,sometimes,0.565989,West,CA,2
+prospects-0766,25-34,woman,"$100,000-$149,999","Middletown, OH",a suburb,none,belonged to another gym in the past,alone,often,1.434011,Midwest,OH,0
+prospects-0767,25-34,man,"$100,000-$149,999","Salt Lake City, UT",a suburb,"EoS Fitness (1), VASA Fitness (1)",former Planet Fitness member,alone,rarely,0.565989,West,UT,2
+prospects-0768,35-44,man,"$35,000-$59,999","Indianapolis, IN",a suburb,VASA Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,Midwest,IN,1
+prospects-0769,18-24,man,"$100,000-$149,999","Indianapolis, IN",a suburb,VASA Fitness (1),currently belongs to another gym,alone,rarely,0.565989,Midwest,IN,1
+prospects-0770,45-54,man,"under $35,000","Greenbelt, MD",a big city,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,MD,0
+prospects-0771,45-54,woman,"$150,000 or more","Saginaw, TX",a suburb,EoS Fitness (1),has never belonged to a gym,alone,often,0.565989,South,TX,1
+prospects-0772,25-34,woman,"under $35,000","Lexington, KY",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,KY,0
+prospects-0773,18-24,woman,"under $35,000","Philadelphia, PA",a big city,none,belonged to another gym in the past,with a friend or partner,often,1.434011,Northeast,PA,0
+prospects-0774,45-54,woman,"$60,000-$99,999","Fort Oglethorpe, GA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,GA,0
+prospects-0775,65+,man,"under $35,000","Laurinburg, NC",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,South,NC,0
+prospects-0776,65+,man,"$150,000 or more","Jupiter, FL",a suburb,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,FL,1
+prospects-0777,25-34,woman,"$100,000-$149,999","Austin, TX",a big city,EoS Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,TX,1
+prospects-0778,45-54,woman,"$150,000 or more","Denver, CO",a suburb,VASA Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,CO,1
+prospects-0779,55-64,man,"$100,000-$149,999","Natick, MA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,MA,0
+prospects-0780,45-54,man,"under $35,000","Lake Charles, LA",a small town or rural area,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,South,LA,0
+prospects-0781,55-64,woman,"$150,000 or more","Medford, NY",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,NY,0
+prospects-0782,25-34,man,"$100,000-$149,999","St. Petersburg, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,alone,rarely,0.565989,South,FL,2
+prospects-0783,18-24,man,"$150,000 or more","Quincy, MA",a big city,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,Northeast,MA,1
+prospects-0784,25-34,man,"$60,000-$99,999","Chicago, IL",a big city,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,Midwest,IL,0
+prospects-0785,55-64,man,"$100,000-$149,999","Arlington, TX",a big city,EoS Fitness (2),former Planet Fitness member,alone,often,0.565989,South,TX,2
+prospects-0786,18-24,man,"under $35,000","Chicago, IL",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,IL,0
+prospects-0787,35-44,man,"$60,000-$99,999","Texarkana, TX",a small town or rural area,none,belonged to another gym in the past,alone,often,1.434011,South,TX,0
+prospects-0788,25-34,woman,"under $35,000","Wyoming, MI",a suburb,none,belonged to another gym in the past,with a friend or partner,sometimes,1.434011,Midwest,MI,0
+prospects-0789,25-34,woman,"$150,000 or more","New York, NY",a big city,Crunch Fitness (10),has never belonged to a gym,with a friend or partner,rarely,0.565989,Northeast,NY,10
+prospects-0790,35-44,man,"$150,000 or more","Flemington, NJ",a small town or rural area,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,Northeast,NJ,0
+prospects-0791,65+,woman,"$150,000 or more","San Bruno, CA",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0792,35-44,man,"$150,000 or more","Fairhope, AL",a small town or rural area,none,currently belongs to another gym,alone,sometimes,1.434011,South,AL,0
+prospects-0793,55-64,woman,"$35,000-$59,999","Brockton, MA",a suburb,Crunch Fitness (1),currently belongs to another gym,with a friend or partner,rarely,0.565989,Northeast,MA,1
+prospects-0794,18-24,man,"$100,000-$149,999","Ontario, CA",a big city,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,West,CA,0
+prospects-0795,25-34,woman,"$60,000-$99,999","Coral Springs, FL",a big city,EoS Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,South,FL,1
+prospects-0796,55-64,man,"$150,000 or more","Edwardsville, PA",a suburb,none,belonged to another gym in the past,with a friend or partner,often,1.434011,Northeast,PA,0
+prospects-0797,35-44,woman,"$60,000-$99,999","London, KY",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,South,KY,0
+prospects-0798,18-24,woman,"$150,000 or more","Carol Stream, IL",a big city,VASA Fitness (2),currently belongs to another gym,with a friend or partner,often,0.565989,Midwest,IL,2
+prospects-0799,18-24,woman,"$100,000-$149,999","Vestal, NY",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,NY,0
+prospects-0800,45-54,man,"$35,000-$59,999","Philadelphia, PA",a big city,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,Northeast,PA,1
+prospects-0801,55-64,woman,"$60,000-$99,999","West Jordan, UT",a big city,"EoS Fitness (3), VASA Fitness (2)",currently belongs to another gym,alone,rarely,0.565989,West,UT,5
+prospects-0802,45-54,woman,"$60,000-$99,999","Fairbanks, AK",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,West,AK,0
+prospects-0803,25-34,man,"under $35,000","Greenfield, IN",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,IN,0
+prospects-0804,35-44,woman,"under $35,000","New Smyrna Beach, FL",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,FL,0
+prospects-0805,18-24,woman,"$150,000 or more","Grove City, OH",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,OH,0
+prospects-0806,18-24,woman,"$150,000 or more","Dedham, MA",a big city,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,MA,1
+prospects-0807,35-44,woman,"$150,000 or more","Deland, FL",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,South,FL,0
+prospects-0808,65+,man,"$60,000-$99,999","Clermont, FL",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,FL,0
+prospects-0809,45-54,woman,"$35,000-$59,999","Las Vegas, NV",a big city,EoS Fitness (4),former Planet Fitness member,with a friend or partner,sometimes,0.565989,West,NV,4
+prospects-0810,35-44,man,"$100,000-$149,999","Billings, MT",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,West,MT,0
+prospects-0811,35-44,woman,"$35,000-$59,999","Helena, MT",a small town or rural area,none,currently belongs to another gym,alone,sometimes,1.434011,West,MT,0
+prospects-0812,18-24,man,"$60,000-$99,999","Austin, TX",a suburb,none,currently belongs to another gym,alone,often,1.434011,South,TX,0
+prospects-0813,18-24,woman,"$35,000-$59,999","Clinton, NJ",a small town or rural area,none,former Planet Fitness member,with a friend or partner,often,1.434011,Northeast,NJ,0
+prospects-0814,25-34,man,"$60,000-$99,999","Brooklyn, NY",a big city,Crunch Fitness (17),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NY,17
+prospects-0815,25-34,man,"under $35,000","Bensalem, PA",a big city,Crunch Fitness (2),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,PA,2
+prospects-0816,25-34,man,"$35,000-$59,999","Paterson, NJ",a big city,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,Northeast,NJ,1
+prospects-0817,35-44,woman,"$35,000-$59,999","Grand Island, NE",a small town or rural area,none,has never belonged to a gym,alone,often,1.434011,Midwest,NE,0
+prospects-0818,18-24,man,"$35,000-$59,999","Salem, OR",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,West,OR,0
+prospects-0819,18-24,woman,"$60,000-$99,999","Tulsa, OK",a suburb,VASA Fitness (2),currently belongs to another gym,with a friend or partner,sometimes,0.565989,South,OK,2
+prospects-0820,35-44,man,"$60,000-$99,999","Linden, NJ",a big city,Crunch Fitness (2),belonged to another gym in the past,alone,rarely,0.565989,Northeast,NJ,2
+prospects-0821,25-34,woman,"$100,000-$149,999","Farmers Branch, TX",a suburb,EoS Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,TX,1
+prospects-0822,25-34,man,"$60,000-$99,999","Winchester, KY",a small town or rural area,none,has never belonged to a gym,alone,often,1.434011,South,KY,0
+prospects-0823,25-34,man,"under $35,000","Anderson, IN",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,Midwest,IN,0
+prospects-0824,35-44,woman,"$100,000-$149,999","Garfield Heights, OH",a suburb,none,currently belongs to another gym,with a friend or partner,sometimes,1.434011,Midwest,OH,0
+prospects-0825,35-44,woman,"under $35,000","Edinburg, TX",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,South,TX,1
+prospects-0826,25-34,man,"under $35,000","Alamo, TX",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,South,TX,1
+prospects-0827,35-44,man,"$100,000-$149,999","West Covina, CA",a big city,EoS Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,West,CA,1
+prospects-0828,65+,woman,"under $35,000","Mcallen, TX",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,rarely,0.565989,South,TX,1
+prospects-0829,55-64,woman,"under $35,000","Wooster, OH",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,OH,0
+prospects-0830,65+,woman,"$60,000-$99,999","Madison, AL",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,South,AL,0
+prospects-0831,18-24,man,"$150,000 or more","Sparks, NV",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,West,NV,1
+prospects-0832,18-24,woman,"$100,000-$149,999","Newburgh, NY",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,NY,0
+prospects-0833,18-24,woman,"$150,000 or more","Woodbridge, NJ",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,NJ,1
+prospects-0834,35-44,man,"$100,000-$149,999","Colorado Springs, CO",a suburb,"Crunch Fitness (1), VASA Fitness (2)",currently belongs to another gym,alone,sometimes,0.565989,West,CO,3
+prospects-0835,45-54,man,"$35,000-$59,999","Hurst, TX",a big city,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,TX,1
+prospects-0836,35-44,woman,"under $35,000","Phoenix, AZ",a suburb,"EoS Fitness (2), VASA Fitness (1)",belonged to another gym in the past,with a friend or partner,sometimes,0.565989,West,AZ,3
+prospects-0837,25-34,man,"under $35,000","Elizabethtown, KY",a suburb,none,belonged to another gym in the past,alone,often,1.434011,South,KY,0
+prospects-0838,35-44,man,"$35,000-$59,999","Sterling Heights, MI",a big city,Crunch Fitness (2),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Midwest,MI,2
+prospects-0839,65+,man,"$150,000 or more","Waco, TX",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0840,18-24,woman,"$60,000-$99,999","Norwalk, CA",a big city,"Crunch Fitness (4), EoS Fitness (2)",belonged to another gym in the past,with a friend or partner,sometimes,0.565989,West,CA,6
+prospects-0841,25-34,man,"$35,000-$59,999","Elizabethton, TN",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,TN,0
+prospects-0842,25-34,woman,"$150,000 or more","Stockton, CA",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,West,CA,1
+prospects-0843,18-24,woman,"$60,000-$99,999","Madera, CA",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,West,CA,0
+prospects-0844,65+,woman,"$60,000-$99,999","Simi Valley, CA",a suburb,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,alone,sometimes,0.565989,West,CA,2
+prospects-0845,25-34,man,"$60,000-$99,999","Las Vegas, NV",a big city,EoS Fitness (3),former Planet Fitness member,alone,rarely,0.565989,West,NV,3
+prospects-0846,35-44,woman,"$100,000-$149,999","Albuquerque, NM",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,West,NM,0
+prospects-0847,45-54,woman,"$150,000 or more","Covington, LA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,LA,0
+prospects-0848,65+,man,"$35,000-$59,999","Sarasota, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,alone,rarely,0.565989,South,FL,2
+prospects-0849,45-54,man,"$35,000-$59,999","Schaumburg, IL",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,often,0.565989,Midwest,IL,1
+prospects-0850,25-34,woman,"$60,000-$99,999","Wilkesboro, NC",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,NC,0
+prospects-0851,65+,man,"$35,000-$59,999","Forest Hill, TX",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,South,TX,0
+prospects-0852,18-24,woman,"$150,000 or more","Tallahassee, FL",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,1
+prospects-0853,45-54,woman,"under $35,000","Blue Springs, MO",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,MO,0
+prospects-0854,55-64,man,"$35,000-$59,999","Barboursville, WV",a small town or rural area,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,South,WV,0
+prospects-0855,18-24,man,"under $35,000","Pittsburgh, PA",a suburb,none,currently belongs to another gym,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0856,35-44,woman,"under $35,000","Queens, NY",a big city,Crunch Fitness (7),former Planet Fitness member,alone,rarely,0.565989,Northeast,NY,7
+prospects-0857,45-54,man,"$60,000-$99,999","Jacksonville, FL",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,FL,0
+prospects-0858,45-54,man,"$35,000-$59,999","Fairfield, CA",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0859,35-44,man,"$150,000 or more","Brooklyn, NY",a big city,Crunch Fitness (17),has never belonged to a gym,alone,rarely,0.565989,Northeast,NY,17
+prospects-0860,25-34,woman,"$150,000 or more","Del Rio, TX",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,TX,0
+prospects-0861,18-24,woman,"$100,000-$149,999","Bloomfield, CT",a suburb,none,currently belongs to another gym,alone,sometimes,1.434011,Northeast,CT,0
+prospects-0862,35-44,man,"$100,000-$149,999","North Brunswick, NJ",a big city,Crunch Fitness (3),currently belongs to another gym,with a friend or partner,sometimes,0.565989,Northeast,NJ,3
+prospects-0863,45-54,man,"under $35,000","Monroeville, PA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0864,25-34,woman,"$100,000-$149,999","Zephyrhills, FL",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,South,FL,0
+prospects-0865,25-34,man,"$35,000-$59,999","Phoenix, AZ",a big city,"Crunch Fitness (1), EoS Fitness (3), VASA Fitness (2)",belonged to another gym in the past,alone,rarely,0.565989,West,AZ,6
+prospects-0866,25-34,man,"$150,000 or more","Universal City, TX",a suburb,EoS Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-0867,18-24,man,"$35,000-$59,999","Greenville, SC",a suburb,none,currently belongs to another gym,with a friend or partner,often,1.434011,South,SC,0
+prospects-0868,18-24,man,"$60,000-$99,999","New Lenox, IL",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Midwest,IL,0
+prospects-0869,25-34,man,"$150,000 or more","Abingdon, MD",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,MD,0
+prospects-0870,25-34,man,"$60,000-$99,999","Fort Worth, TX",a suburb,EoS Fitness (2),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,TX,2
+prospects-0871,35-44,woman,"$150,000 or more","Carlsbad, CA",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,alone,rarely,0.565989,West,CA,2
+prospects-0872,35-44,woman,"under $35,000","Bakersfield, CA",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-0873,35-44,woman,"$60,000-$99,999","Orlando, FL",a suburb,EoS Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,FL,1
+prospects-0874,45-54,man,"$100,000-$149,999","Fairborn, OH",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,OH,0
+prospects-0875,45-54,man,"$150,000 or more","Chula Vista, CA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,often,0.565989,West,CA,1
+prospects-0876,35-44,man,"$150,000 or more","Williamsville, NY",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,Northeast,NY,1
+prospects-0877,18-24,man,"under $35,000","West Springfield, MA",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,Northeast,MA,0
+prospects-0878,18-24,woman,"$60,000-$99,999","Melrose Park, IL",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,IL,0
+prospects-0879,25-34,woman,"$100,000-$149,999","Marion, OH",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Midwest,OH,0
+prospects-0880,35-44,woman,"under $35,000","Dallas, TX",a suburb,EoS Fitness (3),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,TX,3
+prospects-0881,18-24,man,"under $35,000","Christiana, DE",a suburb,none,belonged to another gym in the past,alone,often,1.434011,South,DE,0
+prospects-0882,25-34,woman,"under $35,000","Palatka, FL",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,FL,0
+prospects-0883,35-44,man,"$100,000-$149,999","Bend, OR",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,West,OR,0
+prospects-0884,35-44,woman,"$35,000-$59,999","Montgomery, AL",a suburb,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,AL,1
+prospects-0885,45-54,woman,"$150,000 or more","Lawrenceville, GA",a suburb,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,South,GA,0
+prospects-0886,18-24,man,"$60,000-$99,999","Erie, PA",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Northeast,PA,0
+prospects-0887,18-24,man,"under $35,000","Las Cruces, NM",a small town or rural area,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,West,NM,1
+prospects-0888,25-34,woman,"$100,000-$149,999","Willow Grove, PA",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,PA,1
+prospects-0889,45-54,woman,"$150,000 or more","Queens, NY",a big city,Crunch Fitness (5),former Planet Fitness member,alone,sometimes,0.565989,Northeast,NY,5
+prospects-0890,35-44,man,"$60,000-$99,999","Henderson, NV",a big city,EoS Fitness (4),currently belongs to another gym,alone,rarely,0.565989,West,NV,4
+prospects-0891,25-34,man,"under $35,000","San Marcos, CA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,West,CA,0
+prospects-0892,18-24,woman,"$100,000-$149,999","Ardmore, OK",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,South,OK,0
+prospects-0893,25-34,man,"$100,000-$149,999","Keller, TX",a suburb,EoS Fitness (3),has never belonged to a gym,with a friend or partner,sometimes,0.565989,South,TX,3
+prospects-0894,25-34,woman,"$35,000-$59,999","Phoenix, AZ",a suburb,EoS Fitness (2),has never belonged to a gym,alone,rarely,0.565989,West,AZ,2
+prospects-0895,18-24,woman,"under $35,000","Jacksonville, FL",a suburb,none,has never belonged to a gym,alone,often,1.434011,South,FL,0
+prospects-0896,45-54,man,"$150,000 or more","Janesville, WI",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,WI,0
+prospects-0897,25-34,man,"under $35,000","Goodyear, AZ",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,West,AZ,0
+prospects-0898,25-34,man,"$35,000-$59,999","Watertown, NY",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,NY,0
+prospects-0899,45-54,woman,"$100,000-$149,999","San Bernardino, CA",a suburb,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,West,CA,1
+prospects-0900,35-44,man,"$60,000-$99,999","La Puente, CA",a big city,EoS Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,West,CA,1
+prospects-0901,35-44,woman,"$100,000-$149,999","Cross Lanes, WV",a small town or rural area,none,has never belonged to a gym,alone,rarely,1.434011,South,WV,0
+prospects-0902,35-44,man,"$35,000-$59,999","Louisville, KY",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,South,KY,1
+prospects-0903,45-54,man,"$35,000-$59,999","Kenosha, WI",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Midwest,WI,0
+prospects-0904,25-34,man,"$60,000-$99,999","Fayetteville, NC",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,NC,0
+prospects-0905,18-24,man,"under $35,000","Eagle Pass, TX",a suburb,none,currently belongs to another gym,with a friend or partner,sometimes,1.434011,South,TX,0
+prospects-0906,45-54,man,"$60,000-$99,999","Fontana, CA",a big city,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,alone,sometimes,0.565989,West,CA,2
+prospects-0907,35-44,man,"$100,000-$149,999","Shrewsbury, MA",a suburb,Crunch Fitness (2),has never belonged to a gym,alone,sometimes,0.565989,Northeast,MA,2
+prospects-0908,45-54,woman,"under $35,000","Brooklyn, NY",a big city,Crunch Fitness (9),currently belongs to another gym,alone,sometimes,0.565989,Northeast,NY,9
+prospects-0909,25-34,woman,"$60,000-$99,999","Rogers, AR",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,often,1.434011,South,AR,0
+prospects-0910,18-24,man,"under $35,000","Houston, TX",a big city,EoS Fitness (2),belonged to another gym in the past,alone,sometimes,0.565989,South,TX,2
+prospects-0911,45-54,woman,"$100,000-$149,999","Neenah, WI",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,Midwest,WI,0
+prospects-0912,55-64,woman,"$100,000-$149,999","Jenkintown, PA",a big city,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,PA,1
+prospects-0913,18-24,woman,"$150,000 or more","Fort Lauderdale, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,alone,often,0.565989,South,FL,2
+prospects-0914,18-24,man,"$100,000-$149,999","Cincinnati, OH",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,OH,0
+prospects-0915,35-44,man,"under $35,000","Clifton, NJ",a big city,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,Northeast,NJ,1
+prospects-0916,25-34,man,"$150,000 or more","Covina, CA",a big city,EoS Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,West,CA,1
+prospects-0917,25-34,man,"$35,000-$59,999","South Bend, IN",a suburb,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,Midwest,IN,0
+prospects-0918,35-44,man,"$100,000-$149,999","Howell, MI",a small town or rural area,none,former Planet Fitness member,alone,often,1.434011,Midwest,MI,0
+prospects-0919,18-24,woman,"$35,000-$59,999","Virginia Beach, VA",a big city,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,VA,0
+prospects-0920,45-54,man,"under $35,000","Tigard, OR",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,OR,1
+prospects-0921,45-54,man,"$35,000-$59,999","Cullman, AL",a small town or rural area,none,has never belonged to a gym,with a friend or partner,often,1.434011,South,AL,0
+prospects-0922,18-24,man,"$35,000-$59,999","Grand Rapids, MI",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Midwest,MI,0
+prospects-0923,35-44,woman,"$150,000 or more","Lawrence, NY",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,NY,0
+prospects-0924,18-24,man,"$35,000-$59,999","Chico, CA",a suburb,none,has never belonged to a gym,alone,sometimes,1.434011,West,CA,0
+prospects-0925,35-44,man,"$35,000-$59,999","Waterloo, IA",a suburb,VASA Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,IA,1
+prospects-0926,35-44,woman,"$150,000 or more","Temple City, CA",a big city,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,West,CA,1
+prospects-0927,55-64,woman,"$60,000-$99,999","Huntington Park, CA",a big city,none,belonged to another gym in the past,with a friend or partner,rarely,1.434011,West,CA,0
+prospects-0928,35-44,woman,"$60,000-$99,999","Holly Springs, NC",a suburb,none,has never belonged to a gym,alone,often,1.434011,South,NC,0
+prospects-0929,35-44,woman,"$150,000 or more","Mt. Juliet, TN",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,TN,0
+prospects-0930,45-54,woman,"$150,000 or more","Whittier, CA",a big city,"Crunch Fitness (1), EoS Fitness (1)",currently belongs to another gym,alone,sometimes,0.565989,West,CA,2
+prospects-0931,35-44,man,"$35,000-$59,999","Lakeside, CO",a big city,VASA Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,West,CO,1
+prospects-0932,65+,man,"$150,000 or more","Las Vegas, NV",a big city,EoS Fitness (5),has never belonged to a gym,with a friend or partner,often,0.565989,West,NV,5
+prospects-0933,35-44,man,"$60,000-$99,999","Columbus, IN",a small town or rural area,none,has never belonged to a gym,alone,often,1.434011,Midwest,IN,0
+prospects-0934,35-44,man,"$60,000-$99,999","Bronx, NY",a big city,Crunch Fitness (5),former Planet Fitness member,with a friend or partner,rarely,0.565989,Northeast,NY,5
+prospects-0935,25-34,woman,"$60,000-$99,999","Upland, CA",a big city,EoS Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,West,CA,1
+prospects-0936,25-34,woman,"$100,000-$149,999","St. Louis, MO",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Midwest,MO,0
+prospects-0937,25-34,man,"$150,000 or more","Omaha, NE",a suburb,"Crunch Fitness (1), VASA Fitness (1)",former Planet Fitness member,alone,sometimes,0.565989,Midwest,NE,2
+prospects-0938,18-24,man,"$60,000-$99,999","Memphis, TN",a big city,Crunch Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,TN,1
+prospects-0939,65+,man,"$60,000-$99,999","Stockton, CA",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,CA,1
+prospects-0940,18-24,man,"$60,000-$99,999","Goose Creek, SC",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,SC,0
+prospects-0941,25-34,man,"under $35,000","Sacramento, CA",a big city,none,has never belonged to a gym,alone,rarely,1.434011,West,CA,0
+prospects-0942,18-24,woman,"$60,000-$99,999","York, SC",a small town or rural area,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,SC,0
+prospects-0943,45-54,man,"$150,000 or more","Rockwall, TX",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,South,TX,0
+prospects-0944,65+,man,"under $35,000","Myrtle Beach, SC",a suburb,none,has never belonged to a gym,alone,often,1.434011,South,SC,0
+prospects-0945,45-54,woman,"$60,000-$99,999","Waldorf, MD",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,South,MD,0
+prospects-0946,65+,man,"$150,000 or more","Vancouver, WA",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,West,WA,0
+prospects-0947,18-24,man,"$150,000 or more","Staten Island, NY",a big city,Crunch Fitness (2),currently belongs to another gym,with a friend or partner,rarely,0.565989,Northeast,NY,2
+prospects-0948,35-44,man,"$60,000-$99,999","Oswego, NY",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,NY,0
+prospects-0949,45-54,man,"under $35,000","Benbrook, TX",a suburb,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,TX,1
+prospects-0950,35-44,woman,"$60,000-$99,999","Indianapolis, IN",a suburb,VASA Fitness (1),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,IN,1
+prospects-0951,55-64,woman,"$100,000-$149,999","West Mifflin, PA",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,often,0.565989,Northeast,PA,1
+prospects-0952,18-24,woman,"$35,000-$59,999","Mt. Pocono, PA",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0953,25-34,man,"$150,000 or more","Boston, MA",a big city,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Northeast,MA,1
+prospects-0954,45-54,man,"$150,000 or more","San Francisco, CA",a big city,Crunch Fitness (5),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,CA,5
+prospects-0955,45-54,man,"$60,000-$99,999","Vista, CA",a suburb,"Crunch Fitness (1), EoS Fitness (1)",former Planet Fitness member,alone,rarely,0.565989,West,CA,2
+prospects-0956,18-24,man,"$60,000-$99,999","Tampa, FL",a suburb,"Crunch Fitness (1), EoS Fitness (1)",has never belonged to a gym,with a friend or partner,rarely,0.565989,South,FL,2
+prospects-0957,35-44,man,"$100,000-$149,999","Derry, NH",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,NH,0
+prospects-0958,55-64,woman,"$150,000 or more","Bradenton, FL",a suburb,EoS Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,FL,1
+prospects-0959,35-44,man,"$35,000-$59,999","Fort Worth, TX",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,South,TX,0
+prospects-0960,18-24,man,"under $35,000","Warren, MI",a big city,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,Midwest,MI,1
+prospects-0961,25-34,woman,"$100,000-$149,999","Fenton, MI",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,MI,0
+prospects-0962,18-24,woman,"$150,000 or more","Chicago, IL",a big city,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,IL,0
+prospects-0963,55-64,woman,"$100,000-$149,999","Margate, FL",a big city,EoS Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,FL,1
+prospects-0964,45-54,woman,"under $35,000","Livonia, MI",a suburb,"Crunch Fitness (2), VASA Fitness (1)",former Planet Fitness member,alone,often,0.565989,Midwest,MI,3
+prospects-0965,25-34,man,"$35,000-$59,999","Watertown, SD",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,SD,0
+prospects-0966,55-64,man,"$100,000-$149,999","Allentown, PA",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Northeast,PA,0
+prospects-0967,35-44,man,"$150,000 or more","Brooklyn, NY",a big city,Crunch Fitness (12),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Northeast,NY,12
+prospects-0968,18-24,woman,"$60,000-$99,999","Orlando, FL",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,South,FL,1
+prospects-0969,35-44,woman,"$100,000-$149,999","Orlando, FL",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,South,FL,1
+prospects-0970,55-64,man,"$100,000-$149,999","Converse, TX",a suburb,EoS Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,TX,1
+prospects-0971,25-34,man,"$100,000-$149,999","Massapequa, NY",a suburb,Crunch Fitness (2),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,Northeast,NY,2
+prospects-0972,25-34,man,"$60,000-$99,999","Ferguson, MO",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,MO,0
+prospects-0973,18-24,woman,"$150,000 or more","Schaumburg, IL",a suburb,Crunch Fitness (2),former Planet Fitness member,with a friend or partner,rarely,0.565989,Midwest,IL,2
+prospects-0974,65+,man,"$60,000-$99,999","Columbia Heights, MN",a big city,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Midwest,MN,0
+prospects-0975,18-24,woman,"$100,000-$149,999","Cleveland, OH",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Midwest,OH,0
+prospects-0976,65+,man,"under $35,000","Pompano, FL",a big city,"Crunch Fitness (1), EoS Fitness (1)",former Planet Fitness member,alone,rarely,0.565989,South,FL,2
+prospects-0977,18-24,man,"$35,000-$59,999","North Versailles, PA",a suburb,none,has never belonged to a gym,alone,often,1.434011,Northeast,PA,0
+prospects-0978,35-44,woman,"under $35,000","Villa Park, IL",a big city,VASA Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,Midwest,IL,1
+prospects-0979,25-34,woman,"under $35,000","Edwardsville, IL",a small town or rural area,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Midwest,IL,0
+prospects-0980,18-24,woman,"$60,000-$99,999","Chicago, IL",a big city,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,IL,0
+prospects-0981,35-44,woman,"$100,000-$149,999","Casselberry, FL",a suburb,"Crunch Fitness (2), EoS Fitness (3)",has never belonged to a gym,alone,rarely,0.565989,South,FL,5
+prospects-0982,25-34,man,"$60,000-$99,999","Delano, CA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,West,CA,0
+prospects-0983,35-44,man,"$35,000-$59,999","Compton, CA",a big city,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,CA,2
+prospects-0984,25-34,man,"$35,000-$59,999","Aurora, CO",a big city,VASA Fitness (2),has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CO,2
+prospects-0985,45-54,woman,"$60,000-$99,999","Woodhaven, MI",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,MI,0
+prospects-0986,25-34,woman,"$60,000-$99,999","Atlantic Beach, FL",a small town or rural area,none,belonged to another gym in the past,alone,rarely,1.434011,South,FL,0
+prospects-0987,35-44,woman,"under $35,000","Woodland Park, NJ",a big city,Crunch Fitness (2),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,NJ,2
+prospects-0988,55-64,man,"$100,000-$149,999","Rancho Cordova, CA",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,West,CA,0
+prospects-0989,18-24,woman,"$150,000 or more","Broken Arrow, OK",a suburb,VASA Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,South,OK,1
+prospects-0990,25-34,woman,"$150,000 or more","Sanford, ME",a small town or rural area,none,former Planet Fitness member,alone,often,1.434011,Northeast,ME,0
+prospects-0991,45-54,man,"$100,000-$149,999","Matthews, NC",a suburb,none,belonged to another gym in the past,with a friend or partner,often,1.434011,South,NC,0
+prospects-0992,65+,woman,"$150,000 or more","Kannapolis, NC",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,NC,0
+prospects-0993,25-34,woman,"$35,000-$59,999","Philadelphia, PA",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,PA,0
+prospects-0994,25-34,man,"under $35,000","Florence, KY",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,sometimes,0.565989,South,KY,1
+prospects-0995,45-54,man,"$100,000-$149,999","Ponca City, OK",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,South,OK,0
+prospects-0996,35-44,woman,"$60,000-$99,999","El Paso, TX",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,often,0.565989,South,TX,1
+prospects-0997,25-34,man,"$100,000-$149,999","Paducah, KY",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,South,KY,0
+prospects-0998,18-24,woman,"under $35,000","Mechanicsburg, PA",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Northeast,PA,0
+prospects-0999,25-34,woman,"$35,000-$59,999","Boise, ID",a suburb,"Crunch Fitness (1), VASA Fitness (1)",has never belonged to a gym,alone,sometimes,0.565989,West,ID,2
+prospects-1000,35-44,woman,"$100,000-$149,999","Columbus, OH",a big city,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Midwest,OH,0
+prospects-1001,65+,man,"$150,000 or more","Trevose, PA",a big city,Crunch Fitness (2),former Planet Fitness member,alone,sometimes,0.565989,Northeast,PA,2
+prospects-1002,45-54,woman,"$60,000-$99,999","Reading, PA",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,PA,0
+prospects-1003,45-54,man,"$150,000 or more","San Pablo, CA",a big city,none,has never belonged to a gym,alone,sometimes,1.434011,West,CA,0
+prospects-1004,65+,man,"$150,000 or more","Pascagoula, MS",a small town or rural area,none,former Planet Fitness member,with a friend or partner,often,1.434011,South,MS,0
+prospects-1005,55-64,man,"$35,000-$59,999","Egg Harbor Township, NJ",a suburb,none,currently belongs to another gym,alone,sometimes,1.434011,Northeast,NJ,0
+prospects-1006,18-24,man,"$35,000-$59,999","Orlando, FL",a suburb,EoS Fitness (1),has never belonged to a gym,with a friend or partner,often,0.565989,South,FL,1
+prospects-1007,35-44,man,"$150,000 or more","Boston, MA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,MA,1
+prospects-1008,55-64,man,"$60,000-$99,999","Pewaukee, WI",a suburb,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,WI,0
+prospects-1009,18-24,man,"$35,000-$59,999","Mcminnville, TN",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,South,TN,0
+prospects-1010,65+,man,"$150,000 or more","Ann Arbor, MI",a suburb,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Midwest,MI,1
+prospects-1011,35-44,man,"$35,000-$59,999","Orlando, FL",a big city,EoS Fitness (1),currently belongs to another gym,alone,sometimes,0.565989,South,FL,1
+prospects-1012,55-64,woman,"$150,000 or more","Henderson, KY",a small town or rural area,none,former Planet Fitness member,with a friend or partner,often,1.434011,South,KY,0
+prospects-1013,45-54,man,"$60,000-$99,999","Seffner, FL",a suburb,Crunch Fitness (1),former Planet Fitness member,with a friend or partner,sometimes,0.565989,South,FL,1
+prospects-1014,65+,woman,"$150,000 or more","Littleton, CO",a big city,"Crunch Fitness (1), VASA Fitness (2)",former Planet Fitness member,alone,sometimes,0.565989,West,CO,3
+prospects-1015,55-64,man,"$35,000-$59,999","Florence, AL",a small town or rural area,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,South,AL,1
+prospects-1016,45-54,man,"under $35,000","San Antonio, TX",a big city,EoS Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-1017,25-34,man,"$150,000 or more","Danvers, MA",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,Northeast,MA,0
+prospects-1018,45-54,man,"$60,000-$99,999","Evansville, IN",a suburb,none,former Planet Fitness member,alone,rarely,1.434011,Midwest,IN,0
+prospects-1019,18-24,woman,"$35,000-$59,999","Hamilton, NJ",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Northeast,NJ,1
+prospects-1020,25-34,man,"$150,000 or more","Fall River, MA",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,Northeast,MA,1
+prospects-1021,18-24,man,"$35,000-$59,999","Roseville, CA",a big city,Crunch Fitness (2),belonged to another gym in the past,alone,often,0.565989,West,CA,2
+prospects-1022,18-24,man,"$60,000-$99,999","Kettering, OH",a suburb,VASA Fitness (1),former Planet Fitness member,alone,rarely,0.565989,Midwest,OH,1
+prospects-1023,18-24,man,"$150,000 or more","Searcy, AR",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,AR,0
+prospects-1024,18-24,man,"$60,000-$99,999","Green Bay, WI",a suburb,VASA Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Midwest,WI,1
+prospects-1025,65+,woman,"$35,000-$59,999","Circleville, OH",a small town or rural area,none,former Planet Fitness member,with a friend or partner,often,1.434011,Midwest,OH,0
+prospects-1026,18-24,woman,"$150,000 or more","Hamden, CT",a suburb,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,CT,0
+prospects-1027,25-34,woman,"$60,000-$99,999","Owosso, MI",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,Midwest,MI,0
+prospects-1028,65+,woman,"$100,000-$149,999","Wilmington, NC",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,South,NC,0
+prospects-1029,55-64,man,"under $35,000","Klamath Falls, OR",a small town or rural area,none,belonged to another gym in the past,with a friend or partner,often,1.434011,West,OR,0
+prospects-1030,18-24,woman,"$100,000-$149,999","Burlington, WI",a small town or rural area,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,WI,0
+prospects-1031,18-24,man,"$35,000-$59,999","San Antonio, TX",a big city,Crunch Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,TX,1
+prospects-1032,25-34,woman,"$60,000-$99,999","Derby, KS",a small town or rural area,none,currently belongs to another gym,alone,rarely,1.434011,Midwest,KS,0
+prospects-1033,55-64,man,"$60,000-$99,999","Benton, AR",a small town or rural area,none,has never belonged to a gym,alone,sometimes,1.434011,South,AR,0
+prospects-1034,45-54,woman,"$100,000-$149,999","Union, NJ",a big city,none,has never belonged to a gym,alone,rarely,1.434011,Northeast,NJ,0
+prospects-1035,25-34,man,"under $35,000","Bloomington, MN",a suburb,none,former Planet Fitness member,alone,sometimes,1.434011,Midwest,MN,0
+prospects-1036,45-54,woman,"$150,000 or more","Frisco, TX",a big city,"Crunch Fitness (1), EoS Fitness (1)",belonged to another gym in the past,alone,rarely,0.565989,South,TX,2
+prospects-1037,55-64,woman,"$35,000-$59,999","Brooklyn, NY",a big city,Crunch Fitness (4),currently belongs to another gym,alone,rarely,0.565989,Northeast,NY,4
+prospects-1038,25-34,woman,"$60,000-$99,999","Weatherford, TX",a small town or rural area,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,South,TX,0
+prospects-1039,25-34,woman,"$150,000 or more","Salem, NH",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,Northeast,NH,0
+prospects-1040,35-44,man,"under $35,000","Burbank, CA",a big city,"Crunch Fitness (2), EoS Fitness (2)",former Planet Fitness member,alone,sometimes,0.565989,West,CA,4
+prospects-1041,25-34,woman,"$150,000 or more","Milford, OH",a small town or rural area,none,belonged to another gym in the past,alone,sometimes,1.434011,Midwest,OH,0
+prospects-1042,55-64,woman,"$150,000 or more","Corona, CA",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-1043,18-24,woman,"$60,000-$99,999","Pittsburgh, PA",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,Northeast,PA,1
+prospects-1044,45-54,woman,"under $35,000","Provo, UT",a suburb,"EoS Fitness (1), VASA Fitness (1)",belonged to another gym in the past,alone,rarely,0.565989,West,UT,2
+prospects-1045,18-24,man,"$60,000-$99,999","Murrells Inlet, SC",a suburb,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,South,SC,0
+prospects-1046,35-44,woman,"under $35,000","Burlington, NC",a suburb,none,has never belonged to a gym,with a friend or partner,sometimes,1.434011,South,NC,0
+prospects-1047,25-34,man,"$60,000-$99,999","Cedar Rapids, IA",a suburb,VASA Fitness (1),has never belonged to a gym,with a friend or partner,sometimes,0.565989,Midwest,IA,1
+prospects-1048,18-24,woman,"under $35,000","Garland, TX",a suburb,EoS Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,South,TX,1
+prospects-1049,25-34,man,"$35,000-$59,999","Scranton, PA",a suburb,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,Northeast,PA,1
+prospects-1050,35-44,man,"under $35,000","Phoenix, AZ",a big city,EoS Fitness (2),has never belonged to a gym,alone,rarely,0.565989,West,AZ,2
+prospects-1051,25-34,woman,"$100,000-$149,999","Alexandria, LA",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,LA,0
+prospects-1052,25-34,woman,"$100,000-$149,999","Oviedo, FL",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,FL,1
+prospects-1053,18-24,woman,"$150,000 or more","Texas City, TX",a suburb,EoS Fitness (1),former Planet Fitness member,alone,rarely,0.565989,South,TX,1
+prospects-1054,18-24,man,"$60,000-$99,999","North Charleston, SC",a suburb,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,South,SC,1
+prospects-1055,55-64,man,"under $35,000","Bessemer, AL",a small town or rural area,none,former Planet Fitness member,with a friend or partner,sometimes,1.434011,South,AL,0
+prospects-1056,25-34,woman,"$150,000 or more","Clarksville, IN",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Midwest,IN,0
+prospects-1057,25-34,man,"$35,000-$59,999","Brookhaven, GA",a big city,"Crunch Fitness (2), EoS Fitness (1)",has never belonged to a gym,alone,sometimes,0.565989,South,GA,3
+prospects-1058,45-54,man,"$150,000 or more","Brooklyn, NY",a big city,Crunch Fitness (8),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,Northeast,NY,8
+prospects-1059,25-34,woman,"$150,000 or more","Lake Forest, CA",a big city,EoS Fitness (1),has never belonged to a gym,alone,sometimes,0.565989,West,CA,1
+prospects-1060,45-54,woman,"under $35,000","Crowley, LA",a small town or rural area,none,currently belongs to another gym,with a friend or partner,rarely,1.434011,South,LA,0
+prospects-1061,35-44,woman,"under $35,000","Sacramento, CA",a big city,Crunch Fitness (1),has never belonged to a gym,alone,rarely,0.565989,West,CA,1
+prospects-1062,18-24,man,"$100,000-$149,999","Stamford, CT",a suburb,none,belonged to another gym in the past,alone,rarely,1.434011,Northeast,CT,0
+prospects-1063,25-34,man,"under $35,000","Philadelphia, PA",a big city,none,former Planet Fitness member,alone,rarely,1.434011,Northeast,PA,0
+prospects-1064,35-44,man,"$35,000-$59,999","Folsom, CA",a suburb,Crunch Fitness (1),belonged to another gym in the past,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-1065,25-34,woman,"under $35,000","South Dartmouth, MA",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Northeast,MA,0
+prospects-1066,35-44,man,"$60,000-$99,999","West Palm Beach, FL",a big city,Crunch Fitness (1),belonged to another gym in the past,alone,rarely,0.565989,South,FL,1
+prospects-1067,25-34,man,"$60,000-$99,999","Howard Beach, NY",a big city,Crunch Fitness (3),belonged to another gym in the past,alone,sometimes,0.565989,Northeast,NY,3
+prospects-1068,25-34,man,"$100,000-$149,999","Daly City, CA",a big city,Crunch Fitness (1),has never belonged to a gym,with a friend or partner,rarely,0.565989,West,CA,1
+prospects-1069,35-44,woman,"$100,000-$149,999","San Antonio, TX",a big city,EoS Fitness (3),belonged to another gym in the past,with a friend or partner,sometimes,0.565989,South,TX,3
+prospects-1070,25-34,man,"under $35,000","Oro Valley, AZ",a small town or rural area,none,currently belongs to another gym,alone,often,1.434011,West,AZ,0
+prospects-1071,35-44,woman,"$60,000-$99,999","Cleburne, TX",a small town or rural area,none,former Planet Fitness member,alone,rarely,1.434011,South,TX,0
+prospects-1072,35-44,woman,"$100,000-$149,999","Pearland, TX",a suburb,none,has never belonged to a gym,with a friend or partner,rarely,1.434011,South,TX,0
+prospects-1073,18-24,man,"under $35,000","Bowling Green, OH",a small town or rural area,none,former Planet Fitness member,alone,often,1.434011,Midwest,OH,0
+prospects-1074,18-24,woman,"$150,000 or more","Kennewick, WA",a suburb,none,former Planet Fitness member,alone,often,1.434011,West,WA,0
+prospects-1075,55-64,woman,"$60,000-$99,999","National City, CA",a big city,Crunch Fitness (1),has never belonged to a gym,alone,often,0.565989,West,CA,1
+prospects-1076,65+,woman,"under $35,000","Royal Palm Beach, FL",a suburb,Crunch Fitness (1),former Planet Fitness member,alone,sometimes,0.565989,South,FL,1
+prospects-1077,25-34,woman,"$100,000-$149,999","Phoenix, AZ",a suburb,EoS Fitness (2),belonged to another gym in the past,alone,rarely,0.565989,West,AZ,2
+prospects-1078,25-34,man,"$35,000-$59,999","Silver Spring, MD",a big city,none,belonged to another gym in the past,alone,often,1.434011,South,MD,0
+prospects-1079,45-54,man,"$35,000-$59,999","Grand Haven, MI",a small town or rural area,none,former Planet Fitness member,with a friend or partner,rarely,1.434011,Midwest,MI,0
