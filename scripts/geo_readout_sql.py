@@ -23,6 +23,15 @@ segs = {
     "income": "CASE WHEN income IN ('under $35,000', '$35,000-$59,999') THEN 'under $60k' "
               "WHEN income = '$60,000-$99,999' THEN '$60-100k' ELSE '$100k+' END",
 }
+if "state_gym_price" in panel.spec.labels:   # price-context panels (v2 personas)
+    segs.update({
+        "state_price": "CASE WHEN state_price < 26 THEN 'under $26' WHEN state_price < 28 THEN '$26-28' ELSE '$28+' END",
+        "crunch_peak_nearby": "CASE WHEN crunch_peak IS NULL THEN 'no Crunch nearby' WHEN crunch_peak <= 25.99 THEN 'Peak up to $25.99' "
+                              "WHEN crunch_peak < 30 THEN 'Peak $26-29.99' ELSE 'Peak $30+' END",
+        "premium_nearby": "IFF(premium = 1, 'premium Crunch within 5 mi', 'no premium club')",
+        "city_x_income": "IFF(market_type = 'a big city', 'big city', 'suburb/town') || ' / ' || "
+                         "IFF(income IN ('under $35,000', '$35,000-$59,999'), 'under $60k', '$60k+')",
+    })
 base = f"""WITH a AS (SELECT $1:cell::string AS cell, $1:persona_id::string AS persona_id, $1:persona AS persona,
               $1:answer::string AS answer, $1:usage AS usage
        FROM {stage}/answers/prospects/),
@@ -30,7 +39,10 @@ base = f"""WITH a AS (SELECT $1:cell::string AS cell, $1:persona_id::string AS p
   c AS (SELECT c0.*, {p['choice']} AS choice,
                TRY_TO_DOUBLE(persona:_weight::string) AS w, TRY_TO_NUMBER(persona:_n_competitors::string) AS n_comp,
                persona:budget_gyms_nearby::string AS gyms, persona:market_type::string AS market_type,
-               persona:_region::string AS region, persona:household_income::string AS income FROM c0),
+               persona:_region::string AS region, persona:household_income::string AS income,
+               TRY_TO_DOUBLE(persona:_state_price::string) AS state_price, TRY_TO_NUMBER(persona:_premium_nearby::string) AS premium,
+               TRY_TO_DOUBLE(REGEXP_SUBSTR(persona:nearby_gym_prices::string, 'Crunch Fitness: [^;]*?[$]([0-9.]+)/mo for all clubs', 1, 1, 'e', 1)) AS crunch_peak
+        FROM c0),
   r AS (SELECT c.*, {cortex._revenue_case(panel)} AS revenue FROM c)"""
 if mode == "qa":
     print(base + """

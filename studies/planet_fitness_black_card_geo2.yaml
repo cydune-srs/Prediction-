@@ -1,0 +1,86 @@
+# Planet Fitness regional Black Card pricing, real geography v2: current competitors and local prices.
+#
+# Personas are anchored to Planet Fitness clubs from the 2023 FDD location exhibits (planetfitness.com
+# blocks automated access, so this is still the newest full list). Each club's 5-mile trade area
+# (Census 2024 Gazetteer ZCTAs + ACS 2024 5-year) sets area type, age and household income.
+# Competition = CURRENT open low-price clubs within 5 miles: Crunch (crunch.com, 544 open; presale and
+# the 27 premium clubs excluded), EoS and VASA (their websites) and Fitness Connection (its website).
+# New price context: the nearest Crunch club's own Base/Peak prices, chain-wide EoS and VASA prices, a
+# premium Crunch club within 5 miles, and the state's average Crunch Peak price ("typical all-club price
+# at budget gyms in your state"; national median $25.99 where a state has fewer than 3 Crunch clubs).
+# Clubs with and without a nearby competitor are sampled equally; `_weight` restores the real mix
+# (39.7% with). Built by scripts/build_geo_personas.py (seed 42).
+
+name: plnt_black_card_geo2
+model: claude-opus-4-6
+embedder: voyage-multilingual-2
+temperature: 1.0
+max_tokens: 400
+
+system_prompt: |
+  You are taking part in a consumer research survey as the person described in the user's message. Answer as that person would in real life, given their budget, routine, habits and alternatives. Real consumers range from enthusiastic to uninterested, and many are price-sensitive; answer honestly rather than agreeably.
+
+  Reply in two to four sentences of plain first-person speech that answer the question and say why. Do not give a numeric rating or score, and do not mention that you are an AI or that this is a simulation.
+
+labels:
+  age: Age
+  gender: Gender
+  household_income: Household income
+  region: US region
+  lives_near: Lives near
+  market_type: Lives in
+  budget_gyms_nearby: Other budget gym chains within a 10-minute drive
+  gym_history: Gym history
+  workout_style: Usually works out
+  away_from_home_club: Away from home (travel, work, family) during the week
+  nearby_gym_prices: What those nearby gyms charge
+  state_gym_price: Typical all-club price at budget gyms in your state
+
+panels:
+  prospects:
+    persona_file: personas/plnt_geo2_personas.csv
+    seed: 31
+    control: A0_bc2499
+    question: Would you sign up for a Planet Fitness membership, and if so, which one?
+    choice: {label: PLAN, options: [Black Card, Classic, Not joining]}
+    intent: {label: LIKELIHOOD, prompt: "one short sentence, in your own words, on how likely you are to join Planet Fitness at all"}
+    scale_label: Likelihood of joining Planet Fitness (1-5)
+    anchors:
+      - name: direct
+        statements:
+          - I definitely would not sign up for this gym.
+          - I probably would not sign up for this gym.
+          - I might or might not sign up; I'm not sure.
+          - I would probably sign up for a membership here.
+          - I would definitely sign up for a membership here.
+      - name: likelihood
+        statements:
+          - There is no chance I would join this gym.
+          - It is unlikely that I would join this gym.
+          - I'm undecided about whether to join this gym.
+          - It's likely that I would join this gym.
+          - I'm certain I would join this gym.
+      - name: value
+        statements:
+          - This gym isn't worth my money at all.
+          - This gym probably isn't worth the price for me.
+          - It might be worth it; I'm on the fence.
+          - This seems worth the price, so I'd likely join.
+          - This is great value and I'd join right away.
+      - name: action
+        statements:
+          - I'm going to pass on this and not join.
+          - I'll probably hold off and not join for now.
+          - I may join at some point, but I haven't decided.
+          - I'll most likely go ahead and sign up.
+          - I'm signing up as soon as I can.
+    stimulus_template: |
+      You are thinking about joining a gym. Planet Fitness has a club near you and offers two memberships, both with no long-term commitment and cancellation online at any time:
+      - Classic: $15.00 per month. Unlimited access to your home club.
+      - Black Card: ${black} per month. Everything in Classic, plus access to any of nearly 2,900 Planet Fitness clubs, a guest on every visit, and use of massage chairs, HydroMassage and tanning.
+    cells:
+      - {id: A0_bc2499, name: Black Card $24.99 (current), vars: {black: "24.99"}, revenue: {Black Card: 24.99, Classic: 15.00, Not joining: 0}}
+      - {id: P2699, name: Black Card $26.99, vars: {black: "26.99"}, revenue: {Black Card: 26.99, Classic: 15.00, Not joining: 0}}
+      - {id: P2799, name: Black Card $27.99, vars: {black: "27.99"}, revenue: {Black Card: 27.99, Classic: 15.00, Not joining: 0}}
+      - {id: P2899, name: Black Card $28.99, vars: {black: "28.99"}, revenue: {Black Card: 28.99, Classic: 15.00, Not joining: 0}}
+      - {id: P2999, name: Black Card $29.99, vars: {black: "29.99"}, revenue: {Black Card: 29.99, Classic: 15.00, Not joining: 0}}
