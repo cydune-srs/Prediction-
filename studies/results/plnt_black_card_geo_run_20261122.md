@@ -116,3 +116,45 @@ By income at $29.99:
 - Other HVLP chains (Chuze, Fitness Connection, Crunch's newer markets, regional independents) are not included.
 - Income and age describe residents of the trade area, not gym prospects. The age tilt toward younger adults is an assumption.
 - Region shares follow the club footprint. The respondents are still synthetic and agreeable: few walk away at any price.
+
+## Update (2026-11-22): current competitor lists and local prices
+
+The competitor lists were refreshed from the chains' own websites:
+
+| Chain | Source | Clubs |
+|---|---|---|
+| Crunch | crunch.com location pages (sitemap) | 631 US clubs |
+| Fitness Connection | fitnessconnection.com gym pages | 47 clubs |
+| EoS | site lists from 2026-11-21 | unchanged |
+| VASA | site lists from 2026-11-21 | unchanged |
+
+- **Crunch** has 631 US clubs on its website, against 340 in the 2023 FDD.
+  - 604 are low-price clubs (Base and Peak plans); 60 of those are in presale.
+  - 27 are company-run premium clubs at $102–$127 a month ("One Crunch" / "All Crunch"): 17 in NY and 8 in CA. These are a different product and are counted separately.
+- **Planet Fitness's own list could not be refreshed.** planetfitness.com and chuzefitness.com sit behind a bot check, so Planet Fitness locations are still the 2023 FDD list.
+
+**Competition is wider than the FDD showed.**
+
+| Competitor clubs within 5 miles of a Planet Fitness club | 2023 FDD lists | Current lists |
+|---|---|---|
+| Any (low-price chains above) | 28.3% | 39.9% (42.4% with Crunch presales) |
+| 1 | 16.6% | 23.5% |
+| 2–3 | 8.0% | 12.9% |
+| 4+ | 3.7% | 3.5% |
+| Crunch only | 19.3% | 32.5% |
+
+With current lists, 67% of big-city clubs, 47% of suburban clubs and 6% of small-town clubs have a competitor nearby.
+
+**Competitors already price by market.** Crunch Peak prices on its own club pages (604 low-price clubs):
+
+| Segment | Mean Peak | Share at $26.99+ | Mean Base (no commitment) |
+|---|---|---|---|
+| Big city | $27.64 | 38% | $16.52 |
+| Suburb | $26.76 | 36% | $13.66 |
+| Small town / rural | $26.31 | 26% | $14.12 |
+| Highest-income third of trade areas | $27.71 | 48% | $15.97 |
+| Lowest-income third of trade areas | $26.27 | 26% | $13.04 |
+
+- By state, the mean Peak is highest in NJ ($31.07), NY ($29.31), MA ($29.11), PA ($28.80) and CA ($28.33). It is lowest in AL, WI, MS, MI and OH (about $25.10–$25.40).
+- 26 of the 27 premium Crunch clubs are in big-city trade areas.
+- **This contradicts the panel.** Crunch charges most in big-city, higher-income trade areas, but the panel treated big cities as the most price-sensitive. The likely reason is that the prompt names nearby budget gyms but not what they or other gyms charge, so the model assumes big-city prospects have cheaper options. The next run should give each persona the local Crunch Peak price, and the premium-club price where one is nearby.
