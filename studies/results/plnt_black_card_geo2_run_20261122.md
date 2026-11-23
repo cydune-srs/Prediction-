@@ -93,3 +93,20 @@ Showing real local prices lowers the case for the top of the range.
 - EoS and VASA prices are chain-wide headline prices. Some EoS clubs (California, "Lux", "Landmark") charge more.
 - Prices from 19 upscale Crunch clubs ($35–$75 Base) are as published and were kept.
 - Income and age describe trade-area residents, not gym prospects; the age tilt is an assumption.
+
+## Update (2026-11-23): current Planet Fitness locations
+
+Planet Fitness clubs were refreshed to 2,670 US clubs (`studies/inputs/locations/plnt_us_alltheplaces.csv`, about 97% of clubs open in Nov 2026) in place of the 2023 FDD list (2,311 matched).
+
+| Footprint | Clubs with a low-price competitor within 5 mi | 4+ competitors | Big city / suburb / small town |
+|---|---|---|---|
+| 2023 FDD list | 39.7% | 3.4% | 21.9% / 50.9% / 27.3% |
+| Current list | 41.7% | 3.6% | 20.5% / 55.7% / 23.7% |
+
+With the current list, 69% of big-city clubs, 47% of suburban clubs and 6% of small-town clubs have a competitor nearby.
+
+Re-weighting this run's segment results to the current footprint barely moves the read-out:
+- **$29.99 everywhere:** +10.5%, against +10.6% before.
+- **Regional plan** ($29.99 with no competitor, $27.99 with one to three): +9.2%, against +9.3% before.
+
+The raw answers could not be re-weighted at persona level. The `SYNTHPANEL_V2` stage is no longer visible to the shared SRS MCP Snowflake role, like the original `SYNTHPANEL` stage before it.
